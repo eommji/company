@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="css/common.css" />
+    <link type="text/css" rel="stylesheet" href="css/layout.css" />
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+  </head>
+  <style>
+    .sub-page {
+      margin: 0 auto;
+      width: 700px;
+    }
+  </style>
+
+  <body>
+    <div class="sub-page">
+      <div class="search-form_v2 border-color">
+        <!-- 분류 -->
+        <div class="category-inner">
+          <dl class="category-section">
+            <dt>과정</dt>
+            <dd class="active">
+              <a href="#">전체</a>
+            </dd>
+            <dd>
+              <a href="#">
+                공통
+              </a>
+            </dd>
+            <dd>
+              <a href="#">
+                리더십
+              </a>
+            </dd>
+            <dd>
+              <a href="#">
+                직무
+              </a>
+            </dd>
+            <dd>
+              <a href="#">
+                어학
+              </a>
+            </dd>
+            <dd>
+              <a href="#">
+                교양
+              </a>
+            </dd>
+            <dd>
+              <a href="#">
+                자격
+              </a>
+            </dd>
+          </dl>
+        </div>
+
+        <div class="category-inner col">
+          <dl>
+            <dt>수준</dt>
+            <dd class="active">
+              <a href="#">전체</a>
+            </dd>
+            <dd>
+              <a href="#">초급</a>
+            </dd>
+            <dd>
+              <a href="#">중급</a>
+            </dd>
+            <dd>
+              <a href="#">고급</a>
+            </dd>
+          </dl>
+          <dl>
+            <dt>필수</dt>
+            <dd class="active">
+              <a href="#">전체</a>
+            </dd>
+            <dd>
+              <a href="#">필수</a>
+            </dd>
+            <dd>
+              <a href="#">선택</a>
+            </dd>
+          </dl>
+          <dl>
+            <dt>환급</dt>
+            <dd class="active">
+              <a href="#">전체</a>
+            </dd>
+            <dd class="">
+              <a href="#">환급</a>
+            </dd>
+            <dd class="">
+              <a href="#">비환급</a>
+            </dd>
+          </dl>
+        </div>
+
+        <!-- /분류 -->
+        <!-- 상세 검색 -->
+        <div class="search-box">
+          <div class="search-box-header js-search-box-header">
+            <a href="#">
+              <strong>상세 검색</strong>
+              <span class="text-info"
+                >* 선택한 조건에 맞는 과정을 검색합니다.</span
+              >
+            </a>
+          </div>
+
+          <div class="search-box-dropdown js-search-box-dropdown">
+            <div class="category-inner">
+              <dl>
+                <dt>시간</dt>
+                <dd class="all active">
+                  <a href="#">전체</a>
+                </dd>
+                <dd>
+                  <a href="#"
+                    ><span class="text-lg">5</span
+                    ><span class="text-sm">시간</span></a
+                  >
+                </dd>
+                <dd>
+                  <a href="#"
+                    ><span class="text-lg">10</span
+                    ><span class="text-sm">시간</span></a
+                  >
+                </dd>
+                <dd>
+                  <a href="#"
+                    ><span class="text-lg">15</span
+                    ><span class="text-sm">시간</span></a
+                  >
+                </dd>
+                <dd>
+                  <a href="#"
+                    ><span class="text-lg">20</span
+                    ><span class="text-sm">시간</span></a
+                  >
+                </dd>
+                <dd>
+                  <a href="#"
+                    ><span class="text-lg">25</span
+                    ><span class="text-sm">시간</span></a
+                  >
+                </dd>
+                <dd>
+                  <a href="#"
+                    ><span class="text-lg">30</span
+                    ><span class="text-sm">시간</span></a
+                  >
+                </dd>
+                <dd>
+                  <a href="#"
+                    ><span class="text-lg">30</span
+                    ><span class="text-sm">시간 초과</span></a
+                  >
+                </dd>
+              </dl>
+            </div>
+
+            <div class="category-inner">
+              <dl>
+                <dt>교육비</dt>
+                <dd class="all active">
+                  <a href="#">전체</a>
+                </dd>
+                <dd>
+                  <a href="#"
+                    ><span class="text-lg">30,000</span
+                    ><span class="text-sm">원</span></a
+                  >
+                </dd>
+                <dd>
+                  <a href="#"
+                    ><span class="text-lg">60,000</span
+                    ><span class="text-sm">원</span></a
+                  >
+                </dd>
+                <dd>
+                  <a href="#"
+                    ><span class="text-lg">90,000</span
+                    ><span class="text-sm">원</span></a
+                  >
+                </dd>
+                <dd>
+                  <a href="#"
+                    ><span class="text-lg">120,000</span
+                    ><span class="text-sm">원</span></a
+                  >
+                </dd>
+                <dd>
+                  <a href="#"
+                    ><span class="text-lg">150,000</span
+                    ><span class="text-sm">원</span></a
+                  >
+                </dd>
+                <dd>
+                  <a href="#"
+                    ><span class="text-lg">150,000</span
+                    ><span class="text-sm">원 초과</span></a
+                  >
+                </dd>
+              </dl>
+            </div>
+            <div class="category-inner">
+              <dl>
+                <dt>보기</dt>
+                <dd>
+                  <div class="checkbox">
+                    <input type="checkbox" id="noRegistYN" />
+                    <label for="noRegistYN">미수강 과정</label>
+                  </div>
+                </dd>
+                <dd>
+                  <div class="checkbox">
+                    <input type="checkbox" id="mobileYn" />
+                    <label for="mobileYn">모바일 가능</label>
+                  </div>
+                </dd>
+                <dd>
+                  <div class="checkbox">
+                    <input type="checkbox" id="textbookYn" />
+                    <label for="textbookYn">교재 제공</label>
+                  </div>
+                </dd>
+              </dl>
+            </div>
+          </div>
+
+          <div class="search-box-body">
+            <div class="inner">
+              <div class="search-box-body__input">
+                <label
+                  for=""
+                  class="iLabel"
+                  style="position: absolute; visibility: visible;"
+                  >과정명을 입력하세요.</label
+                >
+                <input
+                  type="text"
+                  id="searchText"
+                  name="searchText"
+                  class="iText"
+                />
+              </div>
+            </div>
+            <input type="button" value="검색" class="search-box-body__btn" />
+          </div>
+        </div>
+        <!-- /상세 검색 -->
+      </div>
+
+      <div class="list-sort">
+        <div class="list-sort__total"><strong>900909</strong>개 과정</div>
+        <div class="item-middle text-right">
+          <div class="list-sort-option">
+            <a href="#" class="">최신순 </a>
+            <a href="#" class="active up">추천순 </a>
+          </div>
+
+          <select class="list-sort-select pager">
+            <option value="20" selected="selected">20개</option>
+            <option value="40">40개</option>
+            <option value="60">60개</option>
+            <option value="80">80개</option>
+            <option value="100">100개</option>
+          </select>
+
+          <div class="list-sort-type">
+            <a href="#" class="list-sort-type__table active">블로그 모드</a>
+            <a href="#" class="list-sort-type__list ">리스트 모드</a>
+          </div>
+        </div>
+      </div>
+      <div class="course-list course-list-imagetext">
+        <ul>
+          <li class="show-tooltip">
+            <div class="thumb">
+              <div class="img-box">
+                <img
+                  alt=""
+                  src="https://img.hunet.co.kr/files/Process/Course/Sample/사람관리_쎔네일1.png"
+                />
+              </div>
+              <button type="button" class="btn-course-scrap ">
+                스크랩
+              </button>
+            </div>
+            <div class="info-inner">
+              <a href="#">
+                <div class="subject">
+                  <span class="badge-subject">리더십</span> [종합](자체)팀장
+                  리더십 스쿨
+                </div>
+                <div class="info info-text">
+                  <span>환급</span>
+                  <span>3개월</span>
+                  <span>48시간</span>
+                </div>
+                <div class="info-footer">
+                  <div class="star-wrap">
+                    <span class="star">
+                      <span class="star-state">
+                        <span style="width:100.0%;"></span>
+                      </span>
+                      <strong class="star-text">5.0</strong>
+                    </span>
+                  </div>
+                  <div class="badge-group">
+                    <div class="group badge-course-info-wrap">
+                      <span class="badge-course-info badge-high">고급</span>
+                    </div>
+                    <div class="group badge-course-info-wrap">
+                      <span class="badge-course-info badge-extra">교재</span>
+                    </div>
+
+                    <div class="group">
+                      <span class="icon-mobile">모바일 가능</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="btn-box">
+              <button type="button" class="btn btn-bg border-color">
+                수강신청하기
+              </button>
+
+              <button
+                type="button"
+                class="btn btn-outline btn-go  border-color"
+              >
+                맛보기
+              </button>
+            </div>
+
+            <div class="course-list-tooltip text16">
+              종합 과정입니다. 수료 기준은 상세 페이지에서 확인해 주세요.
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="course-list-table">
+        <!-- course table - list item -->
+        <div class="show-tooltip">
+          <table class="board-list3" cellpadding="0" cellspacing="0">
+            <thead>
+              <tr>
+                <th colspan="2" class="text-left th-subject">
+                  과정분류/과정명
+                </th>
+                <th>환급</th>
+                <th>기간</th>
+                <th>시간</th>
+                <th>추가</th>
+                <th>모바일</th>
+                <th>맛보기</th>
+                <th>신청/상세</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="w35">
+                  <button type="button" class="btn-course-scrap__lg ">
+                    스크랩
+                  </button>
+                </td>
+                <td class="text-left w210">
+                  <a href="#">
+                    <span class="td-subject">
+                      <span class="badge-subject">리더십</span> [종합](자체)팀장
+                      리더십 스쿨</span
+                    >
+                    <div class="mt5 badge-course-info-wrap">
+                      <span class="badge-course-info badge-begin">초급</span>
+                      <span class="badge-course-info badge-medium">중급</span>
+                      <span class="badge-course-info badge-high">고급</span>
+                      <span class="badge-course-info badge-essential"
+                        >필수</span
+                      >
+                      <span class="badge-course-info badge-choice">선택</span>
+                    </div>
+                  </a>
+                </td>
+                <td class="w50">환급</td>
+
+                <td class="w50">3개월</td>
+                <td class="w50">48시간</td>
+                <td class="w50">
+                  교재
+                </td>
+                <td class="w50">
+                  <i class="icon-mobile">모바일 가능</i>
+                </td>
+                <td>
+                  <button type="button" class="btn-course-sample  border-color">
+                    맛보기
+                  </button>
+                </td>
+                <td>
+                  <button type="button" class="btn-course-apply  border-color">
+                    수강신청하기
+                  </button>
+                  <div class="star-wrap">
+                    <span class="star text-left">
+                      <span class="star-state">
+                        <span style="width:100.0%;"></span>
+                      </span>
+                      <strong class="star-text">5.0</strong>
+                    </span>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(function() {
+        if ($(".js-search-box-header")) {
+          $(".js-search-box-header a").live("click", function() {
+            $(this).toggleClass("active");
+            $(this)
+              .find(".text-info")
+              .toggle();
+            $(".js-search-box-dropdown").slideToggle(400);
+          });
+        }
+      });
+    </script>
+  </body>
+</html>

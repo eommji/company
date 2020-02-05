@@ -1646,5 +1646,5 @@ input.account-form-style:-webkit-autofill:active {transition: background-color 5
 /* 별점 */
 .star-state,
 .star-state span {display:inline-block; width:64px; height:11px; overflow:hidden; background:url(https://img.hunet.co.kr/edu/common/ico_star.png) no-repeat; vertical-align:middle;background-position:0px -11px}
-.star-state span {background-position:0 0; vertical-align:middle;}
+.star-state span {background-position:0 0; vertical-align:top;}
 .starno {font-size:11px;color:#ed0009}
