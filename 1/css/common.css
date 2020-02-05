@@ -1,0 +1,1650 @@
+@charset 'utf-8';
+
+body,div,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,blockquote,button{margin:0;padding:0;-webkit-text-size-adjust:none}
+body,input,textarea,select,table,button{color:#727272;font-family:'malgun gothic','맑은 고딕','dotum','돋움','AppleGothic',sans-serif;font-size:12px;font-weight:normal;}
+table {border-collapse:collapse; border-spacing:0;}
+img,fieldset {border:0;}
+img,input,select,textarea{vertical-align:top;}
+address,caption,cite,code,dfn,em,th,var {font-style:normal; font-weight:normal;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;}
+abbr,acronym {border:0;}
+
+a{color:#727272;text-decoration:none; outline:none;}
+a:link,a:hover,a:active{text-decoration:none !important; outline:none !important;}
+
+input, button {outline:none;}
+
+caption,
+legend,
+.accessibility {position:absolute; width:0; height:0; overflow:hidden; font-size:0; line-height:0; visibility:hidden; z-index:-1;}
+
+hr {margin-bottom:30px; font-size:0; line-height:0; border:1px solid #fff;}
+hr.line {border-bottom:1px solid #ddd;}
+
+.tCenter {text-align:center !important;}
+.tRight {text-align:right;}
+.tLeft { text-align:left !important }
+
+.text-left {text-align:left !important;}
+.text-center {text-align:center !important;}
+.text-right {text-align:right !important;}
+.pull-left {float:left !important;}
+.pull-right {float:right !important;}
+
+.fArea {*zoom:1;}
+.fArea:after {content:""; display:block; clear:both;}
+.fArea * {vertical-align:middle;}
+.fLeft {float:left;}
+.fRight {float:right;}
+
+.item-middle * {display: inline-block; vertical-align: middle;}
+
+.clear {clear:both;}
+.ie6fix-clear {display:block; float:none; clear:both; height:0; width:100%; font-size:0 !important; line-height:0 !important; overflow:hidden; margin:0 !important; padding:0 !important;}
+
+select {*height:25px; padding:3px; border-style:solid; border-width:1px; border-color:#b3b3b3 #e8e8e8 #e8e8e8 #b3b3b3;}
+.iCheckbox,.iRadio {*margin:-4px -4px 0 -4px;}
+label.iLabel {position:absolute;}
+input.iText {height:23px; padding:0 0 0 4px; line-height:23px; color:#787878; border-style:solid; border-width:1px; border-color:#b3b3b3 #e8e8e8 #e8e8e8 #b3b3b3;}
+textarea.iTextarea {padding:0 0 0 4px; line-height:160%; color:#787878; border:1px solid #bfbfbf;}
+a.link {text-decoration:underline; color:#3f9be4 !important;}
+a.ar-link {line-height:130%; padding-right:8px; font-size:11px; text-decoration:underline; color:#0391b1; background:url(https://img.hunet.co.kr/edu/common/ico_ar-right-blue4.gif) no-repeat right 2px;}
+
+/* 20140919 추가 */
+.border-n {border:none !important;}
+/* /20140919 추가 */
+
+.w30 {width:30px !important;}
+.w35 {width:35px !important;}
+.w40 {width:40px !important;}
+.w50 {width:50px !important;}
+.w55 {width:55px !important;}
+.w60 {width:60px !important;}
+.w63 {width:63px !important;}
+.w65 {width:65px !important;}
+.w70 {width:70px !important;}
+.w75 {width:75px !important;}
+.w79 {width:79px !important;}
+.w80 {width:80px !important;}
+.w90 {width:90px !important;}
+.w100 {width:100px !important;}
+.w110 {width:110px !important;}
+.w120 {width:120px !important;}
+.w130 {width:130px !important;}
+.w140 {width:140px !important;}
+.w150 {width:150px !important;}
+.w170 {width:170px !important;}
+.w180 {width:180px !important;}
+.w200 {width:200px !important;}
+.w210 {width:210px !important;}
+.w220 {width:220px !important;}
+.w230 {width:230px !important;}
+.w240 {width:240px !important;}
+.w250 {width:250px !important;}
+.w260 {width:260px !important;}
+.w270 {width:270px !important;}
+.w300 {width:300px !important;}
+.w330 {width:330px !important;}
+.w350 {width:350px !important;}
+.w375 {width:375px !important;}
+.w400 {width:400px !important;}
+
+.w45p{width:45%}
+.w50p{width:50%}
+.w60p{width:60%}
+.w70p{width:70%}
+.w75p{width:75%}
+.w98p {width:98%;}
+.w99p {width:99%;}
+.w100p {width:100%;}
+
+
+.mb0 {margin-bottom:0 !important;}
+.mb5 {margin-bottom:5px !important;}
+.mb10 {margin-bottom:10px !important;}
+.mb15 {margin-bottom:15px !important;}
+.mb20 {margin-bottom:20px !important;}
+.mb25 {margin-bottom:25px !important;}
+.mb30 {margin-bottom:30px !important;}
+.mb40 {margin-bottom:40px !important;}
+.mb50 {margin-bottom:50px !important;}
+
+.ml5 {margin-left:5px;}
+.ml10 {margin-left:10px;}
+.ml20 {margin-left:20px;}
+.ml30 {margin-left:30px;}
+.ml40 {margin-left:40px;}
+.ml50 {margin-left:50px;}
+.ml110{margin-left:110px}
+
+.mr0 {margin-right:0 !important;}
+.mr5 {margin-right:5px !important;}
+.mr10 {margin-right:10px !important;}
+
+.mt3 {margin-top:3px;}
+.mt5 {margin-top:5px;}
+.mt10 {margin-top:10px;}
+
+.mtm3 {margin-top:-3px !important;}
+.mtm5 {margin-top:-5px !important;}
+
+.pl10 {padding-left:10px;}
+
+.line-height130 {line-height:130% !important;}
+.line-height160 {line-height:160% !important;}
+.line-height200 {line-height:200% !important;}
+
+.size14 {font-size:14px;}
+
+.vm,
+.vm * {vertical-align:middle !important;}
+.vt,
+.vt * {vertical-align:top !important;}
+.vb,
+.vb * {vertical-align:bottom !important;}
+
+.master-color {color:#609438 !important;}
+
+.color-orange {color:#f86f46 !important;}
+.color-red {color:#fa4d52 !important;}
+.color-red2 {color:#ffa0aa !important;}
+.color-blue {color:#3f9be4 !important;}
+.color-gray {color:#727272 !important;}
+.color-black {color:#333 !important;}
+.color-green {color:#609438 !important;}
+.color-purple {color:#4e1d99 !important;}
+
+.underline {text-decoration:underline;}
+
+.text11 {font-size:11px !important;}
+.text12 {font-size:12px !important;}
+.text13 {font-size:13px !important;}
+.text14 {font-size:14px !important;}
+.text16 {font-size:16px !important;}
+.text18 {font-size:18px !important;}
+
+.fw-normal {font-weight: normal;}
+
+
+.input-hidden {position:absolute; visibility:hidden; opacity:0; filter:alpha(opacity=0);}
+.file-select-output {word-break:break-all !important;}
+.icon-arrow__right {position:absolute;width:6px;height:11px;top:50%;right: 10px;margin: -5.5px 0 0 0;background:url(https://img.hunet.co.kr/edu/button/ico_blue-ar.gif) no-repeat;}
+
+/* button */
+.btnSizeFix {padding-left:2px !important; text-align:center;}
+.btnSizeFix * {padding-right:3px !important; text-align:center;}
+.button-basic,
+.button-basic * {display:inline-block; height:25px; line-height:25px; line-height:29px\9; *line-height:27px; font-size:12px; color:#535353; font-weight:bold; border:0; background:url(https://img.hunet.co.kr/edu/button/button.gif) no-repeat; cursor:pointer; font-family:'dotum','돋움',sans-serif !important;}
+.button-basic {padding-left:10px;}
+.button-basic * {padding-right:10px; vertical-align:top !important; background-position:right 0;}
+.button-basic .ico-pdf {position:relative; padding-left:20px; line-height:29px\9; *line-height:27px;}
+.button-basic .ico-pdf em {position:absolute; width:13px; height:15px; top:5px; left:-5px; margin-left:7px; padding:0; background:url(https://img.hunet.co.kr/edu/button/ico_pdf.gif) no-repeat;}
+.button-basic .ico-movie {position:relative; padding-left:20px; line-height:29px\9; *line-height:27px;}
+.button-basic .ico-movie em {position:absolute; width:13px; height:15px; top:5px; left:-5px; margin-left:7px; padding:0; background:url(https://img.hunet.co.kr/edu/button/ico_movie.gif) no-repeat;}
+.button-basic.gray {background-position:0 -30px;}
+.button-basic.gray * {background-position:right -30px;}
+.button-basic.gray,
+.button-basic.gray * {color:#fff !important;}
+.button-basic.orange {background-position:0 -445px;}
+.button-basic.orange * {background-position:right -445px;}
+.button-basic.orange,
+.button-basic.orange * {color:#fff !important;}
+.button-basic.orange .ico-ar {position:relative; padding-right:23px;}
+.button-basic.orange .ico-ar em {position:absolute; width:6px; height:11px; top:8px; margin-left:7px; padding:0; background:url(https://img.hunet.co.kr/edu/button/ico_orange-ar.gif) no-repeat;}
+
+.button-medium,
+.button-medium * {display:inline-block; height:32px; line-height:34px; font-size:12px; color:#535353; font-weight:bold; border:0; background:url(https://img.hunet.co.kr/edu/button/button.gif) no-repeat 0 -210px; cursor:pointer; font-family:'dotum','돋움',sans-serif !important;}
+.button-medium {padding-left:15px; background-position:0 -210px;}
+.button-medium * {padding-right:15px; vertical-align:top !important; background-position:right -210px;}
+.button-medium.m-orange {background-position:0 -247px;}
+.button-medium.m-orange * {background-position:right -247px;}
+.button-medium.m-orange,
+.button-medium.m-orange * {color:#fff !important;}
+.button-medium.m-orange .ico-ar {position:relative; padding-right:30px;}
+.button-medium.m-orange .ico-ar em {position:absolute; width:6px; height:11px; top:11px; margin-left:7px; padding:0; background:url(https://img.hunet.co.kr/edu/button/ico_orange-ar.gif) no-repeat;}
+.button-medium.m-blue {background-position:0 -284px;}
+.button-medium.m-blue * {background-position:right -284px;}
+.button-medium.m-blue,
+.button-medium.m-blue * {color:#fff !important;}
+.button-medium.m-blue .ico-ar {position:relative; padding-right:30px;}
+.button-medium.m-blue .ico-ar em {position:absolute; width:6px; height:11px; top:11px; margin-left:7px; padding:0; background:url(https://img.hunet.co.kr/edu/button/ico_blue-ar.gif) no-repeat;}
+.button-medium.m-gray {background-position:0 -321px;}
+.button-medium.m-gray * {background-position:right -321px;}
+.button-medium.m-gray,
+.button-medium.m-gray * {color:#fff !important;}
+.button-medium.m-gray .ico-ar {position:relative; padding-right:30px;}
+.button-medium.m-gray .ico-ar em {position:absolute; width:6px; height:11px; top:11px; margin-left:7px; padding:0; background:url(https://img.hunet.co.kr/edu/button/ico_gray-ar.gif) no-repeat;}
+.button-medium.m-gray2 {background-position:0 -358px;}
+.button-medium.m-gray2 * {background-position:right -358px;}
+.button-medium.m-gray2,
+.button-medium.m-gray2 * {color:#dcdcdc !important;}
+
+
+.button-big,
+.button-big * {display:inline-block; height:45px; line-height:47px; font-size:15px; color:#535353; font-weight:bold; border:0; background:url(https://img.hunet.co.kr/edu/button/button.gif) no-repeat; cursor:pointer; font-family:'dotum','돋움',sans-serif !important;}
+.button-big {padding-left:15px; background-position:0 -60px;}
+.button-big * {padding-right:15px; letter-spacing:-1px; vertical-align:top !important; background-position:right -60px;}
+.button-big.b-orange {background-position:0 -60px;}
+.button-big.b-orange * {background-position:right -60px;}
+.button-big.b-orange,
+.button-big.b-orange * {color:#fff !important;}
+.button-big.b-orange .ico-ar {position:relative; padding-right:30px;}
+.button-big.b-orange .ico-ar em {position:absolute; width:6px; height:11px; top:17px; margin-left:7px; padding:0; background:url(https://img.hunet.co.kr/edu/button/ico_orange-ar.gif) no-repeat;}
+.button-big.b-blue {background-position:0 -110px;}
+.button-big.b-blue * {background-position:right -110px;}
+.button-big.b-blue,
+.button-big.b-blue * {color:#fff !important;}
+.button-big.b-blue .ico-ar {position:relative; padding-right:30px;}
+.button-big.b-blue .ico-ar em {position:absolute; width:6px; height:11px; top:17px; margin-left:7px; padding:0; background:url(https://img.hunet.co.kr/edu/button/ico_blue-ar.gif) no-repeat;}
+.button-big.b-gray {background-position:0 -160px;}
+.button-big.b-gray * {background-position:right -160px;}
+.button-big.b-gray,
+.button-big.b-gray * {color:#fff !important;}
+.button-big.b-gray .ico-ar {position:relative; padding-right:30px;}
+.button-big.b-gray .ico-ar em {position:absolute; width:6px; height:11px; top:17px; margin-left:7px; padding:0; background:url(https://img.hunet.co.kr/edu/button/ico_gray-ar.gif) no-repeat;}
+.button-big.b-black {background-position:0 -395px;}
+.button-big.b-black * {background-position:right -395px;}
+.button-big.b-black,
+.button-big.b-black * {color:#fff !important;}
+.button-big.b-black .ico-ar {position:relative; padding-right:30px;}
+.button-big.b-black .ico-ar em {position:absolute; width:6px; height:11px; top:17px; margin-left:7px; padding:0; background:url(https://img.hunet.co.kr/edu/button/ico_gray-ar.gif) no-repeat;}
+
+.button-small,
+.button-small span,
+.button-small strong {display:inline-block; height:19px; line-height:19px; line-height:22px\9; *line-height:22px; font-size:11px; color:#535353; border:0; background:url(https://img.hunet.co.kr/edu/customize/pantech/button/bg_small.gif) no-repeat; cursor:pointer; font-family:'dotum','돋움',sans-serif !important;}
+.button-small {padding-left:10px;}
+.button-small span,
+.button-small strong {padding-right:10px; vertical-align:top !important; background-position:right 0;}
+
+
+.button {position: relative; display:inline-block; padding:2px 10px 2px 10px; *margin:0 2px; line-height:20px; text-align:center; vertical-align:middle; cursor:pointer; color:#535353; font-weight:bold; border:1px solid #bababa; background:#fff; -webkit-border-radius:0; -moz-border-radius:0; border-radius:0; font-family:'dotum','돋움',sans-serif !important;}
+.button:hover {background-color:#f5f5f5; border-color:#a6a6a6;}
+.button .icon-ar-right-w {display:inline-block; width:6px; height:11px; margin:0 -7px -4px 5px; overflow:hidden; background:url(https://img.hunet.co.kr/edu/common/icon_ar-right-w.png) no-repeat; vertical-align:middle;}
+.button.disabled,
+.button[disabled],
+fieldset[disabled] .button {
+/*
+pointer-events: none;
+cursor: not-allowed;
+*/
+filter: alpha(opacity=65);
+-webkit-box-shadow: none;
+box-shadow: none;
+opacity: .65;
+}
+
+.btn-default {color:#535353; background-color:#bababa; border-color:#fff;}
+.btn-default:hover {color:#535353; background-color:#f5f5f5; border-color:#f5f5f5;}
+
+.btn-primary {color:#fff; background-color:#5885af; border-color:#4072a2;}
+.btn-primary:hover {background-color:#6997c2; border-color:#4a80b3;}
+
+.btn-success {color:#fff; background-color:#609438; border-color:#52802e;}
+.btn-success:hover {background-color:#6caf39; border-color:#5f9735;}
+
+/*
+.btn-success {color:#fff; background-color:#000; border-color:#000;}
+.btn-success:hover {background-color:#000; border-color:#000;}
+*/
+.btn-inverse {color:#fff; background-color:#5a5a58; border-color:#30302f;}
+.btn-inverse:hover {background-color:#797979; border-color:#646464;}
+.btn-warning {color:#fff; background-color:#f67900; border-color:#d86a00;}
+.btn-warning:hover {background-color:#d86a00; border-color:#bb5c00;}
+.btn-danger {color:#fff; background-color:#de200a; border-color:#de200a;}
+.btn-danger:hover {background-color:#f13e2a; border-color:#f13e2a;}
+.btn-info {color:#fff; background-color:#3bbdc5; border-color:#1fadb6;}
+.btn-info:hover {background-color:#1fadb6; border-color:#0c9ca5;}
+
+.btn-hcc-step {color:#494949; background-color:#e9e9e9; border-color:#e9e9e9;}
+.btn-hcc-step:hover {color:#494949; background-color:#c8c8c8; border-color:#c8c8c8;}
+
+.btn-xl {padding:15px 25px 15px 25px; font-size:18px; -webkit-border-radius:0; -moz-border-radius:0; border-radius:0;}
+
+.btn-large {padding:10px 19px 6px 19px; font-size:14px; -webkit-border-radius:0; -moz-border-radius:0; border-radius:0;}
+
+.btn-small {padding:4px 8px 0 8px; line-height:16px; font-size:11px; -webkit-border-radius:0; -moz-border-radius:0; border-radius:0;}
+.btn-xs {padding:5px 5px 0 5px; line-height:12px; font-weight:normal; font-size:11px;}
+
+.icon-hcc-prev {width:8px; height:13px; background:url(https://img.hunet.co.kr/edu/common/icon_btn-hcc.png) no-repeat 0 0;}
+.icon-hcc-next {width:8px; height:13px; background:url(https://img.hunet.co.kr/edu/common/icon_btn-hcc.png) no-repeat 0 -20px;}
+.icon-hcc-list {width:17px; height:15px; margin-top:-1px; background:url(https://img.hunet.co.kr/edu/common/icon_btn-hcc.png) no-repeat 0 -40px;}
+.icon-hcc-result {width:18px; height:17px; margin-top:-2px; background:url(https://img.hunet.co.kr/edu/common/icon_btn-hcc.png) no-repeat 0 -60px;}
+
+
+/* graph */
+.graph-bar-type1 {position:relative; display:inline-block; vertical-align:middle; border:1px solid #d3d3d3; background:#000;}
+.graph-bar-type1,
+.graph-bar-type1 * {height:15px; overflow:hidden; background:url(https://img.hunet.co.kr/edu/common/bg_graph-bar-type1.gif) repeat-x;}
+.graph-bar-type1 * {position:absolute; top:0; left:0;}
+.graph-bar-type1 .fill1 {background-position:0 -15px;}
+.graph-bar-type1 .fill2 {background-position:0 -30px;}
+
+.graph-vertical-type1 {padding:10px 0;}
+.graph-vertical-type1 ul{ margin:0; padding:0; height:100px; border-bottom:1px solid #ddd; font-size:11px; list-style:none;}
+.graph-vertical-type1 ul:after{ content:""; display:block; clear:both;}
+.graph-vertical-type1 li{ float:left; display:inline; width:18%; height:100%; margin:0 3%; position:relative; text-align:center; white-space:nowrap;}
+.graph-vertical-type1 .gTerm{ position:relative; display:inline-block; width:100%; height:25px; line-height:12px; margin:0 -70% -25px 0; _margin-right:-13%; padding:112px 0 0 0; vertical-align:bottom; color:#313131;}
+.graph-vertical-type1 .gBar{ position:relative; display:inline-block; width:21px; margin:-1px 0 12px 0; _margin-bottom:0; border-bottom:0; background:url(https://img.hunet.co.kr/edu/common/bg_graph-vertical-type1-red.gif) repeat-y; vertical-align:bottom;}
+.graph-vertical-type1 .gBar span{ position:absolute; width:100%; top:-17px; left:0; color:#767676; font-weight:bold;}
+.graph-vertical-type1 li.red .gBar {background-image:url(https://img.hunet.co.kr/edu/common/bg_graph-vertical-type1-red.gif);}
+.graph-vertical-type1 li.red .gBar span {color:#fa4d52;}
+.graph-vertical-type1 li.blue .gBar {background-image:url(https://img.hunet.co.kr/edu/common/bg_graph-vertical-type1-blue.gif);}
+.graph-vertical-type1 li.blue .gBar span {color:#5372b4;}
+
+.graph-vertical-type2 * {vertical-align:bottom;}
+.graph-vertical-type2 ul.graph {width:100%; overflow:hidden; margin-bottom:10px; border-bottom:1px solid #d3d3d3;}
+.graph-vertical-type2 ul.graph li {position:relative; float:left; width:16.6%; height:100px;}
+.graph-vertical-type2 ul.graph li span {position:absolute; bottom:0;}
+.graph-vertical-type2 ul.graph li span em {position:absolute; top:-15px; width:100%; text-align:center; font-weight:bold; font-size:11px;}
+.graph-vertical-type2 span.bar1 {left:0; width:20px; background-image:url(https://img.hunet.co.kr/edu/common/bg_graph-vertical-type2-bar1.gif);}
+.graph-vertical-type2 span.bar1 em {color:#fa4d52;}
+.graph-vertical-type2 span.bar2 {left:20px; width:21px; background-image:url(https://img.hunet.co.kr/edu/common/bg_graph-vertical-type2-bar2.gif);}
+.graph-vertical-type2 span.bar2 em {color:#ff7200;}
+.graph-vertical-type2 span.bar-alone {left:0; width:20px; background-image:url(https://img.hunet.co.kr/edu/common/bg_graph-vertical-type2-bar1.gif);}
+.graph-vertical-type2 span.bar-alone em {color:#fa4d52;}
+.graph-vertical-type2 ul.xAxis{width:100%; overflow:hidden; margin-bottom:20px; font-size:11px;}
+.graph-vertical-type2 ul.xAxis li {float:left; width:16.6%; text-align:center;}
+.graph-vertical-type2 ul.graph-year li {width:8.3%; line-height:16px;}
+.graph-vertical-type2 ul.graph-year li span.bar1 {width:17px; background-image:url(https://img.hunet.co.kr/edu/common/bg_graph-vertical-type2-bar1-year.gif);}
+.graph-vertical-type2 ul.graph-year li span.bar2 {width:18px; background-image:url(https://img.hunet.co.kr/edu/common/bg_graph-vertical-type2-bar2-year.gif);}
+
+.graph-vertical-type3 {position:relative; padding:0 0 0 0; font-size:11px; color:#727272; zoom:1;}
+.graph-vertical-type3 ul.xAxis{width:100%; overflow:hidden; margin-bottom:20px;}
+.graph-vertical-type3 ul.xAxis li {float:left; width:8.3%; text-align:center;}
+.graph-vertical-type3 dl {height:150px; margin-bottom:10px; border-bottom:1px solid #d3d3d3;}
+.graph-vertical-type3 dl dt {display:none;}
+.graph-vertical-type3 dl dd {position:relative; float:left; display:inline; width:8.3%; height:150px;}
+.graph-vertical-type3 dl span {position:absolute; display:block; width:100%;	bottom:0; left:0; z-index:1;}
+.graph-vertical-type3 dl span em {position:absolute; top:-15px; width:100%; text-align:center; color:#b0b0b0;}
+.graph-vertical-type3 dl span em strong.text1 {color:#fa4d52;}
+.graph-vertical-type3 dl span em strong.text2 {color:#ff7f3a;}
+.graph-vertical-type3 dl span {height:50%; background:url(https://img.hunet.co.kr/edu/common/bg_graph-vertical-type3-bar2.gif) repeat-y center top;}
+.graph-vertical-type3 dl .sub {margin-left:-8.3%;}
+.graph-vertical-type3 dl .sub span {background:url(https://img.hunet.co.kr/edu/common/bg_graph-vertical-type3-bar1.gif) repeat-y center top;}
+
+
+
+ul.bu-sq-list li {padding:3px 0 3px 8px; color:#666; background:url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif) no-repeat 0 8px;}
+.box-gray {padding:20px; background:#ebebeb;}
+
+
+.board-list-head {width:100%; margin-bottom:10px; overflow:hidden; color:#666;}
+.board-list-head * {vertical-align:middle;}
+.board-list-head div.board-search-form label.iLabel {padding:6px 0 0 5px; *padding-top:8px; line-height:130%; font-weight:bold; color:#bdbdbd;}
+
+
+.board-list {width:100%; margin-bottom:20px; border-top:1px solid #919191; table-layout:fixed;}
+.board-list.border-none td,
+.board-list.border-none th {border-left:0 !important;}
+.board-list th,
+.board-list td {padding:8px 5px; line-height:18px; text-align:center; word-wrap:break-all; overflow:hidden;}
+.board-list td * {vertical-align:middle;}
+.board-list thead th {padding-top:12px; color:#414141; border-left:1px solid #ccc; border-bottom:1px solid #ccc; background:#f6f6f5;}
+.board-list thead th.first {border-left:0;}
+.board-list tbody th {font-weight:bold;}
+.board-list tbody th,
+.board-list td {color:#787878; border:1px solid #e5e5e5; border-top:0; border-right:0; word-wrap:break-word;word-break:break-all;}
+.board-list td.blnone,
+.board-list .first {border-left:0;}
+.board-list .left {text-align:left;}
+.board-list .font-small {font-size:11px;}
+.board-list input.iText {height:20px; padding:0 0 0 4px; line-height:20px; border:1px solid #bfbfbf;}
+.board-list input.tCenter {padding:0;}
+.board-list td strong {color:#414141;}
+.board-list .study-term {color:#727272; font-size:11px; font-weight:bold;}
+.board-list tr.bg td {background:#fafafa;}
+.board-list .no-data {padding:30px 0;}
+.board-list .subject {text-align:left; font-weight:bold;}
+.board-list .subject a {color:#333;}
+.board-list .subject a:hover {text-decoration:underline; color:#ff5058;}
+
+.board-list .subject-reply {padding-left:24px; text-align:left; font-weight:bold; background:url(https://img.hunet.co.kr/edu/common/icon_an-ar.gif) no-repeat 10px center;}
+.board-list .subject-reply a {color:#333;}
+.board-list .subject-reply a:hover {text-decoration:underline; color:#ff5058;}
+
+.board-list tr.notice td {background:#f1f7fd;}
+.board-list .border-bottom-bold th,
+.board-list .border-bottom-bold td {border-bottom-width:2px;}
+.board-list .faq-category {color:#727272; font-size:11px; text-align:center;}
+.board-list .faq-question {text-align:left;}
+.board-list .faq-question a {color:#333;}
+.board-list .faq-answer-tr {display:none;}
+.board-list .faq-answer {padding:0; text-align:left; border-bottom:1px solid #ccc;}
+.board-list .faq-answer div.faq-answer-content {padding:30px; line-height:200%; border-bottom:1px solid #e5e5e5;}
+.board-list .faq-answer div.faq-answer-footer {width:100%; overflow:hidden; padding:12px 0; }
+.board-list .faq-answer div.faq-answer-footer * {vertical-align:middle;}
+.board-list .faq-answer div.faq-answer-footer div.fLeft {padding-left:5px;}
+.board-list .faq-answer div.faq-answer-footer div.fRight {padding-right:5px;}
+.board-list .off-info {font-size:11px; color:#727272;}
+.board-list .off-info li {padding:2px 0 2px 8px; line-height:130%; background:url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif) no-repeat 0 7px;}
+.board-list .off-info li span.tit {display:inline-block; width:80px;}
+.board-list .edu-sc {width:100%; overflow:hidden;}
+.board-list .edu-sc dt {float:left; width:67px; margin-right:-67px; padding:0 0 0 7px; color:#193b73; background:url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif) no-repeat 0 7px;}
+.board-list .edu-sc dd {margin-left:67px; color:#333;}
+.board-list .edu-sc dd span {color:#193b73; background:#e0eefb;}
+.board-list .edu-sc dd img {vertical-align:middle;}
+.board-list td i {display:inline-block; padding:4px 4px 1px 4px; font-weight:normal; font-style:normal; letter-spacing:-1px; line-height:16px; font-size:11px;}
+.board-list td .icon-category {color:#fff; background:#778498; text-decoration:none !important;}
+
+.board-list tr.faq-current td {border-bottom:1px solid #ccc;}
+.board-list tr.faq-current .faq-question a {color:#0391b1; font-weight:bold;}
+
+.board-list.board-list-hover tbody tr:hover td {background-color: #efefef;}
+
+.board-list2 {width:100%; margin-bottom:20px; border-top:3px solid #609438; table-layout:fixed;}
+.board-list2 th,
+.board-list2 td {padding:8px 5px; line-height:160%; text-align:center; white-space:wrap; word-wrap:break-all; overflow:hidden;}
+.board-list2 td * {vertical-align:middle;}
+.board-list2 thead th {padding-top:12px; color:#414141; border-bottom:1px solid #ccc; background:#f6f6f5;}
+.board-list2 tbody th,
+.board-list2 td {color:#787878; border-bottom:1px solid #e5e5e5;}
+.board-list2 .left {text-align:left;}
+.board-list2 .subject {text-align:left; font-weight:bold;}
+.board-list2 .subject a {color:#333;}
+.board-list2 .subject a:hover {text-decoration:underline; color:#ff5058;}
+.board-list2 .no-data {padding:30px 0;}
+.board-list2 .faq-category {color:#727272; font-size:11px; text-align:center;}
+.board-list2 .subject-reply {padding-left:24px; text-align:left; font-weight:bold; background:url(https://img.hunet.co.kr/edu/common/icon_an-ar.gif) no-repeat 10px center;}
+.board-list2 .subject-reply a {color:#333;}
+.board-list2 .subject-reply a:hover {text-decoration:underline; color:#ff5058;}
+
+.board-list3 {width: 100%; color: #000; font-size: 13px; text-align: center;}
+.board-list3 thead {border-top: 1px solid #000;background-color: #e6e8ea;}
+.board-list3 tbody {position: relative;}
+.board-list3 th {padding: 10px 0; text-align: center; font-size: 11px; font-weight: 600;}
+.board-list3 td {position: relative; padding: 15px 0; text-align: center; border-bottom: 1px solid #e4e4e4;}
+.board-list3 td .text14 {line-height: 18px; height: 20px; display:inline-block;}
+
+
+
+.board-event-list {width:100%; margin-bottom:20px; border-top:3px solid #609438; table-layout:fixed;}
+.board-event-list li {width:100%; overflow:hidden; padding:20px 0; line-height:160%; border-bottom:1px solid #e5e5e5;}
+.board-event-list li a {cursor:pointer;}
+.board-event-list span.thumb {float:left; width:320px; margin-right:-350px; padding-left:10px;}
+.board-event-list span.content {display:block; margin-left:350px; padding:10px 10px 0 0;}
+.board-event-list span.subject {display:block; margin-bottom:7px; font-weight:bold; font-size:14px; color:#333;}
+.board-event-list span.text {display:block; color:#727272;}
+.board-event-list span.date {font-size:11px;}
+.board-event-list span.date strong {color:#ff5058;}
+.board-event-view {margin-bottom:30px;}
+
+.board-banner-list {width:100%; margin-bottom:20px; border-top:3px solid #609438; table-layout:fixed;}
+.board-banner-list li {width:100%; overflow:hidden; padding:20px 0; line-height:160%; border-bottom:1px solid #e5e5e5;}
+.board-banner-list li a {cursor:pointer;}
+.board-banner-list li img {width:100%;}
+
+.paginate {text-align:center; font-weight:bold;}
+.paginate * {vertical-align:top;}
+.paginate a,
+.paginate strong {display:inline-block; height:17px; line-height:17px; padding:0 4px; color:#787878;}
+.paginate strong {color:#f86f46 !important;}
+.paginate a.first,
+.paginate a.last {padding:0;}
+.paginate a.prev {padding:0 3px 0 0;}
+.paginate a.next {padding:0 0 0 3px;}
+
+.paginate2 {text-align:center; font-size: 14px; color: #727272; margin-bottom: 150px;}
+.paginate2 * {vertical-align:top;}
+.paginate2 a,
+.paginate2 strong {display:inline-block;*display:inline-block;zoom:1; height:17px; line-height:17px; margin:0 8px; color:#000;}
+.paginate2 a:hover {border-bottom: 1px solid #000;}
+.paginate2 a.on{font-weight:bold; border-bottom: 2px solid #000;}
+.paginate2 a.on:hover{border-bottom: 2px solid #000; text-decoration:none !important;}
+/* .paginate2 strong {font-weight:bold; border-bottom: 2px solid #000;} */
+.paginate2 a.prev {position: relative; margin: 0 16px 0 0; padding-left: 9px;}
+.paginate2 a.next {position: relative; margin: 0 0 0 16px; padding-right: 9px;}
+.paginate2 a.prev:before,
+.paginate2 a.next:after {content:''; display:block; width: 7px; height: 7px; border-bottom: 1px solid #000;}
+.paginate2 a.prev:before {position: absolute; top: 5px; left: 0px; border-left: 1px solid #000;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari */
+    transform: rotate(45deg);
+}
+.paginate2 a.next:after {position: absolute; top: 5px; right: 0px; border-right: 1px solid #000;
+    -ms-transform: rotate(315deg); /* IE 9 */
+    -webkit-transform: rotate(315deg); /* Safari */
+    transform: rotate(315deg);
+}
+.paginate2 .page-num {padding-top: 2px; font-size: 11px;}
+
+.board-search-form {text-align:center;}
+.board-search-form * {vertical-align:middle;}
+
+.board-write {width:100%; margin-bottom:20px; border-top:1px solid #919191;}
+.board-write * {vertical-align:middle;}
+.board-write th,
+.board-write td {padding:12px 20px; text-align:left; border-bottom:1px solid #e5e5e5; white-space:wrap; word-wrap:break-word;}
+.board-write th {font-weight:bold; color:#414141;}
+.board-write td {color:#787878; line-height:160%;}
+.board-write th.rowgroup {border-right:1px solid #e5e5e5; background:#f6f6f5;}
+.board-write th.rowgroup2 {border-right:1px solid #e5e5e5; border-left:1px solid #e5e5e5; background:#f6f6f5;}
+.board-write th.row {border-right:1px solid #e5e5e5;}
+.board-write th.bg-blue {background:#f1f7fd;}
+.board-write th span.essential {font-weight:normal; color:#ff5058;}
+.board-write .fnormal {font-weight:normal;}
+.board-write td.editor {padding:5px 0;}
+.board-write td.add-content {padding:0;}
+.board-write p.help {padding-top:5px; font-size:11px;}
+.board-write p.help1 {padding-top:5px;}
+.board-write p.help2 {padding-top:5px; font-size:11px; letter-spacing:-1px;}
+.board-write span.help {font-size:11px;}
+.board-write ul.help-list {padding-top:5px;}
+.board-write ul.help-list li {padding:0 0 0 10px; font-size:11px; background:url(https://img.hunet.co.kr/edumanager/common/ico_bar-5px-gray.gif) no-repeat 0 9px;}
+.board-write ul.bu-sq-list li {background-position:0 9px; letter-spacing:-1px;}
+.board-write label {margin-right:20px;}
+.board-write.bw-add-b-top {width:100%; margin-bottom:30px; border-top:3px solid #609438;}
+.board-write .board-list th,
+.board-write .board-list td {padding:8px 5px; line-height:18px; text-align:center;}
+.board-write .bg th,
+.board-write .bg td {background:#f5f5f5;}
+
+.board-upload-file-box {}
+.board-upload-file-box input[type="file"] {position:absolute; filter:alpha(opacity=0); opacity:0; z-index:-1;}
+.board-upload-file-box label {display:block; width:100%; padding:20px 0; text-align:center; font-size:14px; color:#444; border:0; background:transparent; cursor:pointer; border:2px dashed #ddd;}
+.board-upload-file-status {margin-top:5px; padding:5px 0; zoom:1;}
+.board-upload-file-status:after {content:""; display:block; clear:both;}
+.board-upload-file-status:hover {background-color:#f9f9f9;}
+.board-upload-file-status .file-info {float:left; width:450px;}
+.board-upload-file-status .name {}
+.board-upload-file-status .size {}
+.board-upload-file-status .btns {float:right;}
+.board-upload-file-status .btn-delete {width:24px; height:24px; border:1px solid #ccc; background:url(https://img.hunet.co.kr/edu/common/ico_close.gif) no-repeat center center; cursor:pointer;}
+.board-upload-file-spinner {margin-top:10px; text-align:center;}
+
+.board-view {margin-bottom:20px; border-top:2px solid #609438;}
+.board-view div.header {padding:17px 0 15px 20px; border-bottom:1px solid #ccc; background:#f6f6f5;}
+.board-view div.header h3 {font-size:14px; color:#333;}
+.board-view ul.info li {padding:7px 0 7px 20px; border-bottom:1px solid #e5e5e5;}
+.board-view ul.info li.no-btn {padding:13px 0 10px 20px;}
+.board-view ul.info li * {vertical-align:middle;}
+.board-view ul.info li span.mt3 {display:inline-block;}
+.board-view ul.info span.line {padding:0 3px; color:#c0c0c0;}
+.board-view ul.info .file {color:#0391b1;}
+.board-view div.content {padding:20px; line-height:160%; border-bottom:1px solid #e5e5e5;}
+.board-view div.content img {max-width:660px;}
+.board-view .files {padding:5px 0; border-bottom:1px solid #e5e5e5;}
+.board-view .files li {padding:7px 0 7px 40px; border-top:1px dashed #e9e9e9; background:url(https://img.hunet.co.kr/edu/common/ico_file.gif) no-repeat 20px 7px;}
+.board-view .files li:first-child {border-top:0;}
+.board-view .files a {color:#0391b1;}
+.board-view div.answer-content {padding:20px; line-height:160%; color:#727272; border-bottom:1px solid #e5e5e5; background:#f6f6f5;}
+.board-view div.answer-content h4 {margin-bottom:15px;}
+.board-view div.answer-content h5 {margin-bottom:25px; color:#333;}
+.board-view-answer-file {margin-bottom:20px; padding:0 0 15px 20px; border-bottom:1px solid #e5e5e5;}
+
+.board-view-comment {padding:25px 20px 10px 20px; border:1px solid #e5e5e5; border-left:0; border-right:0; background:#f6f6f5;}
+.board-view-comment p.write-title {margin-bottom:10px; padding-left:10px; font-weight:bold; color:#333;}
+.board-view-comment div.comment-write-form {width:100%; overflow:hidden;}
+.board-view-comment div.comment-write-form textarea.iTextarea {width:577px; height:46px; overflow:auto;}
+.board-view-comment div.comment-write-form p.text-num {padding-top:7px; text-align:right; font-size:11px; color:#333;}
+.board-view-comment div.comment-write-form p.text-num strong {color:#ff5058;}
+/* 20190704 */
+/* .board-view-comment ul.comment-list li {padding:10px; line-height:200%; border-bottom:1px dashed #dbdbda;}
+.board-view-comment ul.comment-list li.last {border-bottom:0;}
+.board-view-comment ul.comment-list div.header {}
+.board-view-comment ul.comment-list div.header strong {margin-right:5px; color:#333;}
+.board-view-comment ul.comment-list div.header span {color:#0391b1; font-size:11px;}
+.board-view-comment ul.comment-list div.content {line-height:200%;}
+.board-view-comment ul.comment-list li.indent {padding-left:25px; background:url(https://img.hunet.co.kr/edu/common/bg_cmt-reply.gif) no-repeat 10px 13px;}
+.board-view-comment ul.comment-list li .comment-write-form {width:630px; margin:10px 0 0 0; line-height:14px; padding:0 0 0 17px; background:url(https://img.hunet.co.kr/edu/common/bg_cmt-reply.gif) no-repeat 0 0;}
+.board-view-comment ul.comment-list li .comment-write-form .iTextarea {width:547px;} */
+.board-view-comment ul.comment-list li {padding:10px 0; line-height:200%; border-bottom:1px dashed #dbdbda;}
+.board-view-comment ul.comment-list li.last {border-bottom:0;}
+.board-view-comment ul.comment-list div.header {padding:0 10px;}
+.board-view-comment ul.comment-list div.header strong {margin-right:5px; color:#333;}
+.board-view-comment ul.comment-list div.header span {color:#0391b1; font-size:11px;}
+.board-view-comment ul.comment-list div.content {position:relative;line-height:200%; padding:0 10px 20px;}
+.board-view-comment ul.comment-list div.content a {position:absolute; right:0; bottom:0; display:inline-block;}
+.board-view-comment ul.comment-list div.content a i {display:inline-block; width:13px; height:9px; margin-left:5px; background:url(https://img.hunet.co.kr/campus-hunet-pc/sub/happy-lecture/bottom-arrow.png) no-repeat right center;}
+.board-view-comment ul.comment-list div.content a.on i {transform: rotate(180deg)}
+.board-view-comment ul.comment-list li.indent {padding-left:25px; background:url(https://img.hunet.co.kr/edu/common/bg_cmt-reply.gif) no-repeat 10px 13px;}
+.board-view-comment ul.comment-list li.indent .header {padding:0;}
+.board-view-comment ul.comment-list li.indent div.content {padding:0;}
+.board-view-comment ul.comment-list li .comment-write-form {display:none; width:630px; margin:10px 0 0 0; line-height:14px; padding:10px 13px 0 17px; background:url(https://img.hunet.co.kr/edu/common/bg_cmt-reply.gif) no-repeat 0 14px; border-top: 1px dashed #dbdbda;}
+.board-view-comment ul.comment-list li .comment-write-form .iTextarea {width:547px;}
+.board-view-comment ul.comment-list li .comment-write-form .header {padding:0; line-height:200%;}
+.board-view-comment ul.comment-list li .comment-write-form .header strong {vertical-align:top;}
+/* //20190704 */
+.board-view-comment ul.comment-list .header * {vertical-align:middle;}
+.board-view-comment ul.comment-list .header .button-small span {color:#535353 !important;}
+
+.epliogue-write-form {width:100%; overflow:hidden; margin-bottom:10px;}
+.epliogue-write-form .header {width:100%; overflow:hidden; margin-bottom:5px;}
+.epliogue-write-form .star-select {float:left;}
+.epliogue-write-form textarea.iTextarea {width:615px; height:46px; overflow:auto;}
+.epliogue-write-form p.text-num {float:right; padding:7px 0 0 0; text-align:right; font-size:11px; color:#333;}
+.epliogue-write-form p.text-num strong {color:#ff5058;}
+
+
+.tab {margin-bottom:30px; border-bottom:2px solid #609438; zoom:1;}
+.tab ul {width:100%; overflow:hidden;}
+.tab li {float:left;}
+.tab li a {float:left; height:40px; line-height:40px; padding:0 14px; font-size:14px; font-weight:bold; color:#8c8c8c; border:1px solid #d5d5d5; border-bottom: 2px solid transparent; border-left:0; background:#f1f1f1;}
+.tab li.first a {border-left:1px solid #d5d5d5;}
+.tab li.current a {color:#fff; border:2px solid #609438; border-bottom:1px solid #609438; background:#609438;}
+.tab ul.ea2 li a {width:347px; padding:0; text-align:center;}
+.tab ul.ea2 li.first.current a {width:348px;}
+.tab ul.ea3 li a {width:231px; _width:230px; padding:0; text-align:center;}
+.tab ul.ea3 li.first.current a {width:232px;}
+.tab ul.ea4 li a {width:173px; padding:0; text-align:center;}
+.tab ul.ea4 li.first.current a {width:174px;}
+.tab ul.ea5 li a {width:138px; padding:0; text-align:center;}
+.tab ul.ea5 li.first.current a {width:140px;}
+.tab ul.readerpia li.first a {width:63px; padding:0; text-align:center;}
+.tab ul.readerpia li.first.current a {width:64px;}
+.tab ul.readerpia li a.eng {padding:0 20px; line-height:130%; text-align:center; font-size:12px;}
+.tab ul.readerpia li a.eng span {display:block;}
+.tab ul.readerpia li a.eng span.line {padding-top:12px;}
+.tab ul.readerpia li a.eng span.line2 {padding-top:5px;}
+.tab ul.maru li a {width:347px; padding:0; line-height:120%; text-align:center;}
+.tab ul.maru li a span {display:block; padding-top:3px; font-size:12px; font-weight:normal;}
+.tab ul.faq li a {padding:0 10px; text-align:center;}
+.tab ul.faq li.all a {width:61px; padding:0;}
+.tab ul.faq li.all.current a {width:62px; padding:0;}
+.tab ul.faq li.line2 a {height:36px; padding-top:4px; line-height:120%;}
+.tab ul.school li a {width:173px; padding:0; text-align:center;}
+.tab ul.school li.first a {width:174px;}
+.tab ul.school li a span {font-weight:normal; font-size:12px;}
+.tab ul.school li a span.line {padding:0 3px; color:#cfcfcf;}
+.tab ul.pro-data li a {padding:0 15px; text-align:center;}
+.tab ul.pro-data li.first a {width:52px; padding:0;}
+.tab ul.pro-data li.first.current a {width:53px; padding:0;}
+
+
+.tab2 {margin-bottom:10px; background:url(https://img.hunet.co.kr/edu/common/bg_tab2.gif) repeat-x left bottom; zoom:1;}
+.tab2 ul {width:100%; overflow:hidden;}
+.tab2 li {float:left;}
+.tab2 li a {float:left; height:30px; line-height:34px; padding:0 30px; overflow:hidden; font-weight:bold; color:#8c8c8c; border:1px solid #d5d5d5; border-left:0; border-bottom:0; background:#f1f1f1;}
+.tab2 li.first a {border-left:1px solid #d5d5d5;}
+.tab2 li.current a {height:31px; line-height:34px; color:#000; border:1px solid #313131; border-bottom:0; background:#fff;}
+.tab2 ul.ea2 li a {width:349px; padding:0; text-align:center;}
+.tab2 ul.ea2 li.first a {width:347px;}
+.tab2 ul.ea2 li.first.current a {width:348px;}
+.tab2 ul.ea3 li a {width:232px; padding:0; text-align:center;}
+.tab2 ul.ea3 li.first a {width:231px;}
+.tab2 ul.ea3 li.first.current a {width:232px;}
+.tab2 ul.ea5 li a {width:139px; padding:0; text-align:center;}
+.tab2 ul.ea5 li.first a {width:137px;}
+.tab2 ul.ea5 li.first.current a {width:138px;}
+.tab2 ul.ea7 li a {width:99px; padding:0; text-align:center;}
+.tab2 ul.ea7 li.first a {width:97px;}
+.tab2 ul.ea7 li.first.current a {width:98px;}
+
+
+.tab3 {margin-bottom:30px; border-bottom:2px solid #609438; zoom:1;}
+.tab3 ul {width:100%; overflow:hidden;}
+.tab3 li {float:left;}
+.tab3 li a {float:left; height:31px; line-height:34px; padding:0 14px; font-weight:bold; color:#8c8c8c; border:1px solid #d5d5d5; border-bottom:0; border-left:0; background:#f1f1f1;}
+.tab3 li.first a {border-left:1px solid #d5d5d5;}
+.tab3 li.current a {height:31px; line-height:34px; color:#fff; border:1px solid #609438; border-bottom:0; background:#609438;}
+.tab3 ul.ea2 li a {width:349px; padding:0; text-align:center;}
+.tab3 ul.ea2 li.first a {width:347px;}
+.tab3 ul.ea2 li.first.current a {width:348px;}
+.tab3 ul.ea3 li a {width:232px; padding:0; text-align:center;}
+.tab3 ul.ea3 li.first a {width:231px;}
+.tab3 ul.ea3 li.first.current a {width:232px;}
+
+.tab-text {width:100%; overflow:hidden; margin-bottom:10px;}
+.tab-text li {float:left; padding:0 10px; line-height:160%; background:url(https://img.hunet.co.kr/edu/common/bg_tab-text-line.gif) no-repeat 0 5px; background-position:0 2px\9; *background-position:0 3px;}
+.tab-text li.first {padding-left:0; background:none;}
+.tab-text li a {color:#727272;}
+.tab-text li.current {font-weight:bold;}
+.tab-text li.current a {color:#313131;}
+
+.sub-tab-item {display: none;}
+.sub-tab-item:first-child {display: block;}
+
+.use-border-top {padding-top:15px; border-top:3px solid #609438;}
+.use-border-top-1px {padding-top:7px; border-top:1px solid #e5e5e5;}
+
+.search-form-tab-next {margin-bottom:40px; padding:0 0 25px 30px; border-bottom:1px solid #e5e5e5;}
+.search-form-tab-next * {vertical-align:middle;}
+.search-form-tab-next .tit {margin-right:5px; font-weight:bold; color:#313131;}
+.search-form-tab-next .block {display:inline-block;}
+.search-form-tab-next input.button-submit {height:25px; padding:0 7px; line-height:25px; color:#fff; font-weight:bold; border:1px solid #414141; background:#609438;}
+
+.search-form {margin-bottom:40px; padding:25px 0 25px 30px; border:4px solid #609438;}
+.search-form * {vertical-align:middle;}
+.search-form .tit {margin-right:5px; font-weight:bold; color:#313131;}
+.search-form .block {display:inline-block;}
+.search-form input.button-submit {height:25px; padding:0 10px; *padding:0 5px; line-height:25px; line-height:27px\9; *line-height:25px; color:#fff; font-weight:bold; border:1px solid #414141; background:#609438;}
+.search-form div.category-section {margin:0 30px 20px 0; padding:0 0 20px 20px; border-bottom:1px solid #e5e5e5; zoom:1;}
+.search-form div.category-section:after {content:""; display:block; clear:both;}
+.search-form div.category-section-sub {padding-left:20px;}
+.search-form div.category-section span.line {padding:0 6px; color:#dcdcdc;}
+.search-form div.category-section a {color:#313131;}
+.search-form div.category-section a.selected {font-weight:bold; color:#0391b1;}
+.search-form .category-list-table {padding:0 30px 0 0;}
+.search-form .category-list-table table {width:100%;}
+.search-form .category-list-table th,
+.search-form .category-list-table td {padding:10px 0 6px 0; vertical-align:top; line-height:22px; border-bottom:1px solid #e5e5e5;}
+.search-form .category-list-table tr.last th,
+.search-form .category-list-table tr.last td {border-bottom:0;}
+.search-form .category-list-table th {font-weight:bold; color:#313131;}
+.search-form .category-list-table .line {padding:0 6px; color:#dcdcdc;}
+.search-form .category-list-table a {color:#313131; white-space:nowrap;}
+.search-form .category-list-table a.selected {font-weight:bold; color:#0391b1;}
+.search-form .category-link-half {zoom:1;}
+.search-form .category-link-half:after {content:""; display:block; clear:both;}
+.search-form .category-link-half li {float:left; width:50%;}
+.search-form .category-link-default a {margin-right:10px;}
+.search-form .category-link-default .line {margin-right:10px; padding:0; color:#dcdcdc;}
+
+.search-result-bar {width:100%; overflow:hidden; margin-bottom:20px; padding:12px 0 10px 0; color:#bebebe;background:#434343;}
+.search-result-bar div.fLeft {padding-left:15px;}
+.search-result-bar div.fRight {padding-right:15px;}
+.search-result-bar strong {color:#fff;}
+.search-result-bar span.line {padding:0 5px; color:#777;}
+
+/* search-form_v2 */
+.search-form_v2 {padding: 15px 20px;border: 2px solid #000; color: #444;}
+.search-form_v2 .category-inner {margin: 0 15px; padding: 15px 0; font-size: 13px; border-top: 1px solid #e4e4e4;}
+.search-form_v2 .category-inner:first-child {padding-top: 0; border-top: 0;}
+.search-form_v2 .category-inner dl {position: relative;padding-left: 20px;line-height: 1.6;}
+.search-form_v2 .category-inner dl:not(:first-child) {margin-top: 15px;}
+.search-form_v2 .category-inner dl:after {display: block; content: ""; clear: both;}
+.search-form_v2 .category-inner dl dt {position: absolute; left: 0; top: 1px; font-size: 11px;}
+.search-form_v2 .category-inner dl dt.blind {width: 0; height: 0; font-size: 0; opacity: 0;}
+.search-form_v2 .category-inner dl dd {float: left; padding-left: 15px;}
+.search-form_v2 .category-inner dl dd a {color: #444; line-height: 19px;}
+.search-form_v2 .category-inner dl dd a:hover {border-bottom: 1px solid #000;}
+.search-form_v2 .category-inner dl dd.active a {font-weight: 600; color: #000; border-bottom:2px solid #000; text-decoration:none !important; line-height:19px;}
+.search-form_v2 .category-inner dl dd.active a:hover {background-color: #ffff00; text-decoration:none !important;}
+
+.search-form_v2 .category-inner dl dd a[disabled="disabled"] {pointer-events: none; color: #a5a5a5;}
+.search-form_v2 .category-inner.col:after {display: inline-block; content: ""; width: 100%;}
+/* .search-form_v2 .category-inner.col {text-align: justify;} */
+.search-form_v2 .category-inner.col dl {float:left; margin-left:70px; margin-top: 0; line-height: 1.6;}
+.search-form_v2 .category-inner.col dl:nth-child(1){margin-left: 0;}
+.search-form_v2 .category-inner.col dl dd.active a{line-height: 19px;}
+.search-form_v2 .search-box {padding: 0 15px 15px;background-color: #f0f2f5;}
+.search-form_v2 .search-box-header a {position: relative;color: #000;display: block;padding: 15px 0; outline:none !important; text-decoration:none !important;}
+.search-form_v2 .search-box-header a:hover{text-decoration:none !important;}
+.search-form_v2 .search-box-header a:before {display: block; content: ""; width: 13px; height: 7px; background: url(https://img.hunet.co.kr/edu/common/btn-search-down.png) center; position: absolute; left: 50%; top: 50%; margin: -3.5px 0 0 -16.5px;}
+.search-form_v2 .search-box-header a.active:before {background: url(https://img.hunet.co.kr/edu/common/btn-search-up.png) center;}
+.search-form_v2 .search-box-header .text-info {display: none; float: right; color: #777; font-size: 11px;}
+.search-form_v2 .search-box-body {position: relative;}
+.search-form_v2 .search-box-body:after {display: block; content: ""; clear: both;}
+.search-form_v2 .search-box-body > .inner {position: relative; width: 495px; float: left;}
+.search-form_v2 .search-box-body__input {position: relative; padding: 0 15px 0 35px; background-color: #fff; border: 1px solid #333;}
+.search-form_v2 .search-box-body__input:before {display: block; content: ""; width: 35px; height: 18px; background: url(https://img.hunet.co.kr/edu/common/btn-search.png) center no-repeat; position: absolute; left: 0; top: 50%; margin-top: -9px;}
+.search-form_v2 .search-box-body__input input[type="text"] {display: block; width: 100%; height: 33px; line-height: 33px; color: #000; border: 0;}
+.search-form_v2 .search-box-body__input .iLabel {margin-top: 8px; color: #a5a5a5;}
+.search-form_v2 .search-box-body__recommend {display: none;position: absolute;left: 0;top: 35px;border: 1px solid #ddd;border-top: 0;width: 493px;background-color: #fff;z-index: 900;}
+.search-form_v2 .search-box-body__recommend dl {position: relative;padding-left: 60px;}
+.search-form_v2 .search-box-body__recommend dl dt {position: absolute;left: 0;top: 11px;color: #ed1c24;font-weight: 600;text-align: center;width: 60px;}
+.search-form_v2 .search-box-body__recommend dl dd {border-top: 1px solid #ddd;}
+.search-form_v2 .search-box-body__recommend dl dd:first-child {border-top: 0;}
+.search-form_v2 .search-box-body__recommend dl dd a {position: relative;display: block;padding: 10px 0;color: #000;}
+.search-form_v2 .search-box-body__recommend dl dd a:before {display: block; content: ""; position: absolute; right: 10px; top: 50%; background: url(https://img.hunet.co.kr/edu/common/btn-search-recommend.png) center; width: 11px; height: 11px; margin-top: -5.5px;}
+.search-form_v2 .search-box-body__recommend dl dd a:hover .subject {text-decoration: underline;}
+.search-form_v2 .search-box-body__recommend dl dd .subject {display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding-right: 30px;}
+.search-form_v2 .search-box-body__recommend .badge-subject {display: inline-block; margin-right: 5px; padding: 1px 0; text-align: center; font-size: 11px; background-color: #525252; color: #fff; width: 40px;}
+.search-form_v2 .search-box-body__recommend dl dd .subject
+.search-form_v2 .search-box-body__recommend .rank-subject {display: inline-block; margin-right: 5px;}
+.search-form_v2 .search-box-body__btn {display: block; float: right; width: 125px; background-color: #333; color: #fff; font-size: 13px; font-weight: 600; border: 0; height: 35px; cursor: pointer;}
+.search-form_v2 .search-box-dropdown {position: relative; display: none;}
+.search-form_v2 .search-box .category-inner {margin: 0;}
+.search-form_v2 .search-box .category-inner:first-child {padding-top: 15px; border-top: 1px solid #e4e4e4;}
+.search-form_v2 .search-box .category-inner dl {padding-left: 30px;}
+.search-form_v2 .search-box .category-inner .text-lg {font-size: 15px; /* margin: -5px -3px 0 0; */ /* display: inline-block; */}
+.search-form_v2 .search-box .category-inner .text-sm {font-size: 11px; }
+.search-form_v2 .category-inner .checkbox {margin-top: -2px;}
+.search-form_v2 .category-inner .checkbox,
+.search-form_v2 .category-inner .checkbox * {cursor: pointer;}
+.search-form_v2 .category-inner input[type="checkbox"] {vertical-align: middle;}
+.search-form_v2 .category-inner input[type="checkbox"] + label {vertical-align: middle; font-size: 12px;}
+.search-form_v2 .category-inner input[type="checkbox"] + label:hover {text-decoration: underline;}
+
+.list-sort {display: table; width: 100%; padding: 10px 0; color: #000;}
+.list-sort__total {display: table-cell; vertical-align: middle;}
+.list-sort:after {display: block; content: ""; clear: both;}
+.list-sort-option{line-height: 28px; margin-bottom: 2px;}
+.list-sort-option a {display: inline-block; vertical-align: middle; color: #444; position: relative;}
+.list-sort-option a:hover {text-decoration: underline;}
+.list-sort-option a:before {display: inline-block; vertical-align: middle; content: ""; margin: 0 5px 0 3px; width: 1px; height: 11px; background-color: #e4e4e4;}
+.list-sort-option a:first-child:before {display: none;}
+.list-sort-option a.active {font-weight: bold;}
+.list-sort-option a.down:after{content:''; height:0; width:0; display:inline-block; margin:0 0 3px 5px; vertical-align: middle; border:4px transparent solid; border-bottom-width:0; border-top-color:#333;}
+.list-sort-option a.up:after{content:''; height:0; width:0; display:inline-block; margin:0 0 3px 5px; vertical-align: middle;  border:4px transparent solid; border-top-width:0; border-bottom-color:#333;}
+
+.list-sort-select {margin-left: 10px;border: 1px solid #c4c4c4;padding: 5px;}
+.list-sort-type:after {display: block; content: ""; clear: both;}
+.list-sort-type a {display: block; float: left; width: 30px; height: 30px; font-size: 0; background: url(https://img.hunet.co.kr/edu/common/btn-list-type.png);}
+.list-sort-type a.active {width: 30px;}
+.list-sort-type .list-sort-type__image {background-position: left center;}
+.list-sort-type .list-sort-type__table {background-position: -30px top;}
+.list-sort-type .list-sort-type__list {background-position: right top;}
+.list-sort-type .list-sort-type__image.active {background-position: left top;}
+.list-sort-type .list-sort-type__table.active {background-position: center;}
+.list-sort-type .list-sort-type__list.active {background-position: right bottom;}
+
+.album-slider {position:relative; margin-bottom:20px; padding:50px 125px; background:#f5f6f8;}
+.album-slider .body {position:relative; display:block; width:450px; height:320px;}
+.album-slider .thumb img {width:450px; height:320px;}
+.album-slider .subject {position:absolute; left:0; bottom:0; width:430px; height:50px; line-height:50px; padding:0 10px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; text-align:center; font-size:16px; font-weight:600; color:#fff; background:#000; opacity:0.7; filter:alpha(opacity=70);}
+.album-slider .bx-prev,
+.album-slider .bx-next {position:absolute; top:50%; width:22px; height:40px; margin-top:-20px; overflow:hidden; text-indent:-9999em; background:url(https://img.hunet.co.kr/edu/customize/taekwang/1/content/controls.png) no-repeat;}
+.album-slider .bx-prev {left:50px; background-position:0 0;}
+.album-slider .bx-next {right:50px; background-position:-22px 0;}
+
+.album-slider-pager {position:relative; margin-bottom:60px; padding:0 42px; text-align:center;}
+.album-slider-pager img {width:149px; height:100px;}+
+.album-slider-pager a {}
+.album-slider-pager i {display:none; position:absolute; top:0; left:3px; width:139px; height:90px; border:5px solid #000;}
+.album-slider-pager .bx-prev,
+.album-slider-pager .bx-next {position:absolute; top:50%; width:32px; height:50px; margin-top:-25px; overflow:hidden; text-indent:-9999em; background:url(https://img.hunet.co.kr/edu/customize/taekwang/1/content/controls.png) no-repeat;}
+.album-slider-pager .bx-prev {left:0; background-position:0 -50px;}
+.album-slider-pager .bx-next {right:0; background-position:-32px -50px;}
+.album-slider-pager .active i {display:block;}
+
+.album-list {width:100%; margin-bottom:20px;}
+.album-list th,
+.album-list td {font-size:13px; text-align:center; font-family:'나눔고딕','nanumgothic','맑은 고딕','malgun gothic','dotum',sans-serif;}
+.album-list thead th {padding:10px 0; color:#fff; border-left:1px solid #e1e1e1; background:#999;}
+.album-list td {padding:7px 0; border-bottom:1px solid #e1e1e1; border-left:1px solid #e1e1e1;}
+.album-list th:first-child,
+.album-list td:first-child {border-left:0;}
+.album-list .subject {text-align:left; padding-left:40px; padding-right:20px; font-weight:600; background:url(https://img.hunet.co.kr/edu/customize/taekwang/1/common/icon-photo.png) no-repeat 15px center;}
+.album-list .subject a {color:#676767;}
+.album-list .subject a:hover {text-decoration:underline;}
+.album-list .active td {background-color:#f4f4f5;}
+.album-list .active .subject a {color:#125dab;}
+.album-list .button {border-radius:0;}
+
+.album-search-form {padding:25px 40px; border:4px solid #bbb;}
+.album-search-form strong {margin-right:5px; color:#313131;}
+.album-search-form label {margin:8px 0 0 5px; color:#aaa;}
+.album-search-form input[type="text"] {width:430px; height:24px; line-height:24px; border:1px solid #dde2e4; vertical-align:middle;}
+.album-search-form .button {border-radius:0; *padding-left:5px; *padding-right:5px;}
+
+
+/* popup */
+.popup-fixed {position:fixed !important;}
+.popup-wrap-bg {position:fixed; top:0; left:0; width:100%; background:#000; opacity:.6; filter:alpha(opacity=60); z-index:999;}
+*html .popup-wrap-bg {display:none;}
+#popup-wrap {position:absolute; top:50%; left:50%; z-index:9999;}
+.popup-inner {padding:0 9px;}
+/* 20140807 추가 */
+.popup-inner a.close {position:absolute; top:40px; right:190px;}
+/* /20140807 추가 */
+.popup-type800 {width:800px; background:url(https://img.hunet.co.kr/edu/bg/bg_popup-type800.gif) no-repeat left bottom;}
+.popup-type800 div.popup-inner {background:url(https://img.hunet.co.kr/edu/bg/bg_popup-type800-header.gif) no-repeat 0 0;}
+.popup-type670 {width:670px; background:url(https://img.hunet.co.kr/edu/bg/bg_popup-type670.gif) no-repeat left bottom;}
+.popup-type670 div.popup-inner {background:url(https://img.hunet.co.kr/edu/bg/bg_popup-type670-header.gif) no-repeat 0 0;}
+.popup-type450 {width:450px; background:url(https://img.hunet.co.kr/edu/bg/bg_popup-type450.gif) no-repeat left bottom;}
+.popup-type450 div.popup-inner {background:url(https://img.hunet.co.kr/edu/bg/bg_popup-type450-header.gif) no-repeat 0 0;}
+.popup-type400 {width:400px; background:url(https://img.hunet.co.kr/edu/bg/bg_popup-type400.gif) no-repeat left bottom;}
+.popup-type400 div.popup-inner {background:url(https://img.hunet.co.kr/edu/bg/bg_popup-type400-header.gif) no-repeat 0 0;}
+
+.popup-diagnosis {width:670px; text-align:left; background:url(https://img.hunet.co.kr/edu/bg/bg_popup-type670.gif) no-repeat left bottom;}
+.popup-diagnosis div.popup-inner {padding:40px 10px; background:url(https://img.hunet.co.kr/edu/bg/bg_popup-type670-header.gif) no-repeat 0 0;}
+.popup-diagnosis a.close {position:absolute; top:30px; right:30px;}
+.popup-diagnosis-header {padding:0 0 25px 30px;}
+.popup-diagnosis-con {padding:0 0 0 30px; text-align:left; line-height:20px; color:#330000; background:url(https://img.hunet.co.kr/edu/bg/bg_p-dg-c.jpg) no-repeat right top;}
+.popup-diagnosis .start-btn {margin:15px 0 10px 0; text-align:center;}
+
+
+.popup-fluid {border:5px solid #4a4a4a; background:#fff;}
+.popup-fluid div.popup-inner {border:1px solid #1f1f1f;}
+.cookie_check {padding:10px 0 7px 15px; line-height:130%; color:#fff; background:#4a4a4a;}
+.cookie_check a.close {position:absolute; right:10px; bottom:3px;}
+
+
+
+#popup-header {min-height:75px; margin:0 21px; border-bottom:1px solid #c8cdd2;}
+#popup-header * {vertical-align:top}
+#popup-header h1 {padding:25px 0 10px 10px; font-size:26px; color:#609438; letter-spacing:-1px; font-family:'맑은 고딕', 'Malgun Gothic', '돋움', 'Dotum'; margin:0;}
+#popup-header h1.small-type {padding-top:31px; font-size:20px; color:#414141;}
+#popup-header h2 {padding:40px 0 0 10px; font-size:18px; letter-spacing:-1px; color:#000;}
+#popup-header a.close {position:absolute; top:37px; right:30px;}
+#popup-content {position:relative; padding:20px 21px; zoom:1;}
+#popup-content.scroll-active {max-height:550px; overflow:auto; overflow-x:hidden;}
+#popup-content h2.tit-h2 {margin-bottom:15px; line-height:160%; padding:0 0 0 20px; font-size:14px; letter-spacing:-1px; color:#000; background:url(https://img.hunet.co.kr/edu/common/ico_tit-h2-popup.gif) no-repeat 0 4px;}
+#popup-content h2.tit-h2.border {margin-bottom:20px; padding-bottom:8px; border-bottom:3px solid #609438;}
+#popup-content .file-list {margin-top:-20px; margin-bottom:20px; padding:20px 10px 20px 30px; line-height:160%; border-bottom:1px solid #dbe3ec; background:#f1f7fd;}
+#popup-content .file-list h2 {padding:0 0 10px 20px; color:#4e4e4e; background:url(https://img.hunet.co.kr/edu/common/ico_file.gif) no-repeat 0 3px;}
+#popup-content .file-list a {margin-right:20px; white-space:nowrap;}
+#popup-content .file-list a:hover {text-decoration:underline;}
+#popup-content .edu-list {border:0;}
+#popup-content .edu-list div.article {padding-top:0; border:0;}
+#popup-content .edu-list div.article li {margin-top:0;}
+#popup-content .edu-list div.article div.button-set {top:0;}
+#popup-content .edu-list.thumb-add div.thumb {position:absolute; top:0px; left:0;}
+#popup-content .edu-list.thumb-add div.thumb img {width:217px; height:157px; padding:5px; border:1px solid #eaeaea;}
+#popup-content .edu-list.thumb-add div.article li {padding-left:355px;}
+#popup-content .edu-list.thumb-add div.article li h3 {left:255px;}
+#popup-content .edu-list.thumb-add div.around-content-wrap {padding-left:255px;}
+#popup-content .class-summary-list {width:100%; border-top:3px solid #609438; border-left:0; border-right:0; border-bottom:0;}
+#popup-content .class-summary-list.border-none {border-top:0;}
+#popup-content .class-summary-list th,
+#popup-content .class-summary-list td {padding:20px 0; line-height:160%; color:#727272; border-bottom:1px solid #e5e5e5;}
+#popup-content .class-summary-list th {font-weight:bold;}
+#popup-content .tab {margin-bottom:30px; border-bottom:2px solid #609438; zoom:1;}
+#popup-content .tab ul {width:100%; overflow:hidden;}
+#popup-content .tab li {float:left;}
+#popup-content .tab li a {float:left; height:33px; line-height:33px; padding:0 30px; font-size:12px; font-weight:bold; color:#8c8c8c; border:1px solid #d5d5d5; border-bottom:0; background:#f1f1f1;}
+#popup-content .tab li.current a {height:32px; line-height:32px; color:#fff; border:2px solid #609438; border-bottom:0; background:#609438;}
+#popup-content .tab ul.ea2 li a {width:359px; padding:0; text-align:center;}
+#popup-content .tab ul.ea2 li.first a {width:358px;}
+#popup-content .tab ul.ea3 li a {width:230px; padding:0; text-align:center;}
+#popup-content .tab ul.tab-zipcode-find li a {width:192px; padding:0; text-align:center;}
+#popup-content .tab ul.tab-zipcode-find li.first a {width:191px;}
+#popup-content ul.study-plan-add {margin-bottom:20px; padding:0 0 15px 15px; border-bottom:1px solid #c8cdd2;}
+#popup-content ul.study-plan-add li {height:30px;}
+#popup-content ul.study-plan-add li * {vertical-align:middle;}
+#popup-content ul.study-plan-add li span.tit {display:inline-block; width:60px; padding-left:8px; font-weight:bold; color:#414141; background:url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif) no-repeat 0 6px;}
+#popup-content .search-form-tab-next {margin-bottom:20px; padding:0 0 15px 30px;}
+#popup-content .readership-content {width:644px; margin:0 auto;}
+#popup-content p.mobile-sms-text1 {margin-bottom:17px; padding-left:10px; letter-spacing:-1px; font-weight:bold; font-size:16px; line-height:25px; color:#414141;}
+#popup-content ul.mobile-sms-text2 {padding-left:10px;}
+#popup-content ul.mobile-sms-text2 li {padding:2px 0 2px 8px; letter-spacing:-1px; line-height:160%; color:#666; background:url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif) no-repeat 0 8px;}
+#popup-content .pw-change-tit {margin-bottom:20px; font-weight:bold; font-size:16px; color:#000;}
+#popup-content .pop-tit-help-list li {padding:3px 0 3px 8px; line-height:22px; color:#787878; background:url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif) no-repeat 0 11px;}
+#popup-content div.border-3px-box-gray {margin-bottom:20px; padding:25px; border:3px solid #e5e5e5;}
+#popup-content div.border-3px-box-gray div.border-btn {padding:25px 0 0 0; text-align:center; border-top:1px solid #eee;}
+#popup-content div.pw-change-input-wrap {width:100%; overflow:hidden;}
+#popup-content div.pw-change-input-wrap div.help-text {float:right; width:260px;}
+#popup-content div.pw-change-input-wrap div.help-text p {padding:20px 0 17px 0; font-weight:bold;}
+#popup-content div.pw-change-input-wrap div.help-text li {font-size:11px; padding:3px 0 3px 8px; color:#666; background:url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif) no-repeat 0 8px;}
+#popup-content ul.pw-change-input {float:left; width:290px; height:129px;}
+#popup-content ul.pw-change-input * {vertical-align:middle;}
+#popup-content ul.pw-change-input li {height:40px;}
+#popup-content ul.pw-change-input label {display:inline-block; width:112px; font-weight:bold; color:#414141;}
+#popup-content div.no-pw-change-check {text-align:center;}
+#popup-content div.no-pw-change-check * {vertical-align:middle;}
+#popup-content div.no-pw-change-check input.iCheckbox {margin-top:-2px;}
+#popup-content dl.edu-manager-info {height:115px;}
+#popup-content dl.edu-manager-info dt {float:left; width:100px; height:90px; margin-right:-120px; padding:3px 10px 0 0; line-height:130%; font-weight:bold; color:#0391b1; background:url(https://img.hunet.co.kr/edu/common/ico_ar-right-blue3.gif) no-repeat right 8px;}
+#popup-content dl.edu-manager-info dd {margin-left:120px; line-height:200%;}
+#popup-content dl.edu-manager-info dd strong {color:#333;}
+#popup-content p.big-text {font-size:16px; line-height:25px; letter-spacing:-1px; font-weight:bold; color:#000;}
+#popup-content div.id-search-form {padding:23px; color:#414141; border:1px solid #c8cdd2; border-left:0; border-right:0; background:#f2f7fd;}
+#popup-content div.id-search-form * {vertical-align:middle;}
+#popup-content ol.merit-list {margin-bottom:20px;}
+#popup-content ol.merit-list li {position:relative; height:22px; padding:8px 0 0 29px; line-height:130%; color:#787878; background:url(https://img.hunet.co.kr/edu/bg/bg_dot-line.gif) repeat-x left bottom; zoom:1;}
+#popup-content ol.merit-list li.last {background:none;}
+#popup-content ol.merit-list li span.no {position:absolute; top:7px; left:3px;}
+#popup-content ol.merit-list li a.more {position:absolute; top:9px; right:10px; line-height:130%; padding-right:8px; font-size:11px; color:#5372b4; background:url(https://img.hunet.co.kr/edu/common/ico_ar-right-blue.gif) no-repeat right 2px;}
+#popup-content div.credit-state {position:relative; line-height:22px; zoom:1;}
+#popup-content div.credit-state h3 {margin-bottom:7px; letter-spacing:-1px; font-size:14px; color:#000;}
+#popup-content div.credit-state h3 em {font-weight:bold; color:#ff5058;}
+#popup-content div.credit-state a.more {position:absolute; top:4px; right:0; line-height:130%; padding-right:8px; font-size:11px; color:#5372b4; background:url(https://img.hunet.co.kr/edu/common/ico_ar-right-blue.gif) no-repeat right 2px;}
+#popup-content div.login-form {margin-bottom:15px; padding:40px 30px 35px 30px; border:3px solid #e5e5e5;}
+#popup-content div.login-form form {height:120px; margin-bottom:15px; padding:0 0 0 105px; border-bottom:1px solid #eee;}
+#popup-content div.login-form ul.input-set {float:left; width:251px; height:100px;}
+#popup-content div.login-form ul.input-set * {vertical-align:middle;}
+#popup-content div.login-form ul.input-set li {height:39px;}
+#popup-content div.login-form ul.input-set li.check {padding-left:76px;}
+#popup-content div.login-form ul.input-set label {display:inline-block; width:72px; font-weight:bold; color:#414141;}
+#popup-content div.login-form ul.input-set li.check label {display:inline; *width:60px; margin-right:10px; *margin-right:0; color:#787878; font-weight:normal; font-size:11px;}
+#popup-content div.login-form ul.input-set input.iText {width:160px;}
+#popup-content div.login-form ul.help {padding-left:90px;}
+#popup-content div.login-form ul.help * {vertical-align:middle;}
+#popup-content div.login-form ul.help li {height:30px;}
+#popup-content div.login-form ul.help li span.text {display:inline-block; width:210px;}
+#popup-content p.copyright {text-align:center; font-size:11px; color:#787878;}
+#popup-content div.login-error {padding:0 0 30px 210px; background:url(https://img.hunet.co.kr/edu/bg/bg_login-error.gif) no-repeat 100px 0;}
+#popup-content div.login-error h2 {margin-bottom:10px; font-size:16px; color:#000;}
+#popup-content div.login-error li {color:#787878;}
+#popup-content div.zipcode-search-form {margin-bottom:20px; padding:15px 0 15px 15px; border:1px solid #c8cdd2; border-left:0; border-right:0; background:#f1f7fd;}
+#popup-content div.zipcode-search-form * {vertical-align:middle;}
+#popup-content div.zipcode-search-form label {font-weight:bold; color:#414141;}
+#popup-content div.zipcode-search-form input.iText {width:195px; height:23px; line-height:23px; padding-left:3px; border:1px solid #bfbfbf;}
+#popup-content div.zipcode-search-form p.help {padding:8px 0 0 95px;}
+#popup-content .address-select-title {margin-bottom:5px; font-weight:normal; color:#ff5058;}
+#popup-content .zipcode-search-list-header {height:28px;  line-height:32px; overflow:hidden; font-size:11px; border:1px solid #ccc; background:#f4f4f4;}
+#popup-content .zipcode-search-list-header span.zipcode {float:left; width:60px; height:28px; margin-right:-75px; padding-left:15px; border-right:1px solid #ccc;}
+#popup-content .zipcode-search-list-header span.address {display:block; margin-left:75px; text-align:center;}
+#popup-content .zipcode-search-list {height:144px; overflow:auto; border:1px solid #ccc; border-top:0;}
+#popup-content .zipcode-search-list li {border-bottom:1px solid #e8e8e8;}
+#popup-content .zipcode-search-list li.no-data {text-align:center; padding:7px 0 7px;}
+#popup-content .zipcode-search-list li a {display:block; padding:7px 0 7px 15px; cursor:pointer; zoom:1;}
+#popup-content .zipcode-search-list li a:hover {text-decoration:none;}
+#popup-content .zipcode-search-list li a span.zipcode {display:inline-block; width:65px;}
+#popup-content .zipcode-search-list li a span.address {display:inline-block;}
+#popup-content .zipcode-search-form2 {margin-bottom:20px; padding:15px 0 15px 15px; border:1px solid #c8cdd2; border-left:0; border-right:0; background:#f1f7fd;}
+#popup-content .zipcode-search-form2 * {vertical-align:middle;}
+#popup-content .zipcode-search-form2 li {height:22px; margin-bottom:8px;}
+#popup-content .zipcode-search-form2 label {float:left; width:80px; margin-top:5px; font-weight:bold;}
+#popup-content .zipcode-search-form2 input.iText {width:165px; height:23px; line-height:23px; padding-left:3px; border:1px solid #9e9e9e;}
+#popup-content .zipcode-search-form2 .selectbox {display:inline; float:left; position:relative; width:282px; height:21px; font-size:12px; color:#8e8e8e; text-align:left; z-index:0;}
+#popup-content .zipcode-search-form2 .selectbox * {line-height:160%;}
+#popup-content .zipcode-search-form2 .selectbox a {color:#8e8e8e;}
+#popup-content .zipcode-search-form2 .selectbox dt {height:18px; line-height:130%; padding:3px 0 0 3px; border:1px solid #9e9e9e; background:#fff url(https://img.hunet.co.kr/myhunet/popup/bg_selectbox.gif) no-repeat right 3px;}
+#popup-content .zipcode-search-form2 .selectbox dt.active {border:1px solid #9e9e9e; background:#fff url(https://img.hunet.co.kr/myhunet/popup/bg_selectbox.gif) no-repeat right 3px;}
+#popup-content .zipcode-search-form2 .selectbox dd {display:none; position:absolute; left:0; top:23px; width:100%;}
+#popup-content .zipcode-search-form2 .selectbox ul {float:none !important; height:220px; overflow:auto; overflow-x:hidden; padding:5px 0; border:1px solid #ccc; background:#fff;}
+#popup-content .zipcode-search-form2 .selectbox ul li {padding:0; border-bottom:1px solid #e8e8e8;}
+#popup-content .zipcode-search-form2 .selectbox ul li a {display:block; padding:2px 0 2px 7px; zoom:1;}
+#popup-content .zipcode-search-form2 .selectbox ul li a:hover {background:#eee;}
+#popup-content .address-select-title2 {margin-bottom:5px; padding-top:20px; color:#1b1b1b;}
+#popup-content .zipcode-search-guide-text {margin-bottom:20px; line-height:20px; letter-spacing:-1px; color:#8a8a8a;}
+#popup-content .zipcode-search-guide-text dt {font-weight:bold;}
+#popup-content .zipcode-search-guide-text dd {padding-left:11px; font-size:11px;}
+#popup-content .zipcode-search-guide-text dd em {color:#010101;}
+#popup-content .zipcode-search-guide-text2 {letter-spacing:-1px; line-height:20px; color:#8a8a8a;}
+#popup-content .zipcode-search-guide-text2 a {text-decoration:underline; color:#3374a6;}
+#popup-content ul.word-guide {padding-left:10px;}
+#popup-content ul.word-guide li {margin-bottom:15px; padding:0 0 0 8px; line-height:20px; color:#414141; letter-spacing:-1px; background:url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif) no-repeat 0 7px;}
+#popup-content ul.word-guide li h2 {margin-bottom:3px;}
+#popup-content div.manage-weekend-info {padding-left:10px; line-height:22px;}
+#popup-content div.manage-weekend-check {width:365px; height:100px; padding:25px 0 0 25px; line-height:22px; background:url(https://img.hunet.co.kr/edu/bg/bg_manage-weekend-check.gif) no-repeat;}
+#popup-content div.manage-weekend-check h3 {padding:0 0 10px 22px; color:#f84e60; background:url(https://img.hunet.co.kr/edu/common/ico_check-medium-red.gif) no-repeat 0 0;}
+#popup-content div.manage-weekend-check li {padding-left:7px; font-weight:bold; color:#313131; background:url(https://img.hunet.co.kr/edu/common/ico_ar-right-black.gif) no-repeat 0 6px;}
+#popup-content div.apply-cancel {padding:30px 0 30px 0; line-height:180%; color:#414141; text-align:center;}
+#popup-content div.apply-cancel .big {line-height:150%; font-size:18px; letter-spacing:-2px;}
+#popup-content div.alert-button-wrap{padding:20px 0 0 0; text-align:center; border-top:1px solid #c8cdd2;}
+#popup-content div.alert-button-wrap *{vertical-align:top;}
+#popup-content .min_dot{margin-top:8px}
+#popup-content .min_dot li{background:url(https://img.hunet.co.kr/edumanager/common/ico_sq-2px-gray.gif) no-repeat 0 13px; padding:2px 0 3px 10px; zoom:1;}
+#popup-content .min_dot li span.name{display:inline-block; width:25%}
+#popup-content .min_dot li span.inp{display:inline-block; width:70%}
+#popup-content .min_dot li span.tit{display:inline-block; width:17%}
+#popup-content .min_dot li span.inp2{display:inline-block; width:80%}
+.pop-pw-change h2 {margin-bottom:20px; font-size:16px; color:#000;}
+.pop-pw-change ul.bu-sq-list {margin-bottom:25px;}
+.pop-pw-change ul.bu-sq-list li {padding:3px 0 3px 8px; line-height:22px; color:#666; background:url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif) no-repeat 0 13px;}
+.pop-pw-change-content {padding:30px; border:3px solid #e5e5e5;}
+.pop-pw-change-form {width:100%; overflow:hidden; margin-bottom:25px; padding-bottom:15px; border-bottom:1px solid #e5e5e5;}
+.pop-pw-change-form .text-fieldset {float:left; width:290px;}
+.pop-pw-change-form .text-fieldset * {vertical-align:middle;}
+.pop-pw-change-form .text-fieldset li {height:35px;}
+.pop-pw-change-form .text-fieldset label {display:inline-block; width:105px; font-weight:bold; color:#414141;}
+.pop-pw-change-form .text-fieldset .iText {width:160px;}
+
+.pop-pw-change-form.pw-check .text-fieldset .iText { width:420px; }
+.pop-pw-change-form.pw-check .text-fieldset { float:none; width:100%; }
+.pop-pw-change-form.pw-check .text-fieldset li { height:auto; margin-bottom:10px; }
+.pop-pw-change-form.pw-check .text-fieldset .desc { padding:10px 0 10px 110px; }
+
+.pop-pw-change-form .help {float:right; width:250px; padding-top:8px; line-height:22px;}
+.pop-pw-change-form .help .caution {margin-bottom:10px; font-weight:bold; color:#414141;}
+.pop-pw-change-form .help li {font-size:11px; padding:3px 0 3px 8px; line-height:18px; color:#666; background:url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif) no-repeat 0 11px;}
+
+
+/* popup alert */
+#alert-wrap {position:absolute; top:50%; left:50%; width:380px; margin-left:-190px; padding:0 0 10px 0; background:url(https://img.hunet.co.kr/edu/bg/bg_alert-wrap.gif) no-repeat left bottom; z-index:9999;}
+#alert-wrap a.close {position:absolute; top:25px; right:30px;}
+#alert-content {padding:10px 30px 18px 30px; background:url(https://img.hunet.co.kr/edu/bg/bg_alert-wrap-top.gif) no-repeat;}
+#alert-content div.apply-cancel {padding:30px 0 25px 0; line-height:180%; color:#414141; text-align:center;}
+#alert-content div.apply-cancel .big {line-height:150%; font-size:16px; letter-spacing:-2px;}
+#alert-content div.alert-button-wrap{padding:15px 0 0 0; text-align:center; border-top:1px solid #e9ebed;}
+#alert-content div.alert-button-wrap *{vertical-align:top;}
+#alert-content h1{padding:13px 0; font-size:20px; letter-spacing:-1px; border-bottom:1px solid #c8cdd2;}
+#alert-content h3.tit-h3{margin-bottom:10px; padding:0 0 0 16px; font-size:14px; letter-spacing:-1px; background-repeat:no-repeat; background-position:0 4px; background-image:url(https://img.hunet.co.kr/edumanager/common/ico_tit-h3-orange.gif);}
+
+
+/* 수료증 팝업 */
+#popup-certificate {position:relative; width:672px; height:957px;}
+#popup-certificate p.btn-print {position:absolute; top:15px; right:20px;}
+#popup-certificate p.doc-no {position:absolute; top:90px; left:120px; color:#000; font-family:'gulim'; font-size:14px;}
+#popup-certificate table {position:absolute; top:320px; left:70px; width:540px;}
+#popup-certificate table th,
+#popup-certificate table td {padding:6px 0; line-height:160%; font-size:18px; color:#000; font-weight:bold; font-family:'gulim'; vertical-align:top;}
+#popup-certificate table th {width:176px;}
+#popup-certificate p.comment {position:absolute; top:545px; left:0; width:100%; line-height:50px; text-align:center; font-size:25px; color:#000; font-weight:bold; font-family:'gulim';}
+#popup-certificate p.date {position:absolute; top:730px; left:0; width:100%; text-align:center; font-size:18px; color:#000; font-weight:bold; font-family:'gulim';}
+
+.popup-certificate {position:relative; width:672px; height:957px;}
+.popup-certificate p.btn-print {position:absolute; top:15px; right:20px;}
+.popup-certificate p.doc-no {position:absolute; top:90px; left:120px; color:#000; font-family:'gulim'; font-size:14px;}
+.popup-certificate table {position:absolute; top:320px; left:70px; width:540px;}
+.popup-certificate table th,
+.popup-certificate table td {padding:6px 0; line-height:160%; font-size:18px; color:#000; font-weight:bold; font-family:'gulim'; vertical-align:top;}
+.popup-certificate table th {width:176px;}
+.popup-certificate p.comment {position:absolute; top:545px; left:0; width:100%; line-height:50px; text-align:center; font-size:25px; color:#000; font-weight:bold; font-family:'gulim';}
+.popup-certificate p.date {position:absolute; top:730px; left:0; width:100%; text-align:center; font-size:18px; color:#000; font-weight:bold; font-family:'gulim';}
+
+
+@media print{
+#popup-certificate p.btn-print {display:none;}
+.popup-certificate p.btn-print {display:none;}
+}
+
+/*파일업로드 스타일*/
+ div.fileinputs {position: relative; height: 30px; width: 400px; }
+ input.file {margin: 0; width: 400px; height:30px; }
+ input.file.hidden {position: relative; text-align: right;-moz-opacity: 0; filter: alpha(opacity: 0); opacity: 0; z-index: 2; }
+ div.fakefile { position: absolute; top: 0px; left: 0px; width: 400px; padding: 0; margin: 0; z-index: 1; line-height: 90%;}
+
+.absolute-layer-banner {position:absolute;}
+.absolute-layer-banner .close {position:absolute; top:0; right:0; padding:3px; z-index:2; border:1px solid #999; background:#fff;}
+
+
+
+#cateGroup {width:100%; overflow:hidden; margin-bottom:10px;}
+#cateGroup #cateUl li {float:left; padding:0 10px; line-height:160%; letter-spacing:-1px; background:url(https://img.hunet.co.kr/edu/common/bg_tab-text-line.gif) no-repeat 0 5px; background-position:0 2px\9; *background-position:0 3px;}
+#cateGroup #cateUl li.first {padding-left:0; background:none;}
+#cateGroup #cateUl li a {color:#727272;}
+#cateGroup #cateUl li.current {font-weight:bold;}
+#cateGroup #cateUl li.current a {color:#313131;}
+
+
+.tooltip-mobile-help {display:none; position:absolute; padding-top:6px;}
+.tooltip-mobile-help-ar {position:absolute; top:0; left:50%; width:11px; height:8px; margin-left:-5px; overflow:hidden; background:url(https://img.hunet.co.kr/edu/common/bg_tooltip-mobile-help-ar.gif) no-repeat;}
+.tooltip-mobile-help-con {padding:10px 10px 7px 10px; font-weight:bold; font-size:11px; color:#424242; line-height:15px; border:2px solid #333; background:#fff;}
+.tooltip-mobile-help-close {position:absolute; top:11px; right:4px; width:8px; height:7px; overflow:hidden; text-indent:-9999em; background:url(https://img.hunet.co.kr/edu/common/btn_tooltip-x.gif) no-repeat;}
+
+
+.sc-calendar-header {margin-bottom:10px; text-align:center;}
+.sc-calendar-header * {vertical-align:middle;}
+.sc-calendar-header img {margin:-3px 10px 0 10px;}
+.sc-calendar-header .month-prev {font-family:arial; font-size:36px; font-weight:bold; color:#d9d9d9;}
+.sc-calendar-header .month-next {font-family:arial; font-size:36px; font-weight:bold; color:#d9d9d9;}
+.sc-calendar-header .now {font-family:arial; font-size:36px; font-weight:bold; color:#000;}
+.sc-calendar-header .button-medium {position:absolute; margin:5px 0 0 10px;}
+.sc-calendar-help {margin-bottom:10px; text-align:right; font-size:11px; zoom:1;}
+.sc-calendar-help:after {content:""; display:block; clear:both;}
+.sc-calendar-help * {vertical-align:middle;}
+
+.sc-calendar {width:100%;}
+.sc-calendar th {padding:5px 0 5px 0; text-align:center; color:#fff; font-weight:bold; border:1px solid #fff; background:#707070;}
+.sc-calendar td {width:13%; height:110px; padding:5px; vertical-align:top; text-align:left; border:1px solid #e7e7e7;}
+.sc-calendar em {float:left;}
+.sc-calendar .reg-btn {float:right;}
+.sc-calendar .sat {color:#0083e4;}
+.sc-calendar .sun {color:#ff3b00;}
+.sc-calendar .today {border:2px solid #007c92; background:#f3f4f8;}
+.sc-calendar ul {width:100%; height:74px; overflow:hidden; zoom:1;}
+.sc-calendar ul.active {height:auto;}
+.sc-calendar li {padding:2px 0; line-height:14px; font-size:11px; zoom:1;}
+.sc-calendar img {vertical-align:middle;}
+
+.sc-view-layer {position:absolute; width:300px; background:#fff; border:1px solid #767a83;}
+.sc-view-layer-header {padding:3px 0 3px 10px; color:#000; font-weight:bold; border-bottom:1px solid #ececec; background:#f6f6f6;}
+.sc-view-layer-content {padding:5px 10px; line-height:20px;}
+.sc-view-layer a.close {position:absolute; top:8px; right:10px;}
+
+.schedule-bar {position:absolute; padding:5px; line-height:16px; font-size:11px; border:1px solid #ddd; background:#eee;}
+
+.privacy-rules {padding:48px; line-height:22px; letter-spacing:-1px; color:#787878;}
+.privacy-rules h1 {margin-bottom:25px; font-size:26px; color:#003587; letter-spacing:-3px; font-weight:bold; font-family:'맑은 고딕', 'Malgun Gothic', '돋움', Dotum;}
+.privacy-rules h3 {color:#414141;}
+.privacy-rules ul.bu-bar-list li {padding:0 0 0 10px; background:url(https://img.hunet.co.kr/edu/common/ico_bar-5px-gray.gif) no-repeat 0 10px;}
+.privacy-rules .hr-on {margin-bottom:15px; padding-bottom:15px; border-bottom:1px solid #eee;}
+.privacy-rules-history {border-bottom:1px solid #ddd;}
+.privacy-rules-history .link a {display:block; padding:10px; color:#666; border-top:1px solid #ddd; background:#f9f9f9;}
+.privacy-rules-history .link a:hover {background:#ddd;}
+.privacy-rules-history .link a.active {color:#000; font-weight:bold;}
+.privacy-rules-history .privacy-rules {display:none;}
+
+.p-agree-doc-user {margin-bottom:15px; padding:18px 35px 15px 35px; line-height:20px; font-size:16px; color:#414141; border:3px solid #e5e5e5; zoom:1;}
+.p-agree-doc-user:after {content:""; display:block; clear:both;}
+.p-agree-doc-user li {float:left; width:43%; padding-left:8px; background:url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif) no-repeat 0 7px;}
+.p-agree-doc-ex {margin-bottom:20px; padding:0 25px; line-height:22px; color:#787878;}
+.p-agree-doc-info {padding:0 0 7px 25px; line-height:18px; color:#414141; zoom:1;}
+.p-agree-doc-info:after {content:""; display:block; clear:both;}
+.p-agree-doc-info dt {float:left; width:70px; padding-left:7px; margin-right:-80px; font-weight:bold; background:url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif) no-repeat 0 7px;}
+.p-agree-doc-info dd {margin-left:80px;}
+.p-agree-doc-footer {margin-top:30px; padding-top:15px; line-height:20px; text-align:center; color:#414141; border-top:1px solid #c8cdd2;}
+.p-agree-doc-footer .date {margin-bottom:3px;}
+.p-agree-doc-footer .sign {margin-bottom:10px; font-weight:bold; font-size:14px;}
+
+.inp_default{height:23px; padding:0 0 0 4px; line-height:20px; border:1px solid #bfbfbf;}
+
+.pop-mobile-app-down {line-height:20px;}
+.pop-mobile-app-down h3 {margin-bottom:5px; font-size:16px; color:#414141; padding:0; background:none;}
+.pop-mobile-app-down .indent {padding-left:1px;}
+.pop-mobile-app-down .indent * {vertical-align:middle;}
+.pop-mobile-app-down .iLabel {padding:3px 0 0 5px; font-weight:bold; color:#acacac; cursor:text;}
+.pop-mobile-app-down .iText {width:280px;}
+
+/* 20140605 추가 */
+.pop-mobile-app-down h2 {margin-bottom:10px; font-size:18px; font-weight:800; color:#414141; padding:0;}
+.pop-mobile-app-down .box {background:#f2f2f2;border-radius:5px;padding:10px; margin-bottom:20px;}
+
+.border-box {border: 1px solid #ccc; padding: 15px;}
+
+.input-radio:after {display: block; content: ""; overflow: hidden; clear: both;}
+.input-radio label {margin-right: 5px;}
+.input-radio-inline label,
+.input-radio-inline input {display: inline-block; vertical-align: middle;}
+
+#sidebar {position:fixed; top:0; right:0; width:150px; height:100%; font-family:'나눔고딕','nanumgothic','맑은 고딕','malgun gothic','dotum',sans-serif; background:#784b95; z-index:12;}
+.sidebar-body {height:100%; overflow:auto;}
+#sidebar .header {padding-bottom:1px;}
+#sidebar .home {padding:49px 0 15px 0; text-align:center; color:#fffefe; font-size:11px; background:url(https://img.hunet.co.kr/edu/main/v5/icon-sidebar-home.png) no-repeat center 30px;}
+#sidebar .user {margin-bottom:20px;}
+#sidebar .thumb {margin-bottom:5px; text-align:center;}
+#sidebar .thumb img {vertical-align:top;}
+#sidebar .welcome {margin-bottom:10px; color:#e4dbea; font-size:13px; text-align:center; font-weight:600;}
+#sidebar .link {padding:0 0 0 40px; font-size:13px;}
+#sidebar .link a {display:block; padding:2px 0 2px 16px; color:#fff; background:url(https://img.hunet.co.kr/edu/main/v5/sidebar.png) no-repeat;}
+#sidebar .link .modify {background-position:0 3px;}
+#sidebar .link .logout {background-position:0 -47px;}
+#sidebar .link .admin {background-position:0 3px;}
+#sidebar .nav {margin-bottom:30px; padding:0 5px; font-size:12px;}
+#sidebar .nav li {line-height:1em; border-bottom:1px solid #66407f;}
+#sidebar .nav a {display:block; padding:14px 0 14px 42px; letter-spacing:-1px; font-weight:600; color:#fff; background:url(https://img.hunet.co.kr/edu/main/v5/sidebar.png) no-repeat;}
+#sidebar .nav-icon-disabled a {padding-right:14px; padding-left:14px; text-align:center; background:none;}
+#sidebar .nav .course {background-position:14px -88px;}
+#sidebar .nav .sangsang {background-position:14px -139px;}
+#sidebar .nav .state {background-position:14px -189px;}
+#sidebar .nav .search {background-position:14px -239px;}
+#sidebar .nav .faq {background-position:14px -289px;}
+#sidebar .nav .remote {background-position:14px -337px;}
+#sidebar .nav .personal-cs {background-position:14px -387px;}
+#sidebar .nav .guide {background-position:14px -439px;}
+#sidebar .nav .app {background-position:14px -490px;}
+#sidebar .nav .config {background-position:14px -539px;}
+#sidebar .nav .mouse {background-position:14px -589px;}
+#sidebar .nav .note {background-position:14px -639px;}
+#sidebar .nav .board {background-position:14px -691px;}
+#sidebar .nav .movie {background-position:14px -738px;}
+#sidebar .nav .event {background-position:14px -789px;}
+#sidebar .nav .cloud-down {background-position:11px -839px;}
+#sidebar .nav .clip {background-position:14px -889px;}
+
+
+#sidebar .latest-view-item h5 {margin:0 0 7px 0; color:#fff; font-weight:normal; text-align:center;}
+#sidebar .latest-view-item .body {width:94px; height:280px; overflow:hidden; margin:0 auto; zoom:1;}
+#sidebar .latest-view-item ul {zoom:1;}
+#sidebar .latest-view-item li {height:57px;}
+#sidebar .latest-view-item li img {width:94px; height:52px; vertical-align:top;}
+#sidebar .latest-view-item .bx-pager {margin-top:3px; text-align:center; font-size:11px; font-family:'Arial'; font-weight:bold; color:#fff;}
+#sidebar .latest-view-item .bx-controls-direction {margin-top:5px; text-align:center; font-size:11px; color:#fff;}
+#sidebar .latest-view-item .bx-controls-direction a {margin:0 7px; color:#fff;}
+#sidebar .ban {margin: 0 auto; width: 137px; height: 91px; overflow: hidden;}
+#sidebar .ban img {display: block; width: 100%;}
+.btn-sidebar-toggle {position:absolute; top:50%; left:-29px; width:29px; height:40px; margin-top:-20px; overflow:hidden; border:0; background:#784b95 url(https://img.hunet.co.kr/edu/main/v5/controls.png) no-repeat -100px -50px; cursor:pointer;}
+.btn-sidebar-toggle.active {background-position:-130px -50px;}
+
+/* search */
+.search-container {background:url(https://img.hunet.co.kr/edu/customize/sejung/content/bg_search-container.gif) repeat-y right top;}
+.search-header {margin-bottom:25px; padding:25px 0 25px 0; border-bottom:1px solid #b8c5c8;}
+.search-header * {vertical-align:middle;}
+.search-header label {margin-right:10px; font-size:25px; color:#f36f21; letter-spacing:-1px; font-weight:bold;}
+.search-header .iText {width:350px; height:26px; line-height:26px; padding-left:10px; font-size:14px; font-weight:bold; color:#333; border:4px solid #f36f21;}
+.search-header .button {height:34px; line-height:34px; padding:0 10px; font-size:14px;}
+
+
+.search-content {float:left; width:700px;}
+
+.search-content-header {margin-bottom:30px; padding-bottom:20px; border-bottom:1px solid #e0e0e0;}
+.search-content-header .header {margin-bottom:15px; font-weight:bold; color:#63696d; font-size:14px;}
+.search-content-header .header .word {color:#000;}
+.search-content-header .header .count {color:#f36f21;}
+.related-word dt {float:left; width:80px; margin-right:-80px; margin-top:4px; font-weight:bold; color:#666;}
+.related-word dd {margin-left:80px; line-height:22px;}
+.related-word dd a {margin-right:10px; color:#888; white-space:nowrap;}
+.related-word dd a:hover {text-decoration:underline;}
+
+/*
+.search-content-tab {margin-bottom:30px; height:43px;}
+.search-content-tab li {position:relative; float:left;}
+.search-content-tab li a {float:left; width:120px; height:37px; line-height:40px; color:#8a9396; font-weight:bold; text-align:center; border:1px solid #dbe2e3; border-left:0;}
+.search-content-tab li.first a {width:121px; border-left:1px solid #dbe2e3;}
+.search-content-tab li span {display:none; position:absolute; bottom:-4px; left:50%; width:7px; height:5px; overflow:hidden; background:url(https://img.hunet.co.kr/edu/customize/samsunglife/common/bg_tab-current-ar-down.gif) no-repeat;}
+.search-content-tab li.current a {color:#fff; background:#74a4cd;}
+.search-content-tab li.current span {display:block;}
+*/
+
+.search-content-tab {height:39px; margin-bottom:30px; font-size:12px; border-top:2px solid #464646; border-bottom:1px solid #ccccd0; background:#f9f9f9; zoom:1;}
+.search-content-tab:after {content:""; display:block; clear:both;}
+.search-content-tab li {float:left; width:20%;}
+.search-content-tab li.w10 {width:10px;}
+.search-content-tab a {display:block; height:39px; line-height:39px; text-align:center; color:#656565; border-right:1px solid #ccccd0; background:#f9f9f9;}
+.search-content-tab li:first-child a {border-left:1px solid #ccccd0;}
+.search-content-tab .current a {letter-spacing:-1px; font-weight:bold; color:#333; border-bottom:1px solid #fff; background:#fff;}
+
+
+.search-detail-form {margin-bottom:30px; padding:15px 20px; border:2px solid #77787b;}
+.search-detail-form * {vertical-align:middle;}
+.search-detail-form dl {width:100%; overflow:hidden; padding:5px 0;}
+.search-detail-form dt {float:left; width:90px; margin:4px -90px 0 0; color:#313131;}
+.search-detail-form dd {margin-left:90px;}
+.search-detail-form .iText {color:#333; border:1px solid #bfbfbf;}
+.search-detail-form table {width:100%;}
+.search-detail-form th,
+.search-detail-form td {padding:5px 0; text-align:left;}
+.search-detail-form th {color:#313131;}
+
+
+.search-result-list {margin-bottom:30px; border-bottom:1px solid #dbe2e3;}
+.search-result-list.last {border-bottom:0;}
+.search-result-list .header {width:100%; overflow:hidden; padding-bottom:20px;}
+.search-result-list .header h2 {float:left; font-size:18px; color:#f36f21; letter-spacing:-1px;}
+.search-result-list .header .count {float:left; margin:3px 0 0 10px; color:#77787b;}
+.search-result-list .header .sort {float:right;}
+.search-result-list .header .sort a {float:left; width:56px; height:23px; line-height:25px; color:#63696d; text-align:center; font-size:11px; border:1px solid #dbe2e3; border-left:0; background:#f1f3f4;}
+.search-result-list .header .sort a.first {border:1px solid #dbe2e3;}
+.search-result-list .header .sort a.current {color:#192128; background:#fff;}
+.search-result-list li {width:100%; overflow:hidden; margin-bottom:30px;}
+.search-result-list li a:hover {text-decoration:underline;}
+.search-result-list .thumb {float:left; width:110px; margin-right:-110px;}
+.search-result-list .thumb img {width:88px; height:74px; border:1px solid #8e8e8e;}
+.search-result-list .con {margin-left:110px;}
+.search-result-list .subject {margin-bottom:5px; line-height:20px; font-weight:bold; font-size:14px; color:#192128;}
+.search-result-list .subject a {color:#192128;}
+.search-result-list .subject img {margin-top:1px; *margin-top:-1px;}
+.search-result-list .subject .date {font-weight:normal; font-size:12px; color:#919699;}
+.search-result-list .info {margin-bottom:5px; color:#919699;}
+.search-result-list .info .line {color:#e0e1e2;}
+.search-result-list .info .user-id {color:#192128;}
+.search-result-list .text {line-height:20px; color:#63696d;}
+.search-result-list .text li {margin:0; padding:0 0 0 8px; background:url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif) no-repeat 0 9px;}
+.search-result-list .text a {color:#63696d;}
+.search-result-list .btn {margin-top:10px;}
+.search-result-list .footer {padding:0 0 20px 0; text-align:right;}
+.search-result-list .more {padding-right:13px; color:#333; font-size:14px; text-decoration:underline; background:url("https://img.hunet.co.kr/hunet/search/ico_ar-right-black.gif") no-repeat right 3px;}
+
+.search-result-nodata {margin-bottom:100px; padding:50px 0 0 80px;}
+.search-result-nodata div.header {margin-bottom:30px; line-height:36px; font-size:26px; font-weight:bold; letter-spacing:-2px; color:#4c4c4c;}
+.search-result-nodata div.header strong {color:#f36f21;}
+.search-result-nodata ul {margin-bottom:25px; line-height:180%; color:#4c4c4c;}
+
+.search-result-opinion {border:13px solid #eaedee;}
+.search-result-opinion h2 {padding:20px 0 20px 25px; background:#eaedee;}
+.search-result-opinion .con {padding:20px 30px 20px 30px;}
+.search-result-opinion table {width:100%;}
+.search-result-opinion th {width:60px; padding-top:5px; vertical-align:top;}
+.search-result-opinion td {padding:0 0 20px 0;}
+.search-result-opinion td .help {margin-top:10px;}
+.search-result-opinion td .iText {width:98%; border:1px solid #dbe2e3;}
+.search-result-opinion td .iTextarea {width:98%; border:1px solid #dbe2e3;}
+
+.search-aside {float:right; width:193px;}
+.aside-ranking-list {padding:20px 0; border-bottom:1px solid #e3e8e9;}
+.aside-ranking-list .header {margin-bottom:15px; letter-spacing:-1px;}
+.aside-ranking-list .header h2 {margin-bottom:5px; color:#f36f21; font-size:15px; }
+.aside-ranking-list .header p {color:#333; font-size:11px;}
+.aside-ranking-list ol {padding:0 0 0 0;}
+.aside-ranking-list li {padding:4px 0 4px 20px; background:url(https://img.hunet.co.kr/edu/customize/sejung/content/icon_num.gif) no-repeat; zoom:1;}
+.aside-ranking-list li a {display:block; width:100%; padding-top:2px; margin-top:-1px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; zoom:1;}
+.aside-ranking-list li a:hover {text-decoration:underline;}
+.aside-ranking-list li.n1 {background-position:0 5px;}
+.aside-ranking-list li.n2 {background-position:0 -18px;}
+.aside-ranking-list li.n3 {background-position:0 -41px;}
+.aside-ranking-list li.n4 {background-position:0 -64px;}
+.aside-ranking-list li.n5 {background-position:0 -87px;}
+.aside-ranking-list li.n6 {background-position:0 -110px;}
+.aside-ranking-list li.n7 {background-position:0 -133px;}
+.aside-ranking-list li.n8 {background-position:0 -157px;}
+.aside-ranking-list li.n9 {background-position:0 -180px;}
+.aside-ranking-list li.n10 {background-position:0 -203px;}
+
+.no-data-box {margin-bottom:30px; padding:30px 0; background:#f5f5f5; font-family:'나눔고딕','nanumgothic','맑은 고딕','malgun gothic',sans-serif;}
+.no-data-box-header {margin-bottom:15px; text-align:center; font-size:26px; color:#323232; letter-spacing:-1px;}
+.no-data-box-header img {vertical-align:middle; margin-top:-2px;}
+.no-data-box-header p {margin-top:10px; font-size:19px;}
+.no-data-box-body {line-height:23px; font-size:13px; color:#494848;}
+.no-data-box-body li {padding:0 0 0 7px; background:url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif) no-repeat left center;}
+
+
+/* modal */
+.modal-backdrop {display:none; position: fixed; top:0; left:0; width:100%; height:100%; background:#000; z-index:9998; -webkit-transition:all .2s ease-in-out; transition:all .2s ease-in-out; opacity:.60; filter:alpha(opacity=60);}
+.modal {display:none; position:fixed; top:0; right:0; bottom:0; left:0; z-index:9999; overflow:auto; -webkit-overflow-scrolling:touch; outline:0; -webkit-transition:all .2s ease-in-out; transition:all .2s ease-in-out;}
+.modal .modal-close {position:absolute; top:15px; right:15px; width:16px; height:15px; overflow:hidden; text-indent:-9999em; border:0; background:url(https://img.hunet.co.kr/h/common/icon-modal-x.png) no-repeat center center; cursor:pointer;}
+.modal-dialog {position:relative; width:auto; margin:30px 20px;}
+.modal-content {position:relative; margin:0 auto; padding:0; line-height:20px; color:#555; font-size:13px; font-family:'나눔고딕','nanumgothic','맑은 고딕','malgun gothic',sans-serif; background-color:#fff; outline:none; -webkit-box-shadow:0 3px 9px rgba(0, 0, 0, .5); box-shadow:0 3px 9px rgba(0, 0, 0, .5); border:2px solid #2c2c2c; border-radius:10px;}
+.modal-header {margin:0 20px; padding-top:25px;}
+.modal-header-underline {padding-bottom:20px; border-bottom:1px solid #d5d5d5;}
+.modal-header h4 {margin:0; font-size:22px; color:#363636; font-weight:600;}
+.modal-header h4 img {vertical-align:middle;}
+.modal-body {margin:20px 20px 25px 20px;}
+.modal-body-scroll {overflow:auto; overflow-x:hidden;}
+.modal-content .text-lg {letter-spacing:-1px; font-size:24px; line-height:30px; font-weight:600; color:#363636;}
+.modal-content .text-warning {color:#ff6600;}
+
+.modal-btn {display:inline-block; padding:8px 20px; margin-bottom:0; font-size:12px; font-weight:normal; line-height:1.42857143; text-align:center; white-space:nowrap; vertical-align:middle; cursor:pointer; -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none; background-image:none; border:1px solid transparent;}
+.modal-btn:focus,
+.modal-btn:active:focus,
+.modal-btn.active:focus {outline:thin dotted; outline:5px auto -webkit-focus-ring-color; outline-offset:-2px;}
+.modal-btn:hover,
+.modal-btn:focus {color:#333; text-decoration:none;}
+.modal-btn:active,
+.modal-btn.active {background-image:none; outline:0; -webkit-box-shadow:inset 0 3px 5px rgba(0, 0, 0, .125); box-shadow:inset 0 3px 5px rgba(0, 0, 0, .125);}
+.modal-btn.disabled,
+.modal-btn[disabled],
+fieldset[disabled] .modal-btn {pointer-events:none; cursor:not-allowed; filter:alpha(opacity=65); -webkit-box-shadow:none; box-shadow:none; opacity:.65;}
+
+.modal-btn-default {color:#333; background-color:#fff; border-color:#ccc;}
+.modal-btn-default:hover,
+.modal-btn-default:focus,
+.modal-btn-default:active,
+.modal-btn-default.active {color:#333; background-color:#ebebeb; border-color:#adadad;}
+.modal-btn-default:active,
+.modal-btn-default.active {background-image:none;}
+
+.modal-btn-primary {color:#fff; background-color:#5f5f5f; border-color:#5f5f5f;}
+.modal-btn-primary:hover,
+.modal-btn-primary:focus,
+.modal-btn-primary:active,
+.modal-btn-primary.active {color:#fff; background-color:#4e4e4e; border-color:#4e4e4e;}
+.modal-btn-primary:active,
+.modal-btn-primary.active {background-image:none;}
+
+
+/* 20150825 모달 팝업 비밀번호변경*/
+.pop-pass-box {font-family:'나눔고딕','nanumgothic','맑은 고딕','malgun gothic',sans-serif;}
+.pop-pass-box .text-lg {margin-bottom:15px; text-align:center; font-size:16px; color:#414141; letter-spacing:-1px;}
+.pop-pass-box .text-reg { line-height:18px; }
+.pop-pass-box .input-box {margin-bottom:20px; padding:20px; background:#ededed;}
+.pop-pass-box .input-box label {display:inline-block; padding-right:10px; text-align:right; font-size:13px; color:#414141;}
+.pop-pass-box .input-box .iText {height:28px; line-height:28px; padding:0 5px; border:1px solid #bfbfbf; vertical-align:middle;}
+.pop-pass-box .input-box li {padding:3px 0 3px 70px;}
+.pop-pass-box .rules-textarea {margin-bottom:10px; width:529px; height:100px; padding:5px; border:1px solid #a2adb8;}
+
+
+.help-layer {display:none; position:absolute; padding:6px 0 0 0; text-align:left; line-height:15px; font-size:12px; z-index:1000;}
+.help-layer-bg {position:absolute; top:0; left:50%; width:13px; height:8px; margin-left:-6px; overflow:hidden; background:url(https://img.hunet.co.kr/hbs/icon/icon_help-layer-ar.gif) no-repeat;}
+.help-layer-c {padding:10px 10px 16px 10px; border:1px solid #909194; background:#fff; zoom:1;}
+.help-layer-c:after {content:""; display:block; clear:both;}
+.help-layer .hl-tt {padding:4px 0 8px 5px; font-weight:600; color:#575757 !important; font-family:'나눔고딕','nanum gothic','맑은 고딕','malgun gothic','Nanum Gothic';}
+.help-layer .hl-tt .normal {font-weight:normal;}
+.help-layer .hl-close {position:absolute; top:17px; right:10px; width:11px; height:11px; overflow:hidden; text-indent:-9999em; background:url(https://img.hunet.co.kr/hbs/icon/icon.png) no-repeat -410px -61px;}
+.help-layer .hl-close-bottom {top:auto; bottom:13px;}
+.help-layer .btn-sm {padding:3px 12px 3px 6px; font-size:11px; font-family:'dotum';}
+.help-layer .btn-inverse {color:#fff; background:#767676 url(https://img.hunet.co.kr/hbs/icon/icon_bull_right_w2.png) no-repeat 95% center; border-radius:0;}
+.help-layer .btn-inverse:hover {background-color:#aaa;}
+.help-layer-bookinfo {max-height:200px; overflow:auto; margin:25px 0 5px 15px; font-family:'nanumgothic','malgun gothic',sans-serif;}
+.help-layer-bookinfo li {padding:5px 0 !important; zoom:1;}
+.help-layer-bookinfo li:after {content:""; display:block; clear:both;}
+.help-layer-bookinfo .thumb {position:static !important; float:left; width:110px !important;}
+.help-layer-bookinfo .thumb img {width:92px !important; height:126px !important;}
+.help-layer-bookinfo .body {float:left; width:210px;}
+.help-layer-bookinfo dl {padding:2px 0; line-height:19px; letter-spacing:-1px; zoom:1;}
+.help-layer-bookinfo dl:after {content:""; display:block; clear:both;}
+.help-layer-bookinfo dt {float:left; width:56px; margin-right:-56px; font-weight:600; color:#575757;}
+.help-layer-bookinfo dd {margin-left:56px; color:#7a7a7a;}
+.help-layer-bookinfo .mt5 {margin-top:5px;}
+.help-layer-teacher {max-height:200px; overflow:auto; margin:25px 0 5px 15px; font-family:'nanumgothic','malgun gothic',sans-serif;}
+.help-layer-teacher li {padding:5px 0 !important; zoom:1;}
+.help-layer-teacher li:after {content:""; display:block; clear:both;}
+.help-layer-teacher .thumb {position:static !important; float:left; width:110px !important;}
+.help-layer-teacher .thumb img {width:92px !important; height:126px !important;}
+.help-layer-teacher .body {float:left; width:210px;}
+.help-layer-teacher dl {padding:2px 0; line-height:19px; letter-spacing:-1px; zoom:1;}
+.help-layer-teacher dl:after {content:""; display:block; clear:both;}
+.help-layer-teacher dt {float:left; width:40px; margin-right:-40px; font-weight:600; color:#575757;}
+.help-layer-teacher dd {margin-left:40px; color:#7a7a7a;}
+.help-layer-teacher .mt5 {margin-top:5px;}
+
+.popup-backdrop {position: fixed; top:0; right:0; bottom:0; left:0; background:#000; z-index:998; opacity:.5; filter:alpha(opacity=50);}
+.popup {display:none; position:absolute; outline:none; z-index:999;}
+.popup .close {position:absolute; top:15px; right:15px; width:16px; height:15px; overflow:hidden; text-indent:-9999em; border:0; background:url(https://img.hunet.co.kr/edu/common/icon-modal-x.png) no-repeat center center; cursor:pointer;}
+.popup .text-lg {font-size:18px; line-height:28px;}
+.popup-content {position:relative; font-family:'나눔고딕','nanumgothic','맑은 고딕','malgun gothic',sans-serif; background-color:#fff; outline:none; -webkit-box-shadow:0 3px 9px rgba(0, 0, 0, .5); box-shadow:0 3px 9px rgba(0, 0, 0, .5); border:2px solid #2c2c2c; border-radius:10px;}
+.popup-header {margin:0 20px; padding-top:20px;}
+.popup-header h2 {margin:0; font-size:22px; color:#363636; font-weight:600;}
+.popup-body {margin:20px 20px 25px 20px;}
+.popup-alert-body {margin:40px 25px 35px 25px;}
+.popup-alert-footer {margin:40px 25px 35px 25px; text-align:center;}
+.popup .cookie_check {min-height:16px; padding:10px 0 7px 15px; line-height:130%; color:#fff; background:#4a4a4a; border-bottom-left-radius:6px; border-bottom-right-radius:6px;}
+.popup .cookie_check input {vertical-align:middle; margin-top:-2px;}
+.popup .cookie_check .close {position:absolute; top:auto; right:15px; bottom:8px;}
+.popup-content > img {border-radius:6px;}
+
+
+.pop-survey-view-body h5 {margin-bottom:10px; padding-top:20px; font-size:14px; font-weight:600; border-top:1px solid #ccc;}
+.pop-survey-view-body .survey-answer {margin-bottom:20px;}
+.pop-survey-view-body .survey-answer input {vertical-align:middle;}
+.pop-survey-view-body .select-block li {margin-top:7px;}
+.pop-survey-view-body .select-block li:first-child {margin-top:0;}
+.pop-survey-view-body .select-inline li {display:inline; margin-left:20px;}
+.pop-survey-view-body .select-inline li:first-child {margin-left:0;}
+.pop-survey-view-body .select-textarea textarea {width:95%; height:60px; padding:5px; border:1px solid #ccc; resize:none;}
+.survey-footer {text-align:center; padding-top:20px; border-top:1px solid #ccc;}
+.pop-survey-view-body .select-inline.col4 { overflow:hidden; }
+.pop-survey-view-body .select-inline.col4 li { width:33.33%; float:left; margin-left:0; font-size:12px; margin-bottom:6px; letter-spacing:-1px; }
+
+
+.print-border-content {padding:30px; border:2px solid #000;}
+.print-border-content .class-detail-info {border-top:0;}
+.print-border-content img {max-width:100%;}
+
+
+/*************** SCROLLBAR BASE CSS ***************/
+.scroll-wrapper{overflow:hidden!important;padding:0!important;position:relative}.scroll-wrapper>.scroll-content{border:none!important;box-sizing:content-box!important;height:auto;left:0;margin:0;max-height:none!important;max-width:none!important;overflow:scroll!important;padding:0;position:relative!important;top:0;width:auto!important}.scroll-wrapper>.scroll-content::-webkit-scrollbar{height:0;width:0}.scroll-element{display:none}.scroll-element,.scroll-element div{box-sizing:content-box}.scroll-element.scroll-x.scroll-scrollx_visible,.scroll-element.scroll-y.scroll-scrolly_visible{display:block}.scroll-element .scroll-arrow,.scroll-element .scroll-bar{cursor:default}.scroll-textarea{border:1px solid #ccc;border-top-color:#999}.scroll-textarea>.scroll-content{overflow:hidden!important}.scroll-textarea>.scroll-content>textarea{border:none!important;box-sizing:border-box;height:100%!important;margin:0;max-height:none!important;max-width:none!important;overflow:scroll!important;outline:0;padding:2px;position:relative!important;top:0;width:100%!important}.scroll-textarea>.scroll-content>textarea::-webkit-scrollbar{height:0;width:0}.scrollbar-inner>.scroll-element,.scrollbar-inner>.scroll-element div{border:none;margin:0;padding:0;position:absolute;z-index:10}.scrollbar-inner>.scroll-element div{display:block;height:100%;left:0;top:0;width:100%}.scrollbar-inner>.scroll-element.scroll-x{bottom:2px;height:8px;left:0;width:100%}.scrollbar-inner>.scroll-element.scroll-y{height:100%;right:2px;top:0;width:8px}.scrollbar-inner>.scroll-element .scroll-element_outer{overflow:hidden}.scrollbar-inner>.scroll-element .scroll-bar,.scrollbar-inner>.scroll-element .scroll-element_outer,.scrollbar-inner>.scroll-element .scroll-element_track{-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px}.scrollbar-inner>.scroll-element .scroll-bar,.scrollbar-inner>.scroll-element .scroll-element_track{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";filter:alpha(opacity=40);opacity:.4}.scrollbar-inner>.scroll-element .scroll-element_track{background-color:#e0e0e0}.scrollbar-inner>.scroll-element .scroll-bar{background-color:#c2c2c2}.scrollbar-inner>.scroll-element.scroll-draggable .scroll-bar,.scrollbar-inner>.scroll-element:hover .scroll-bar{background-color:#919191}.scrollbar-inner>.scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_track{left:-12px}.scrollbar-inner>.scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_track{top:-12px}.scrollbar-inner>.scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size{left:-12px}.scrollbar-inner>.scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size{top:-12px}.scrollbar-outer>.scroll-element,.scrollbar-outer>.scroll-element div{border:none;margin:0;padding:0;position:absolute;z-index:10}.scrollbar-outer>.scroll-element{background-color:#fff}.scrollbar-outer>.scroll-element div{display:block;height:100%;left:0;top:0;width:100%}.scrollbar-outer>.scroll-element.scroll-x{bottom:0;height:12px;left:0;width:100%}.scrollbar-outer>.scroll-element.scroll-y{height:100%;right:0;top:0;width:12px}.scrollbar-outer>.scroll-element.scroll-x .scroll-element_outer{height:8px;top:2px}.scrollbar-outer>.scroll-element.scroll-y .scroll-element_outer{left:2px;width:8px}.scrollbar-outer>.scroll-element .scroll-element_outer{overflow:hidden}.scrollbar-outer>.scroll-element .scroll-element_track{background-color:#eee}.scrollbar-outer>.scroll-element .scroll-bar,.scrollbar-outer>.scroll-element .scroll-element_outer,.scrollbar-outer>.scroll-element .scroll-element_track{-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px}.scrollbar-outer>.scroll-element .scroll-bar{background-color:#d9d9d9}.scrollbar-outer>.scroll-element .scroll-bar:hover{background-color:#c2c2c2}.scrollbar-outer>.scroll-element.scroll-draggable .scroll-bar{background-color:#919191}.scrollbar-outer>.scroll-content.scroll-scrolly_visible{left:-12px;margin-left:12px}.scrollbar-outer>.scroll-content.scroll-scrollx_visible{top:-12px;margin-top:12px}.scrollbar-outer>.scroll-element.scroll-x .scroll-bar{min-width:10px}.scrollbar-outer>.scroll-element.scroll-y .scroll-bar{min-height:10px}.scrollbar-outer>.scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_track{left:-14px}.scrollbar-outer>.scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_track{top:-14px}.scrollbar-outer>.scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size{left:-14px}.scrollbar-outer>.scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size{top:-14px}.scrollbar-macosx>.scroll-element,.scrollbar-macosx>.scroll-element div{background:0 0;border:none;margin:0;padding:0;position:absolute;z-index:10}.scrollbar-macosx>.scroll-element div{display:block;height:100%;left:0;top:0;width:100%}.scrollbar-macosx>.scroll-element .scroll-element_track{display:none}.scrollbar-macosx>.scroll-element .scroll-bar{background-color:#6C6E71;display:block;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);opacity:0;-webkit-border-radius:7px;-moz-border-radius:7px;border-radius:7px;-webkit-transition:opacity .2s linear;-moz-transition:opacity .2s linear;-o-transition:opacity .2s linear;-ms-transition:opacity .2s linear;transition:opacity .2s linear}.scrollbar-macosx:hover>.scroll-element .scroll-bar,.scrollbar-macosx>.scroll-element.scroll-draggable .scroll-bar{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";filter:alpha(opacity=70);opacity:.7}.scrollbar-macosx>.scroll-element.scroll-x{bottom:0;height:0;left:0;min-width:100%;overflow:visible;width:100%}.scrollbar-macosx>.scroll-element.scroll-y{height:100%;min-height:100%;right:0;top:0;width:0}.scrollbar-macosx>.scroll-element.scroll-x .scroll-bar{height:7px;min-width:10px;top:-9px}.scrollbar-macosx>.scroll-element.scroll-y .scroll-bar{left:-9px;min-height:10px;width:7px}.scrollbar-macosx>.scroll-element.scroll-x .scroll-element_outer{left:2px}.scrollbar-macosx>.scroll-element.scroll-x .scroll-element_size{left:-4px}.scrollbar-macosx>.scroll-element.scroll-y .scroll-element_outer{top:2px}.scrollbar-macosx>.scroll-element.scroll-y .scroll-element_size{top:-4px}.scrollbar-macosx>.scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size{left:-11px}.scrollbar-macosx>.scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size{top:-11px}.scrollbar-light>.scroll-element,.scrollbar-light>.scroll-element div{border:none;margin:0;overflow:hidden;padding:0;position:absolute;z-index:10}.scrollbar-light>.scroll-element{background-color:#fff}.scrollbar-light>.scroll-element div{display:block;height:100%;left:0;top:0;width:100%}.scrollbar-light>.scroll-element .scroll-element_outer{-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px}.scrollbar-light>.scroll-element .scroll-element_size{background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RiZGJkYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlOGU4ZTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);background:-moz-linear-gradient(left,#dbdbdb 0,#e8e8e8 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0,#dbdbdb),color-stop(100%,#e8e8e8));background:-webkit-linear-gradient(left,#dbdbdb 0,#e8e8e8 100%);background:-o-linear-gradient(left,#dbdbdb 0,#e8e8e8 100%);background:-ms-linear-gradient(left,#dbdbdb 0,#e8e8e8 100%);background:linear-gradient(to right,#dbdbdb 0,#e8e8e8 100%);-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px}.scrollbar-light>.scroll-element.scroll-x{bottom:0;height:17px;left:0;min-width:100%;width:100%}.scrollbar-light>.scroll-element.scroll-y{height:100%;min-height:100%;right:0;top:0;width:17px}.scrollbar-light>.scroll-element .scroll-bar{background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZmVmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNWY1ZjUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);background:-moz-linear-gradient(left,#fefefe 0,#f5f5f5 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0,#fefefe),color-stop(100%,#f5f5f5));background:-webkit-linear-gradient(left,#fefefe 0,#f5f5f5 100%);background:-o-linear-gradient(left,#fefefe 0,#f5f5f5 100%);background:-ms-linear-gradient(left,#fefefe 0,#f5f5f5 100%);background:linear-gradient(to right,#fefefe 0,#f5f5f5 100%);border:1px solid #dbdbdb;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px}.scrollbar-light>.scroll-content.scroll-scrolly_visible{left:-17px;margin-left:17px}.scrollbar-light>.scroll-content.scroll-scrollx_visible{top:-17px;margin-top:17px}.scrollbar-light>.scroll-element.scroll-x .scroll-bar{height:10px;min-width:10px;top:0}.scrollbar-light>.scroll-element.scroll-y .scroll-bar{left:0;min-height:10px;width:10px}.scrollbar-light>.scroll-element.scroll-x .scroll-element_outer{height:12px;left:2px;top:2px}.scrollbar-light>.scroll-element.scroll-x .scroll-element_size{left:-4px}.scrollbar-light>.scroll-element.scroll-y .scroll-element_outer{left:2px;top:2px;width:12px}.scrollbar-light>.scroll-element.scroll-y .scroll-element_size{top:-4px}.scrollbar-light>.scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size{left:-19px}.scrollbar-light>.scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size{top:-19px}.scrollbar-light>.scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_track{left:-19px}.scrollbar-light>.scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_track{top:-19px}.scrollbar-rail>.scroll-element,.scrollbar-rail>.scroll-element div{border:none;margin:0;overflow:hidden;padding:0;position:absolute;z-index:10}.scrollbar-rail>.scroll-element{background-color:#fff}.scrollbar-rail>.scroll-element div{display:block;height:100%;left:0;top:0;width:100%}.scrollbar-rail>.scroll-element .scroll-element_size{background-color:#999;background-color:rgba(0,0,0,.3)}.scrollbar-rail>.scroll-element .scroll-element_outer:hover .scroll-element_size{background-color:#666;background-color:rgba(0,0,0,.5)}.scrollbar-rail>.scroll-element.scroll-x{bottom:0;height:12px;left:0;min-width:100%;padding:3px 0 2px;width:100%}.scrollbar-rail>.scroll-element.scroll-y{height:100%;min-height:100%;padding:0 2px 0 3px;right:0;top:0;width:12px}.scrollbar-rail>.scroll-element .scroll-bar{background-color:#d0b9a0;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;box-shadow:1px 1px 3px rgba(0,0,0,.5)}.scrollbar-rail>.scroll-element .scroll-element_outer:hover .scroll-bar{box-shadow:1px 1px 3px rgba(0,0,0,.6)}.scrollbar-rail>.scroll-content.scroll-scrolly_visible{left:-17px;margin-left:17px}.scrollbar-rail>.scroll-content.scroll-scrollx_visible{margin-top:17px;top:-17px}.scrollbar-rail>.scroll-element.scroll-x .scroll-bar{height:10px;min-width:10px;top:1px}.scrollbar-rail>.scroll-element.scroll-y .scroll-bar{left:1px;min-height:10px;width:10px}.scrollbar-rail>.scroll-element.scroll-x .scroll-element_outer{height:15px;left:5px}.scrollbar-rail>.scroll-element.scroll-x .scroll-element_size{height:2px;left:-10px;top:5px}.scrollbar-rail>.scroll-element.scroll-y .scroll-element_outer{top:5px;width:15px}.scrollbar-rail>.scroll-element.scroll-y .scroll-element_size{left:5px;top:-10px;width:2px}.scrollbar-rail>.scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size{left:-25px}.scrollbar-rail>.scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size{top:-25px}.scrollbar-rail>.scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_track{left:-25px}.scrollbar-rail>.scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_track{top:-25px}.scrollbar-dynamic>.scroll-element,.scrollbar-dynamic>.scroll-element div{background:0 0;border:none;margin:0;padding:0;position:absolute;z-index:10}.scrollbar-dynamic>.scroll-element div{display:block;height:100%;left:0;top:0;width:100%}.scrollbar-dynamic>.scroll-element.scroll-x{bottom:2px;height:7px;left:0;min-width:100%;width:100%}.scrollbar-dynamic>.scroll-element.scroll-y{height:100%;min-height:100%;right:2px;top:0;width:7px}.scrollbar-dynamic>.scroll-element .scroll-element_outer{opacity:.3;-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px}.scrollbar-dynamic>.scroll-element .scroll-element_size{background-color:#ccc;opacity:0;-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px;-webkit-transition:opacity .2s;-moz-transition:opacity .2s;-o-transition:opacity .2s;-ms-transition:opacity .2s;transition:opacity .2s}.scrollbar-dynamic>.scroll-element .scroll-bar{background-color:#6c6e71;-webkit-border-radius:7px;-moz-border-radius:7px;border-radius:7px}.scrollbar-dynamic>.scroll-element.scroll-x .scroll-bar{bottom:0;height:7px;min-width:24px;top:auto}.scrollbar-dynamic>.scroll-element.scroll-y .scroll-bar{left:auto;min-height:24px;right:0;width:7px}.scrollbar-dynamic>.scroll-element.scroll-x .scroll-element_outer{bottom:0;top:auto;left:2px;-webkit-transition:height .2s;-moz-transition:height .2s;-o-transition:height .2s;-ms-transition:height .2s;transition:height .2s}.scrollbar-dynamic>.scroll-element.scroll-y .scroll-element_outer{left:auto;right:0;top:2px;-webkit-transition:width .2s;-moz-transition:width .2s;-o-transition:width .2s;-ms-transition:width .2s;transition:width .2s}.scrollbar-dynamic>.scroll-element.scroll-x .scroll-element_size{left:-4px}.scrollbar-dynamic>.scroll-element.scroll-y .scroll-element_size{top:-4px}.scrollbar-dynamic>.scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size{left:-11px}.scrollbar-dynamic>.scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size{top:-11px}.scrollbar-dynamic>.scroll-element.scroll-draggable .scroll-element_outer,.scrollbar-dynamic>.scroll-element:hover .scroll-element_outer{overflow:hidden;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";filter:alpha(opacity=70);opacity:.7}.scrollbar-dynamic>.scroll-element.scroll-draggable .scroll-element_outer .scroll-element_size,.scrollbar-dynamic>.scroll-element:hover .scroll-element_outer .scroll-element_size{opacity:1}.scrollbar-dynamic>.scroll-element.scroll-draggable .scroll-element_outer .scroll-bar,.scrollbar-dynamic>.scroll-element:hover .scroll-element_outer .scroll-bar{height:100%;width:100%;-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px}.scrollbar-dynamic>.scroll-element.scroll-x.scroll-draggable .scroll-element_outer,.scrollbar-dynamic>.scroll-element.scroll-x:hover .scroll-element_outer{height:20px;min-height:7px}.scrollbar-dynamic>.scroll-element.scroll-y.scroll-draggable .scroll-element_outer,.scrollbar-dynamic>.scroll-element.scroll-y:hover .scroll-element_outer{min-width:7px;width:20px}.scrollbar-chrome>.scroll-element,.scrollbar-chrome>.scroll-element div{border:none;margin:0;overflow:hidden;padding:0;position:absolute;z-index:10}.scrollbar-chrome>.scroll-element{background-color:#fff}.scrollbar-chrome>.scroll-element div{display:block;height:100%;left:0;top:0;width:100%}.scrollbar-chrome>.scroll-element .scroll-element_track{background:#f1f1f1;border:1px solid #dbdbdb}.scrollbar-chrome>.scroll-element.scroll-x{bottom:0;height:16px;left:0;min-width:100%;width:100%}.scrollbar-chrome>.scroll-element.scroll-y{height:100%;min-height:100%;right:0;top:0;width:16px}.scrollbar-chrome>.scroll-element .scroll-bar{background-color:#d9d9d9;border:1px solid #bdbdbd;cursor:default;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px}.scrollbar-chrome>.scroll-element .scroll-bar:hover{background-color:#c2c2c2;border-color:#a9a9a9}.scrollbar-chrome>.scroll-element.scroll-draggable .scroll-bar{background-color:#919191;border-color:#7e7e7e}.scrollbar-chrome>.scroll-content.scroll-scrolly_visible{left:-16px;margin-left:16px}.scrollbar-chrome>.scroll-content.scroll-scrollx_visible{top:-16px;margin-top:16px}.scrollbar-chrome>.scroll-element.scroll-x .scroll-bar{height:8px;min-width:10px;top:3px}.scrollbar-chrome>.scroll-element.scroll-y .scroll-bar{left:3px;min-height:10px;width:8px}.scrollbar-chrome>.scroll-element.scroll-x .scroll-element_outer{border-left:1px solid #dbdbdb}.scrollbar-chrome>.scroll-element.scroll-x .scroll-element_track{height:14px;left:-3px}.scrollbar-chrome>.scroll-element.scroll-x .scroll-element_size{height:14px;left:-4px}.scrollbar-chrome>.scroll-element.scroll-y .scroll-element_outer{border-top:1px solid #dbdbdb}.scrollbar-chrome>.scroll-element.scroll-y .scroll-element_track{top:-3px;width:14px}.scrollbar-chrome>.scroll-element.scroll-y .scroll-element_size{top:-4px;width:14px}.scrollbar-chrome>.scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size{left:-19px}.scrollbar-chrome>.scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size{top:-19px}.scrollbar-chrome>.scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_track{left:-19px}.scrollbar-chrome>.scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_track{top:-19px}
+
+/* perfect-scrollbar v0.6.10 */
+.ps-container{-ms-touch-action:none;touch-action:none;overflow:hidden !important;-ms-overflow-style:none}@supports (-ms-overflow-style: none){.ps-container{overflow:auto !important}}@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){.ps-container{overflow:auto !important}}.ps-container.ps-active-x>.ps-scrollbar-x-rail,.ps-container.ps-active-y>.ps-scrollbar-y-rail{display:block;background-color:transparent}.ps-container.ps-in-scrolling{pointer-events:none}.ps-container.ps-in-scrolling.ps-x>.ps-scrollbar-x-rail{background-color:#eee;opacity:0.9}.ps-container.ps-in-scrolling.ps-x>.ps-scrollbar-x-rail>.ps-scrollbar-x{background-color:#999}.ps-container.ps-in-scrolling.ps-y>.ps-scrollbar-y-rail{background-color:#eee;opacity:0.9}.ps-container.ps-in-scrolling.ps-y>.ps-scrollbar-y-rail>.ps-scrollbar-y{background-color:#999}.ps-container>.ps-scrollbar-x-rail{display:none;position:absolute;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;opacity:0;-webkit-transition:background-color .2s linear, opacity .2s linear;-moz-transition:background-color .2s linear, opacity .2s linear;-o-transition:background-color .2s linear, opacity .2s linear;transition:background-color .2s linear, opacity .2s linear;bottom:3px;height:8px}.ps-container>.ps-scrollbar-x-rail>.ps-scrollbar-x{position:absolute;background-color:#aaa;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-transition:background-color .2s linear;-moz-transition:background-color .2s linear;-o-transition:background-color .2s linear;transition:background-color .2s linear;bottom:0;height:8px}.ps-container>.ps-scrollbar-y-rail{display:none;position:absolute;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;opacity:0;-webkit-transition:background-color .2s linear, opacity .2s linear;-moz-transition:background-color .2s linear, opacity .2s linear;-o-transition:background-color .2s linear, opacity .2s linear;transition:background-color .2s linear, opacity .2s linear;right:3px;width:8px}.ps-container>.ps-scrollbar-y-rail>.ps-scrollbar-y{position:absolute;background-color:#aaa;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-transition:background-color .2s linear;-moz-transition:background-color .2s linear;-o-transition:background-color .2s linear;transition:background-color .2s linear;right:0;width:8px}.ps-container:hover.ps-in-scrolling{pointer-events:none}.ps-container:hover.ps-in-scrolling.ps-x>.ps-scrollbar-x-rail{background-color:#eee;opacity:0.9}.ps-container:hover.ps-in-scrolling.ps-x>.ps-scrollbar-x-rail>.ps-scrollbar-x{background-color:#999}.ps-container:hover.ps-in-scrolling.ps-y>.ps-scrollbar-y-rail{background-color:#eee;opacity:0.9}.ps-container:hover.ps-in-scrolling.ps-y>.ps-scrollbar-y-rail>.ps-scrollbar-y{background-color:#999}.ps-container:hover>.ps-scrollbar-x-rail,.ps-container:hover>.ps-scrollbar-y-rail{opacity:0.6}.ps-container:hover>.ps-scrollbar-x-rail:hover{background-color:#eee;opacity:0.9}.ps-container:hover>.ps-scrollbar-x-rail:hover>.ps-scrollbar-x{background-color:#999}.ps-container:hover>.ps-scrollbar-y-rail:hover{background-color:#eee;opacity:0.9}.ps-container:hover>.ps-scrollbar-y-rail:hover>.ps-scrollbar-y{background-color:#999}
+.ps-container > .ps-scrollbar-y-rail {width:4px;}
+.ps-container > .ps-scrollbar-y-rail > .ps-scrollbar-y {width:4px;}
+
+
+
+.edu-list div.article .label {
+display: inline-block;
+padding:6px 6px 2px 6px;
+margin:-4px 0 0 0;
+font-size: 12px;
+font-weight: bold;
+line-height: 1;
+color: #fff;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+border-radius:0;
+}
+
+.edu-list div.article .label-default {
+background-color: #818a91;
+}
+
+.comming-page {width:900px; margin:0 auto;}
+.comming-page .logo {padding:50px 0 20px 0;}
+.comming-page .content {margin-bottom:20px; padding:70px 50px 70px 50px; color:#444; font-size:24px; line-height:48px; font-family:'나눔고딕','nanumgothic','맑은 고딕','malgun gothic',sans-serif; border:1px solid #ddd; border-radius:10px; background:#f0f0f0;}
+
+/* 20171124 */
+.question-box {text-align: center; padding: 30px; background: #eee; letter-spacing: -1px;}
+.question-box .question-title {font-size:17px; margin-bottom: 20px; color: #222;}
+.question-box .question-help {font-size: 13px; color: #555; line-height: 20px;}
+
+/* quickbanner */
+.quickbanner {position: absolute; top: 155px;}
+.quickbanner.offset-left {left: 50%; margin-left: -635px;}
+.quickbanner.offset-right {left: 50%; margin-left: 525px;}
+
+/* account */
+.clearfix:after {display: block; content: ""; clear: both; overflow: hidden;}
+.account-container {width: 990px; margin: 0 auto;}
+.account-logo {margin-bottom: 35px; padding: 20px 0; border-bottom: 1px solid #e6e6e6;}
+.account-logo img {max-height: 50px;}
+.btn-account {display: inline-block;padding: 15px 30px;background-color: #4b4b4b;color: #fff;font-weight: 600;font-size: 17px;vertical-align: middle;border: 0;cursor: pointer;}
+.btn-account.sm {padding: 10px 45px; font-size: 16px;}
+.btn-account.outline {background-color: #fff; border: 1px solid #4b4b4b; color: #4b4b4b;}
+.btn-radius {border-radius: 25px;}
+.account-header__btns {text-align: center;}
+.account-header .btn-account {width: 230px; margin-left: 20px; font-size: 18px; background-color: #f1f1f1; color: #b2b2b2;}
+.account-header .btn-account:first-child {margin-left: 0;}
+.account-header .btn-account.active {background-color: #4b4b4b; color: #fff;}
+.account-title h1 {margin: 0; color: #333;font-size: 40px;font-weight: normal;letter-spacing: -3px;}
+.account-title__id h1 {display: inline-block;padding: 60px 0 20px 90px;background: url(https://img.hunet.co.kr/edu/common/account/icon-find-id.png) 0 45px no-repeat;}
+.account-title__password h1 {display: inline-block;padding: 60px 0 20px 125px;background: url(https://img.hunet.co.kr/edu/common/account/icon-find-password.png) 0 55px no-repeat;}
+.account-title__certify h1 {display: inline-block;padding: 60px 0 20px 90px;background: url(https://img.hunet.co.kr/edu/common/account/icon-certify.png) 0 45px no-repeat;}
+.account-title ul {display: inline-block;}
+.account-title ul li {text-align: left;}
+.account-list-style {font-size: 13px; line-height: 1.8; color: #333;}
+.account-list-style li {position: relative;}
+.account-list-style.square li:before {display: inline-block;vertical-align: middle;content: "";width: 3px;height: 3px;background-color: #4b4b4b;margin-right: 4px;}
+.account-box {position: relative;margin: 20px auto 0;padding: 30px;width: 640px;border: 1px solid #e6e6e6;color: #333;}
+.account-box__title {margin-bottom: 20px; padding-bottom: 10px; font-size: 18px; border-bottom: 1px solid #333;}
+.account-radiogroup {margin: 40px 0 30px;}
+.account-radiogroup ul {text-align: center;}
+.account-radiogroup ul li {display: inline-block;margin-left: 50px;}
+.account-radiogroup ul li:first-child {margin-left: 0;}
+.account-radiogroup label {position: relative;font-size: 13px;color: #333;font-weight: 600;cursor: pointer;padding-left: 30px;}
+.account-radiogroup:not(old) input[type=radio]{width: 28px;margin: 0;padding: 0;opacity: 0;position: absolute;}
+.account-radiogroup:not(old) input[type=radio] + label:before{display: block; content: ""; width: 24px; height: 24px; background: url(https://img.hunet.co.kr/edu/common/account/btn-radio.png) no-repeat 0 0;position: absolute; left: 0; top: -3px;}
+.account-radiogroup:not(old) input[type=radio]:checked + label:before{background-position: 0 -24px;}
+.account-box__footer {margin-top: 30px; text-align: center;}
+.account-footer {text-align: center; margin: 45px 0;}
+.account-footer button {margin-left: 5px;}
+.account-footer button:first-child {margin-left: 0;}
+.account-result-table {font-size: 13px;color: #333;margin: 0 auto;}
+.account-result-table th,
+.account-result-table td {padding: 15px;}
+.account-result-table th {font-weight: 600;}
+.account-box.error {font-size: 20px;color: #4b4b4b;line-height: 1.8;letter-spacing: -1px;padding: 90px 200px;width: 510px;}
+.account-box.error:after {display: block;content: "";width: 163px;height: 134px;background: url(https://img.hunet.co.kr/edu/common/account/icon-cs.png) center no-repeat;position: absolute;right: 230px;top: 50%;margin-top: -67px;}
+.account-form-table {width: 420px; font-size: 13px;color: #333;margin: 0 auto;}
+.account-form-table th,
+.account-form-table td {padding: 5px;}
+.account-form-table th {font-weight: 600;}
+.account-form-table .valid-feedback td {color: #fa4d52; padding-top: 0; padding-bottom: 0;}
+input.account-form-style:-webkit-autofill {-webkit-box-shadow: 0 0 0 30px #fff inset;}
+input.account-form-style:-webkit-autofill,
+input.account-form-style:-webkit-autofill:hover,
+input.account-form-style:-webkit-autofill:focus,
+input.account-form-style:-webkit-autofill:active {transition: background-color 5000s ease-in-out 0s;}
+.account-form-style {position: relative;display: inline-block;vertical-align: middle; width: 100%; font-size: 13px;color: #333;border: 1px solid #ccc;height: 36px;padding: 0 10px;line-height: 36px; box-sizing: border-box;}
+.account-form-style.select {padding: 5px 10px; appearance: none;-webkit-appearance: none;-moz-appearance:none;-o-appearance:none; cursor: pointer;}
+.account-form-style.select::-ms-expand{opacity: 0;}
+:root .account-form-style.select {padding: 0 10px; background: #fff url(https://img.hunet.co.kr/edu/common/account/btn-select.gif) right -1px no-repeat;}
+.table-reset {width: 100%;}
+.table-reset th,
+.table-reset td {padding: 0;}
+.account-privacy {width: 460px;margin: 35px auto 0;color: #777;}
+.account-privacy__title {font-size: 13px;}
+.account-privacy__text {font-size: 12px;}
+.account-hr {border-top: 1px solid #4b4b4b;}
+.account-checkgroup {position: relative;}
+.account-checkgroup input[type="checkbox"] {vertical-align: middle;}
+.account-checkgroup label {position: relative;vertical-align: middle;cursor: pointer;display: block;padding-left: 30px;}
+.account-checkgroup:not(old) input[type=checkbox]{width: 28px;margin: 0;padding: 0;opacity: 0;position: absolute;left: 0;top: 0;}
+.account-checkgroup:not(old) input[type=checkbox] + label:before{display: inline-block;content: "";vertical-align: middle;padding-left: 30px;background: url(https://img.hunet.co.kr/edu/common/account/btn-checkbox.png) no-repeat 0 0;height: 24px;position: absolute;left: 0;top: -3px;}
+.account-checkgroup:not(old) input[type=checkbox]:checked + label {font-weight: 600; color: #333;}
+.account-checkgroup:not(old) input[type=checkbox]:checked + label:before{background-position: 0 -24px;}
+.account-result-box {width: 280px;margin: 0 20px;}
+.account-result__title {font-size: 19px;padding: 5px 0;}
+.account-result__title.mail {display: inline-block;padding-right: 37px;background: url(https://img.hunet.co.kr/edu/common/account/icon-mail.png) right center no-repeat;}
+.account-result__title.phone {display: inline-block;padding-right: 30px;background: url(https://img.hunet.co.kr/edu/common/account/icon-phone.png) right center no-repeat;}
+.account-result__text {margin-top: 10px; background-color: #f2f2f2; padding: 20px; font-size: 16px; word-break: break-all;}
+.account-result-box .btn-account {padding: 10px 25px;}
+.account-hr {border-top: 1px solid #bdbdbd;}
+
+.icon-default { *font-size:0; *line-height:0; display:inline-block; border:0; font-size:0; overflow:hidden; vertical-align:middle; background:url('http://img.hunet.co.kr/hbs/icon/icon.png') no-repeat;}
+.icon-help {width:14px; height:14px;background-position:-230px 0px;}
+
+.table-gray {width: 100%; position: relative;}
+.table-gray:before,
+.table-gray:after {display: block; content: ""; width: 2px; height: 100%; background-color: #fff; position: absolute; top: 0;}
+.table-gray:before {left: 0;}
+.table-gray:after {right: -1px;}
+.table-gray th,
+.table-gray td {padding: 8px 0; border: 1px solid #ccc; border-top: 0;text-align: center;}
+.table-gray th {background-color: #7a7a7a; color: #fff;}
+.table-gray .category-lg {background-color: #6a6a6a;}
+
+/* 관심분야 설정 */
+.p-wish-header {margin-bottom:20px; padding:15px; text-align:center; color:#fff; font-size:15px; line-height:30px; letter-spacing:-1px; background:#4375bf;}
+.p-wish-header strong {font-size: 19px; font-weight:600; color: #221910;}
+.p-h4 {margin-bottom:10px; padding-left:10px; font-size:16px; color:#221910; font-weight:600; background:url(https://img.hunet.co.kr/edu/customize/kyobolife/content/icon-p-h4.png) no-repeat left center;}
+.p-wish-table {width:100%; margin-bottom:15px; border-top:2px solid #5f5f5f;}
+.p-wish-table th,
+.p-wish-table td {width:20%; padding:4px; text-align:center; border:1px solid #dfdfdf; border-right:0; font-family:'나눔고딕','nanumgothic','맑은 고딕','malgun gothic','dotum',sans-serif;}
+.p-wish-table th:first-child,
+.p-wish-table td:first-child {border-left:0;}
+.p-wish-table th {background:#f2f2f2; font-weight:bold; color:#222; padding:8px 0;}
+.p-wish-table button {width:100%; height:24px; color:#383838; font-size:13px; border:0; background:transparent; font-family:'나눔고딕','nanumgothic','맑은 고딕','malgun gothic','dotum',sans-serif; cursor:pointer;}
+.p-wish-table button.selected {color:#fff; background:#76abde;}
+.p-wish-table thead th {color: #000; background: #efefef;}
+
+/* 별점 */
+.star-state,
+.star-state span {display:inline-block; width:64px; height:11px; overflow:hidden; background:url(https://img.hunet.co.kr/edu/common/ico_star.png) no-repeat; vertical-align:middle;background-position:0px -11px}
+.star-state span {background-position:0 0; vertical-align:middle;}
+.starno {font-size:11px;color:#ed0009}

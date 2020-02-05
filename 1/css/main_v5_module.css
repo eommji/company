@@ -1,0 +1,1583 @@
+/*************** SCROLLBAR BASE CSS ***************/
+.scroll-wrapper {
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: relative;
+}
+.scroll-wrapper > .scroll-content {
+  border: none !important;
+  box-sizing: content-box !important;
+  height: auto;
+  left: 0;
+  margin: 0;
+  max-height: none !important;
+  max-width: none !important;
+  overflow: scroll !important;
+  padding: 0;
+  position: relative !important;
+  top: 0;
+  width: auto !important;
+}
+.scroll-wrapper > .scroll-content::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+.scroll-element {
+  display: none;
+}
+.scroll-element,
+.scroll-element div {
+  box-sizing: content-box;
+}
+.scroll-element.scroll-x.scroll-scrollx_visible,
+.scroll-element.scroll-y.scroll-scrolly_visible {
+  display: block;
+}
+.scroll-element .scroll-arrow,
+.scroll-element .scroll-bar {
+  cursor: default;
+}
+.scroll-textarea {
+  border: 1px solid #ccc;
+  border-top-color: #999;
+}
+.scroll-textarea > .scroll-content {
+  overflow: hidden !important;
+}
+.scroll-textarea > .scroll-content > textarea {
+  border: none !important;
+  box-sizing: border-box;
+  height: 100% !important;
+  margin: 0;
+  max-height: none !important;
+  max-width: none !important;
+  overflow: scroll !important;
+  outline: 0;
+  padding: 2px;
+  position: relative !important;
+  top: 0;
+  width: 100% !important;
+}
+.scroll-textarea > .scroll-content > textarea::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+.scrollbar-inner > .scroll-element,
+.scrollbar-inner > .scroll-element div {
+  border: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 10;
+}
+.scrollbar-inner > .scroll-element div {
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.scrollbar-inner > .scroll-element.scroll-x {
+  bottom: 2px;
+  height: 8px;
+  left: 0;
+  width: 100%;
+}
+.scrollbar-inner > .scroll-element.scroll-y {
+  height: 100%;
+  right: 2px;
+  top: 0;
+  width: 8px;
+}
+.scrollbar-inner > .scroll-element .scroll-element_outer {
+  overflow: hidden;
+}
+.scrollbar-inner > .scroll-element .scroll-bar,
+.scrollbar-inner > .scroll-element .scroll-element_outer,
+.scrollbar-inner > .scroll-element .scroll-element_track {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+.scrollbar-inner > .scroll-element .scroll-bar,
+.scrollbar-inner > .scroll-element .scroll-element_track {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  filter: alpha(opacity=40);
+  opacity: 0.4;
+}
+.scrollbar-inner > .scroll-element .scroll-element_track {
+  background-color: #e0e0e0;
+}
+.scrollbar-inner > .scroll-element .scroll-bar {
+  background-color: #c2c2c2;
+}
+.scrollbar-inner > .scroll-element.scroll-draggable .scroll-bar,
+.scrollbar-inner > .scroll-element:hover .scroll-bar {
+  background-color: #919191;
+}
+.scrollbar-inner
+  > .scroll-element.scroll-x.scroll-scrolly_visible
+  .scroll-element_track {
+  left: -12px;
+}
+.scrollbar-inner
+  > .scroll-element.scroll-y.scroll-scrollx_visible
+  .scroll-element_track {
+  top: -12px;
+}
+.scrollbar-inner
+  > .scroll-element.scroll-x.scroll-scrolly_visible
+  .scroll-element_size {
+  left: -12px;
+}
+.scrollbar-inner
+  > .scroll-element.scroll-y.scroll-scrollx_visible
+  .scroll-element_size {
+  top: -12px;
+}
+.scrollbar-outer > .scroll-element,
+.scrollbar-outer > .scroll-element div {
+  border: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 10;
+}
+.scrollbar-outer > .scroll-element {
+  background-color: #fff;
+}
+.scrollbar-outer > .scroll-element div {
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.scrollbar-outer > .scroll-element.scroll-x {
+  bottom: 0;
+  height: 12px;
+  left: 0;
+  width: 100%;
+}
+.scrollbar-outer > .scroll-element.scroll-y {
+  height: 100%;
+  right: 0;
+  top: 0;
+  width: 12px;
+}
+.scrollbar-outer > .scroll-element.scroll-x .scroll-element_outer {
+  height: 8px;
+  top: 2px;
+}
+.scrollbar-outer > .scroll-element.scroll-y .scroll-element_outer {
+  left: 2px;
+  width: 8px;
+}
+.scrollbar-outer > .scroll-element .scroll-element_outer {
+  overflow: hidden;
+}
+.scrollbar-outer > .scroll-element .scroll-element_track {
+  background-color: #eee;
+}
+.scrollbar-outer > .scroll-element .scroll-bar,
+.scrollbar-outer > .scroll-element .scroll-element_outer,
+.scrollbar-outer > .scroll-element .scroll-element_track {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+.scrollbar-outer > .scroll-element .scroll-bar {
+  background-color: #d9d9d9;
+}
+.scrollbar-outer > .scroll-element .scroll-bar:hover {
+  background-color: #c2c2c2;
+}
+.scrollbar-outer > .scroll-element.scroll-draggable .scroll-bar {
+  background-color: #919191;
+}
+.scrollbar-outer > .scroll-content.scroll-scrolly_visible {
+  left: -12px;
+  margin-left: 12px;
+}
+.scrollbar-outer > .scroll-content.scroll-scrollx_visible {
+  top: -12px;
+  margin-top: 12px;
+}
+.scrollbar-outer > .scroll-element.scroll-x .scroll-bar {
+  min-width: 10px;
+}
+.scrollbar-outer > .scroll-element.scroll-y .scroll-bar {
+  min-height: 10px;
+}
+.scrollbar-outer
+  > .scroll-element.scroll-x.scroll-scrolly_visible
+  .scroll-element_track {
+  left: -14px;
+}
+.scrollbar-outer
+  > .scroll-element.scroll-y.scroll-scrollx_visible
+  .scroll-element_track {
+  top: -14px;
+}
+.scrollbar-outer
+  > .scroll-element.scroll-x.scroll-scrolly_visible
+  .scroll-element_size {
+  left: -14px;
+}
+.scrollbar-outer
+  > .scroll-element.scroll-y.scroll-scrollx_visible
+  .scroll-element_size {
+  top: -14px;
+}
+.scrollbar-macosx > .scroll-element,
+.scrollbar-macosx > .scroll-element div {
+  background: 0 0;
+  border: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 10;
+}
+.scrollbar-macosx > .scroll-element div {
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.scrollbar-macosx > .scroll-element .scroll-element_track {
+  display: none;
+}
+.scrollbar-macosx > .scroll-element .scroll-bar {
+  background-color: #6c6e71;
+  display: block;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  -webkit-transition: opacity 0.2s linear;
+  -moz-transition: opacity 0.2s linear;
+  -o-transition: opacity 0.2s linear;
+  -ms-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+}
+.scrollbar-macosx:hover > .scroll-element .scroll-bar,
+.scrollbar-macosx > .scroll-element.scroll-draggable .scroll-bar {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+  opacity: 0.7;
+}
+.scrollbar-macosx > .scroll-element.scroll-x {
+  bottom: 0;
+  height: 0;
+  left: 0;
+  min-width: 100%;
+  overflow: visible;
+  width: 100%;
+}
+.scrollbar-macosx > .scroll-element.scroll-y {
+  height: 100%;
+  min-height: 100%;
+  right: 0;
+  top: 0;
+  width: 0;
+}
+.scrollbar-macosx > .scroll-element.scroll-x .scroll-bar {
+  height: 7px;
+  min-width: 10px;
+  top: -9px;
+}
+.scrollbar-macosx > .scroll-element.scroll-y .scroll-bar {
+  left: -9px;
+  min-height: 10px;
+  width: 7px;
+}
+.scrollbar-macosx > .scroll-element.scroll-x .scroll-element_outer {
+  left: 2px;
+}
+.scrollbar-macosx > .scroll-element.scroll-x .scroll-element_size {
+  left: -4px;
+}
+.scrollbar-macosx > .scroll-element.scroll-y .scroll-element_outer {
+  top: 2px;
+}
+.scrollbar-macosx > .scroll-element.scroll-y .scroll-element_size {
+  top: -4px;
+}
+.scrollbar-macosx
+  > .scroll-element.scroll-x.scroll-scrolly_visible
+  .scroll-element_size {
+  left: -11px;
+}
+.scrollbar-macosx
+  > .scroll-element.scroll-y.scroll-scrollx_visible
+  .scroll-element_size {
+  top: -11px;
+}
+.scrollbar-light > .scroll-element,
+.scrollbar-light > .scroll-element div {
+  border: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  z-index: 10;
+}
+.scrollbar-light > .scroll-element {
+  background-color: #fff;
+}
+.scrollbar-light > .scroll-element div {
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.scrollbar-light > .scroll-element .scroll-element_outer {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.scrollbar-light > .scroll-element .scroll-element_size {
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RiZGJkYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlOGU4ZTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(left, #dbdbdb 0, #e8e8e8 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0, #dbdbdb),
+    color-stop(100%, #e8e8e8)
+  );
+  background: -webkit-linear-gradient(left, #dbdbdb 0, #e8e8e8 100%);
+  background: -o-linear-gradient(left, #dbdbdb 0, #e8e8e8 100%);
+  background: -ms-linear-gradient(left, #dbdbdb 0, #e8e8e8 100%);
+  background: linear-gradient(to right, #dbdbdb 0, #e8e8e8 100%);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.scrollbar-light > .scroll-element.scroll-x {
+  bottom: 0;
+  height: 17px;
+  left: 0;
+  min-width: 100%;
+  width: 100%;
+}
+.scrollbar-light > .scroll-element.scroll-y {
+  height: 100%;
+  min-height: 100%;
+  right: 0;
+  top: 0;
+  width: 17px;
+}
+.scrollbar-light > .scroll-element .scroll-bar {
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZmVmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNWY1ZjUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(left, #fefefe 0, #f5f5f5 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0, #fefefe),
+    color-stop(100%, #f5f5f5)
+  );
+  background: -webkit-linear-gradient(left, #fefefe 0, #f5f5f5 100%);
+  background: -o-linear-gradient(left, #fefefe 0, #f5f5f5 100%);
+  background: -ms-linear-gradient(left, #fefefe 0, #f5f5f5 100%);
+  background: linear-gradient(to right, #fefefe 0, #f5f5f5 100%);
+  border: 1px solid #dbdbdb;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.scrollbar-light > .scroll-content.scroll-scrolly_visible {
+  left: -17px;
+  margin-left: 17px;
+}
+.scrollbar-light > .scroll-content.scroll-scrollx_visible {
+  top: -17px;
+  margin-top: 17px;
+}
+.scrollbar-light > .scroll-element.scroll-x .scroll-bar {
+  height: 10px;
+  min-width: 10px;
+  top: 0;
+}
+.scrollbar-light > .scroll-element.scroll-y .scroll-bar {
+  left: 0;
+  min-height: 10px;
+  width: 10px;
+}
+.scrollbar-light > .scroll-element.scroll-x .scroll-element_outer {
+  height: 12px;
+  left: 2px;
+  top: 2px;
+}
+.scrollbar-light > .scroll-element.scroll-x .scroll-element_size {
+  left: -4px;
+}
+.scrollbar-light > .scroll-element.scroll-y .scroll-element_outer {
+  left: 2px;
+  top: 2px;
+  width: 12px;
+}
+.scrollbar-light > .scroll-element.scroll-y .scroll-element_size {
+  top: -4px;
+}
+.scrollbar-light
+  > .scroll-element.scroll-x.scroll-scrolly_visible
+  .scroll-element_size {
+  left: -19px;
+}
+.scrollbar-light
+  > .scroll-element.scroll-y.scroll-scrollx_visible
+  .scroll-element_size {
+  top: -19px;
+}
+.scrollbar-light
+  > .scroll-element.scroll-x.scroll-scrolly_visible
+  .scroll-element_track {
+  left: -19px;
+}
+.scrollbar-light
+  > .scroll-element.scroll-y.scroll-scrollx_visible
+  .scroll-element_track {
+  top: -19px;
+}
+.scrollbar-rail > .scroll-element,
+.scrollbar-rail > .scroll-element div {
+  border: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  z-index: 10;
+}
+.scrollbar-rail > .scroll-element {
+  background-color: #fff;
+}
+.scrollbar-rail > .scroll-element div {
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.scrollbar-rail > .scroll-element .scroll-element_size {
+  background-color: #999;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.scrollbar-rail
+  > .scroll-element
+  .scroll-element_outer:hover
+  .scroll-element_size {
+  background-color: #666;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.scrollbar-rail > .scroll-element.scroll-x {
+  bottom: 0;
+  height: 12px;
+  left: 0;
+  min-width: 100%;
+  padding: 3px 0 2px;
+  width: 100%;
+}
+.scrollbar-rail > .scroll-element.scroll-y {
+  height: 100%;
+  min-height: 100%;
+  padding: 0 2px 0 3px;
+  right: 0;
+  top: 0;
+  width: 12px;
+}
+.scrollbar-rail > .scroll-element .scroll-bar {
+  background-color: #d0b9a0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.scrollbar-rail > .scroll-element .scroll-element_outer:hover .scroll-bar {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+.scrollbar-rail > .scroll-content.scroll-scrolly_visible {
+  left: -17px;
+  margin-left: 17px;
+}
+.scrollbar-rail > .scroll-content.scroll-scrollx_visible {
+  margin-top: 17px;
+  top: -17px;
+}
+.scrollbar-rail > .scroll-element.scroll-x .scroll-bar {
+  height: 10px;
+  min-width: 10px;
+  top: 1px;
+}
+.scrollbar-rail > .scroll-element.scroll-y .scroll-bar {
+  left: 1px;
+  min-height: 10px;
+  width: 10px;
+}
+.scrollbar-rail > .scroll-element.scroll-x .scroll-element_outer {
+  height: 15px;
+  left: 5px;
+}
+.scrollbar-rail > .scroll-element.scroll-x .scroll-element_size {
+  height: 2px;
+  left: -10px;
+  top: 5px;
+}
+.scrollbar-rail > .scroll-element.scroll-y .scroll-element_outer {
+  top: 5px;
+  width: 15px;
+}
+.scrollbar-rail > .scroll-element.scroll-y .scroll-element_size {
+  left: 5px;
+  top: -10px;
+  width: 2px;
+}
+.scrollbar-rail
+  > .scroll-element.scroll-x.scroll-scrolly_visible
+  .scroll-element_size {
+  left: -25px;
+}
+.scrollbar-rail
+  > .scroll-element.scroll-y.scroll-scrollx_visible
+  .scroll-element_size {
+  top: -25px;
+}
+.scrollbar-rail
+  > .scroll-element.scroll-x.scroll-scrolly_visible
+  .scroll-element_track {
+  left: -25px;
+}
+.scrollbar-rail
+  > .scroll-element.scroll-y.scroll-scrollx_visible
+  .scroll-element_track {
+  top: -25px;
+}
+.scrollbar-dynamic > .scroll-element,
+.scrollbar-dynamic > .scroll-element div {
+  background: 0 0;
+  border: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 10;
+}
+.scrollbar-dynamic > .scroll-element div {
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.scrollbar-dynamic > .scroll-element.scroll-x {
+  bottom: 2px;
+  height: 7px;
+  left: 0;
+  min-width: 100%;
+  width: 100%;
+}
+.scrollbar-dynamic > .scroll-element.scroll-y {
+  height: 100%;
+  min-height: 100%;
+  right: 2px;
+  top: 0;
+  width: 7px;
+}
+.scrollbar-dynamic > .scroll-element .scroll-element_outer {
+  opacity: 0.3;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+}
+.scrollbar-dynamic > .scroll-element .scroll-element_size {
+  background-color: #ccc;
+  opacity: 0;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+.scrollbar-dynamic > .scroll-element .scroll-bar {
+  background-color: #6c6e71;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+.scrollbar-dynamic > .scroll-element.scroll-x .scroll-bar {
+  bottom: 0;
+  height: 7px;
+  min-width: 24px;
+  top: auto;
+}
+.scrollbar-dynamic > .scroll-element.scroll-y .scroll-bar {
+  left: auto;
+  min-height: 24px;
+  right: 0;
+  width: 7px;
+}
+.scrollbar-dynamic > .scroll-element.scroll-x .scroll-element_outer {
+  bottom: 0;
+  top: auto;
+  left: 2px;
+  -webkit-transition: height 0.2s;
+  -moz-transition: height 0.2s;
+  -o-transition: height 0.2s;
+  -ms-transition: height 0.2s;
+  transition: height 0.2s;
+}
+.scrollbar-dynamic > .scroll-element.scroll-y .scroll-element_outer {
+  left: auto;
+  right: 0;
+  top: 2px;
+  -webkit-transition: width 0.2s;
+  -moz-transition: width 0.2s;
+  -o-transition: width 0.2s;
+  -ms-transition: width 0.2s;
+  transition: width 0.2s;
+}
+.scrollbar-dynamic > .scroll-element.scroll-x .scroll-element_size {
+  left: -4px;
+}
+.scrollbar-dynamic > .scroll-element.scroll-y .scroll-element_size {
+  top: -4px;
+}
+.scrollbar-dynamic
+  > .scroll-element.scroll-x.scroll-scrolly_visible
+  .scroll-element_size {
+  left: -11px;
+}
+.scrollbar-dynamic
+  > .scroll-element.scroll-y.scroll-scrollx_visible
+  .scroll-element_size {
+  top: -11px;
+}
+.scrollbar-dynamic > .scroll-element.scroll-draggable .scroll-element_outer,
+.scrollbar-dynamic > .scroll-element:hover .scroll-element_outer {
+  overflow: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+  opacity: 0.7;
+}
+.scrollbar-dynamic
+  > .scroll-element.scroll-draggable
+  .scroll-element_outer
+  .scroll-element_size,
+.scrollbar-dynamic
+  > .scroll-element:hover
+  .scroll-element_outer
+  .scroll-element_size {
+  opacity: 1;
+}
+.scrollbar-dynamic
+  > .scroll-element.scroll-draggable
+  .scroll-element_outer
+  .scroll-bar,
+.scrollbar-dynamic > .scroll-element:hover .scroll-element_outer .scroll-bar {
+  height: 100%;
+  width: 100%;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+}
+.scrollbar-dynamic
+  > .scroll-element.scroll-x.scroll-draggable
+  .scroll-element_outer,
+.scrollbar-dynamic > .scroll-element.scroll-x:hover .scroll-element_outer {
+  height: 20px;
+  min-height: 7px;
+}
+.scrollbar-dynamic
+  > .scroll-element.scroll-y.scroll-draggable
+  .scroll-element_outer,
+.scrollbar-dynamic > .scroll-element.scroll-y:hover .scroll-element_outer {
+  min-width: 7px;
+  width: 20px;
+}
+.scrollbar-chrome > .scroll-element,
+.scrollbar-chrome > .scroll-element div {
+  border: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  z-index: 10;
+}
+.scrollbar-chrome > .scroll-element {
+  background-color: #fff;
+}
+.scrollbar-chrome > .scroll-element div {
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.scrollbar-chrome > .scroll-element .scroll-element_track {
+  background: #f1f1f1;
+  border: 1px solid #dbdbdb;
+}
+.scrollbar-chrome > .scroll-element.scroll-x {
+  bottom: 0;
+  height: 16px;
+  left: 0;
+  min-width: 100%;
+  width: 100%;
+}
+.scrollbar-chrome > .scroll-element.scroll-y {
+  height: 100%;
+  min-height: 100%;
+  right: 0;
+  top: 0;
+  width: 16px;
+}
+.scrollbar-chrome > .scroll-element .scroll-bar {
+  background-color: #d9d9d9;
+  border: 1px solid #bdbdbd;
+  cursor: default;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.scrollbar-chrome > .scroll-element .scroll-bar:hover {
+  background-color: #c2c2c2;
+  border-color: #a9a9a9;
+}
+.scrollbar-chrome > .scroll-element.scroll-draggable .scroll-bar {
+  background-color: #919191;
+  border-color: #7e7e7e;
+}
+.scrollbar-chrome > .scroll-content.scroll-scrolly_visible {
+  left: -16px;
+  margin-left: 16px;
+}
+.scrollbar-chrome > .scroll-content.scroll-scrollx_visible {
+  top: -16px;
+  margin-top: 16px;
+}
+.scrollbar-chrome > .scroll-element.scroll-x .scroll-bar {
+  height: 8px;
+  min-width: 10px;
+  top: 3px;
+}
+.scrollbar-chrome > .scroll-element.scroll-y .scroll-bar {
+  left: 3px;
+  min-height: 10px;
+  width: 8px;
+}
+.scrollbar-chrome > .scroll-element.scroll-x .scroll-element_outer {
+  border-left: 1px solid #dbdbdb;
+}
+.scrollbar-chrome > .scroll-element.scroll-x .scroll-element_track {
+  height: 14px;
+  left: -3px;
+}
+.scrollbar-chrome > .scroll-element.scroll-x .scroll-element_size {
+  height: 14px;
+  left: -4px;
+}
+.scrollbar-chrome > .scroll-element.scroll-y .scroll-element_outer {
+  border-top: 1px solid #dbdbdb;
+}
+.scrollbar-chrome > .scroll-element.scroll-y .scroll-element_track {
+  top: -3px;
+  width: 14px;
+}
+.scrollbar-chrome > .scroll-element.scroll-y .scroll-element_size {
+  top: -4px;
+  width: 14px;
+}
+.scrollbar-chrome
+  > .scroll-element.scroll-x.scroll-scrolly_visible
+  .scroll-element_size {
+  left: -19px;
+}
+.scrollbar-chrome
+  > .scroll-element.scroll-y.scroll-scrollx_visible
+  .scroll-element_size {
+  top: -19px;
+}
+.scrollbar-chrome
+  > .scroll-element.scroll-x.scroll-scrolly_visible
+  .scroll-element_track {
+  left: -19px;
+}
+.scrollbar-chrome
+  > .scroll-element.scroll-y.scroll-scrollx_visible
+  .scroll-element_track {
+  top: -19px;
+}
+
+.container {
+  width: 990px;
+  margin: 0 auto;
+  zoom: 1;
+}
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#header1 {
+  font-family: "나눔고딕", "nanumgothic", "맑은 고딕", "malgun gothic", "dotum",
+    sans-serif;
+  zoom: 1;
+}
+#header1:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#header1 .brand {
+  float: left;
+  padding: 15px 0;
+}
+#header1 .brand img {
+  max-height: 31px;
+}
+#header1 .banner {
+  float: right;
+  padding: 15px 0 10px 0;
+}
+#nav1 {
+  background: #535460;
+  font-family: "나눔고딕", "nanumgothic", "맑은 고딕", "malgun gothic", "dotum",
+    sans-serif;
+  zoom: 1;
+}
+#nav1:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#nav1 > div > ul {
+  float: left;
+}
+#nav1 > div > ul > li {
+  position: relative;
+  float: left;
+  font-size: 14px;
+  z-index: 11;
+}
+#nav1 > div > ul > li > a .caret {
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin: 0 0 0 -6px;
+  width: 0;
+  height: 0;
+  border-top: 0;
+  border-bottom: 6px solid #f5f5f5;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+}
+#nav1 > div > ul > li > a {
+  display: block;
+  padding: 15px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+#nav1 > div > ul > li > a:hover {
+  text-decoration: none;
+}
+#nav1 > div > ul > li > ul {
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 10px solid #da2128;
+  background: #f5f5f5;
+}
+#nav1 > div > ul > li > ul a {
+  display: block;
+  padding: 5px 10px;
+  color: #434343;
+  font-size: 13px;
+}
+#nav1 > div > ul > li > ul ul li a {
+  padding: 3px 10px 3px 18px;
+  font-size: 12px;
+  background: url(https://img.hunet.co.kr/edu/main/v5/icon-nav-sub.gif)
+    no-repeat 11px 7px;
+}
+#nav1 > div > ul > li.current > a {
+  color: #fff;
+  background: #da2128;
+}
+#nav1 > div > ul > li.current > a .caret {
+  display: block;
+}
+
+#header2 {
+  font-family: "나눔고딕", "nanumgothic", "맑은 고딕", "malgun gothic", "dotum",
+    sans-serif;
+  zoom: 1;
+}
+#header2:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#header2 .brand {
+  float: left;
+  padding: 15px 0;
+}
+#header2 .container {
+  position: relative;
+}
+#nav2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#nav2 > ul {
+  float: left;
+}
+#nav2 > ul > li {
+  position: relative;
+  float: left;
+  font-size: 14px;
+  z-index: 11;
+}
+#nav2 > ul > li > a .caret {
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin: 0 0 0 -6px;
+  width: 0;
+  height: 0;
+  border-top: 0;
+  border-bottom: 6px solid #f5f5f5;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+}
+#nav2 > ul > li > a {
+  display: block;
+  padding: 12px 4px 18px 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  color: #252525;
+  font-weight: 600;
+}
+#nav2 > ul > li > a:hover {
+  text-decoration: none;
+}
+#nav2 > ul > li > ul {
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 10px solid #da2128;
+  background: #f5f5f5;
+}
+#nav2 > ul > li > ul a {
+  display: block;
+  padding: 5px 10px;
+  color: #434343;
+  font-size: 13px;
+}
+#nav2 > ul > li > ul ul li a {
+  padding: 3px 10px 3px 18px;
+  font-size: 12px;
+  background: url(https://img.hunet.co.kr/edu/main/v5/icon-nav-sub.gif)
+    no-repeat 11px 7px;
+}
+#nav2 > ul > li.current > a {
+  color: #fff;
+  background: #da2128;
+}
+#nav2 > ul > li.current > a .caret {
+  display: block;
+}
+
+.btn-toggle-nav {
+  float: left;
+  width: 38px;
+  height: 38px;
+  margin: 5px 0 0 10px;
+  border: 0;
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-toggle-nav span {
+  display: block;
+  height: 2px;
+  margin: 5px 3px 0 3px;
+  background: #666;
+}
+.btn-toggle-nav span:first-child {
+  margin-top: 0;
+}
+.btn-toggle-nav:hover,
+.btn-toggle-nav.active {
+  background-color: #da2128;
+}
+.btn-toggle-nav:hover span,
+.btn-toggle-nav.active span {
+  background-color: #fff;
+}
+
+#toggle-nav {
+  display: none;
+  position: absolute;
+  top: 147px;
+  left: 50%;
+  width: 820px;
+  margin-left: -410px;
+  padding: 20px 30px;
+  border: 2px solid #717070;
+  background: #fff;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  z-index: 11;
+  font-family: "나눔고딕", "nanumgothic", "맑은 고딕", "malgun gothic", "dotum",
+    sans-serif;
+}
+#toggle-nav .btn-toggle-nav-hide {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  width: 19px;
+  height: 19px;
+  overflow: hidden;
+  border: 0;
+  background: url(https://img.hunet.co.kr/edu/main/v5/controls.png) no-repeat -120px
+    0;
+  cursor: pointer;
+}
+#toggle-nav > ul > li {
+  float: left;
+  width: 164px;
+  min-height: 100px;
+  padding: 20px 0;
+  font-size: 17px;
+  color: #da2128;
+  font-weight: 600;
+}
+#toggle-nav > ul > li.clear-left {
+  clear: left;
+  *clear: none;
+}
+#toggle-nav > ul > li > a {
+  color: #da2128;
+}
+#toggle-nav > ul > li > ul {
+  padding-top: 12px;
+  *min-height: 130px;
+}
+#toggle-nav > ul > li > ul > li {
+  float: none;
+  font-weight: normal;
+  font-size: 13px;
+  color: #252525;
+}
+#toggle-nav > ul > li > ul > li a {
+  display: block;
+  padding: 4px 0;
+  color: #252525;
+}
+#toggle-nav .extra {
+  width: 328px;
+  height: auto;
+  margin: 0 0 0 -20px;
+  padding: 10px 0 20px 20px;
+  background: #e9e9e9;
+  border-radius: 10px;
+}
+#toggle-nav .extra ul {
+  float: left;
+  width: 164px;
+}
+
+#footer {
+  height: auto;
+  padding: 15px 30px 15px 30px;
+  font-size: 12px;
+  font-family: "나눔고딕", "nanumgothic", "맑은 고딕", "malgun gothic", "dotum",
+    sans-serif;
+  background: transparent;
+  border-top: 1px solid #e5e5e5;
+  zoom: 1;
+}
+#footer:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#footer .nav {
+  margin-bottom: 15px;
+}
+#footer .nav a {
+  margin-right: 15px;
+  color: #5d5d5d;
+  font-weight: 600;
+}
+#footer .copyright {
+  color: #898989;
+  font-size: 11px;
+}
+#footer .pull-right {
+  color: #5d5d5d;
+}
+
+.visual {
+  position: relative;
+  min-width: 990px;
+  text-align: center;
+  background-color: #e5e5e5;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.visual-image img {
+  vertical-align: top;
+}
+.visual-text {
+  position: relative;
+  min-width: 990px;
+  height: 361px;
+  font-size: 36px;
+  letter-spacing: -2px;
+  color: #4b4b4b;
+  text-align: center;
+  font-family: "나눔고딕", "nanumgothic", "맑은 고딕", "malgun gothic", "dotum",
+    sans-serif;
+  background-image: url(https://img.hunet.co.kr/edu/main/v5/visual2.png);
+  background-position: center top;
+  z-index: 1;
+}
+.visual-text p {
+  position: absolute;
+  top: 85px;
+  left: 50%;
+  margin-left: -150px;
+  text-align: left;
+}
+.visual-text p.text-left {
+  position: absolute;
+  top: 85px;
+  left: 50%;
+  width: 990px;
+  margin-left: -495px;
+  text-align: left;
+}
+.visual-text p.text-right {
+  position: absolute;
+  top: 85px;
+  left: 50%;
+  width: 990px;
+  margin-left: -495px;
+  text-align: right;
+}
+.visual-text p.text-center {
+  position: absolute;
+  top: 85px;
+  left: 50%;
+  width: 990px;
+  margin-left: -495px;
+  text-align: center;
+}
+.visual-text p.text-visual3 {
+  padding-top: 18px;
+  font-size: 42px;
+  color: #fff;
+}
+.visual-text p.text-visual4 {
+  padding-top: 50px;
+  padding-left: 38px;
+}
+
+#main-container {
+  position: relative;
+  padding: 0 0 35px 0;
+  background: #e5e5e5;
+  z-index: 1;
+  zoom: 1;
+}
+#main-container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#main-container .col {
+  float: left;
+  margin-left: -10px;
+  zoom: 1;
+}
+#main-container .col:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#main-container #container {
+  width: 990px !important;
+  margin: 0 auto;
+}
+#main-container #content {
+  width: 990px !important;
+}
+
+#container {
+  width: 990px;
+}
+#aside {
+  width: 230px;
+}
+
+.box1 {
+  width: 238px;
+  height: 118px;
+}
+.box2 {
+  width: 238px;
+  height: 248px;
+}
+.box3 {
+  width: 488px;
+  height: 248px;
+}
+.box .btn-more {
+  position: absolute;
+  font-size: 11px;
+}
+.box .btn-more i {
+  font-style: normal;
+  font-family: "dotum";
+}
+
+.box-group {
+  float: left;
+}
+.box-group1 {
+  width: 238px;
+}
+.box-group2 {
+  width: 508px;
+  margin-right: -20px;
+  *margin-bottom: 10px;
+}
+
+.box1col {
+  float: left;
+  width: 250px;
+}
+
+.box-login .input-field {
+  width: 120px;
+}
+.box-login .input-field .i-text {
+  width: 105px;
+}
+.box1 .box-search .form,
+.box-search .form {
+  padding-left: 18px;
+}
+.box-search .body {
+  padding: 0 30px;
+}
+.box-quick-search li {
+  width: 46px;
+}
+.box-live li {
+  width: 150px;
+}
+.box-live .thumb img {
+  width: 150px;
+}
+.box-sangsang li {
+  width: 150px;
+}
+.box-sangsang .thumb img {
+  width: 150px;
+}
+.box-sangsang .subject {
+  width: 140px;
+}
+.box-status .graph .bar {
+  width: 315px;
+}
+.box-status .btn-more {
+  bottom: auto;
+  top: 27px;
+}
+
+.box-login .bl-point-title {
+  margin-bottom: 10px;
+  padding-top: 5px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+}
+.box-login .bl-point-table {
+  width: 100%;
+}
+.box-login .bl-point-table th,
+.box-login .bl-point-table td {
+  text-align: center;
+  padding: 8px 0;
+  font-weight: 600;
+  border-left: 1px solid #e4e4e4;
+}
+.box-login .bl-point-table th {
+  font-size: 13px;
+  color: #fff;
+  background-color: #878787;
+}
+.box-login .bl-point-table th:first-child {
+  border-left: 0;
+  background-color: #6a6a6a;
+}
+.box-login .bl-point-table td {
+  font-size: 13px;
+  background-color: #fff;
+}
+.box-login .bl-point-table td:first-child {
+  border-left: 0;
+}
+.box-login .bl-point-table td strong {
+  font-size: 15px;
+  color: #fa4a2d;
+}
+
+/* curation */
+.box.curation:hover .bx-wrapper {
+  transform: scale(0.97);
+}
+.curation {
+  height: 215px;
+  color: #333;
+  background-color: #fff;
+}
+.curation h3 {
+  margin: 30px 0 13px;
+  font-size: 16px;
+}
+.curation .bx-wrapper {
+  position: relative;
+  margin-top: 15px;
+}
+.curation ul li .thumb {
+  display: block;
+  height: 80px;
+  overflow: hidden;
+}
+.curation ul li .thumb img {
+  width: 100%;
+  height: 100%;
+}
+.curation ul li .title {
+  display: block;
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-height: 17px;
+  height: 34px;
+  font-size: 12px;
+  color: #333;
+}
+.curation-left {
+  position: relative;
+  float: left;
+  width: 250px;
+  height: 100%;
+}
+.curation-left:before {
+  display: block;
+  content: "";
+  width: 1px;
+  height: 140px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  background-color: #e4e4e4;
+  margin-top: -70px;
+}
+.curation-left h3 {
+  text-align: center;
+}
+.curation-left .bx-wrapper {
+  margin: 0 auto 0;
+  width: auto;
+  max-width: auto !important;
+}
+.curation-left .bx-controls-direction {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 100%;
+}
+.curation-left .bx-controls-direction a {
+  display: block;
+  width: 16px;
+  height: 30px;
+  font-size: 0;
+  position: absolute;
+  top: 0;
+}
+.curation-left .bx-prev {
+  left: -30px;
+  background: url(https://img.hunet.co.kr/edu/main/v5/e/btn-prev.png) no-repeat;
+}
+.curation-left .bx-next {
+  right: -30px;
+  background: url(https://img.hunet.co.kr/edu/main/v5/e/btn-next.png) no-repeat;
+}
+.curation-right {
+  position: relative;
+  float: left;
+  width: 737px;
+  height: 100%;
+}
+.curation-right h3 {
+  font-weight: normal;
+  font-size: 14px;
+}
+.curation-right h3 span {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 13px;
+}
+.curation-right > .inner {
+  padding: 0 36px;
+}
+.curation-right .bx-wrapper {
+  margin: 15px auto 0;
+  width: 100%;
+  max-width: 100% !important;
+}
+.curation-right ul ul li {
+  float: left;
+  width: 160px;
+}
+.curation-right .bx-controls {
+  position: absolute;
+  right: 0;
+  top: -35px;
+}
+.curation-right .bx-pager-link {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #aaa;
+  font-size: 0;
+}
+.curation-right .bx-pager-link.active {
+  background-color: #ff7500;
+}
+.curation-right .bx-pager-item {
+  margin-left: 5px;
+  display: inline-block;
+}
+.curation-right .bx-pager-item:first-child {
+  margin-left: 0;
+}
+.curation-right .bx-controls-direction a {
+  display: block;
+  float: left;
+  width: 25px;
+  height: 25px;
+  background: url(https://img.hunet.co.kr/edu/common/btn-type2.png) left top
+    no-repeat;
+  font-size: 0;
+}
+.curation-right .bx-next {
+  background-position: -24px 0 !important;
+}
+.curation-right .bx-controls-direction {
+  float: right;
+}
+.curation-right .bx-pager {
+  float: left;
+  margin: 5px 10px 0 0;
+  font-size: 13px;
+}
+.curation-no-data {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -68.5px 0 0 -143px;
+}
+
+.curation.sub-style {
+  height: 210px;
+  border: 1px solid #ddd;
+  border-right: 0;
+  border-left: 0;
+}
+.curation.sub-style:hover {
+  transform: none;
+  box-shadow: 0 0 0;
+}
+.curation.sub-style:hover .bx-wrapper {
+  transform: none;
+}
+.curation.sub-style .curation-right > .inner {
+  padding: 0 30px;
+}
+.curation.sub-style h3 {
+  margin-top: 30px;
+  font-size: 14px;
+}
+.curation.sub-style .curation-left {
+  width: 240px;
+}
+.curation.sub-style ul li .thumb {
+  width: 130px;
+  height: 70px;
+}
+.curation.sub-style .curation-right {
+  width: 458px;
+}
+.curation.sub-style .curation-right ul ul li {
+  width: 130px;
+}
+
+.curation.sub-style2 {
+  height: 228px;
+  margin: 20px 0 0 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+.curation.sub-style2:hover {
+  transform: none;
+  box-shadow: 0 0 0;
+}
+.curation.sub-style2 .curation-right > .inner {
+  padding: 0 30px;
+}
+.curation.sub-style2:hover .bx-wrapper {
+  transform: none;
+}
+.curation.sub-style2 h3 {
+  margin-top: 30px;
+}
+.curation.sub-style2 ul li .thumb {
+  height: 85px;
+}
+.curation.sub-style2 .curation-right {
+  width: 698px;
+  background-color: #fff;
+}
+.curation.sub-style2 .curation-right ul ul li {
+  width: 153px;
+}

@@ -1,0 +1,6037 @@
+@charset "UTF-8";
+#login-body {
+  background: #f1f5f6
+    url(https://img.hunet.co.kr/edu/customize/nps/v6/login/bg.jpg) no-repeat
+    center top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#login-body.summer {
+  background: #f1f5f6
+    url(https://img.hunet.co.kr/edu/customize/nps/v6/login/winter_bg.jpg)
+    no-repeat center top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.login-wrap {
+  min-height: 500px;
+}
+.login-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 890px;
+  margin: -250px 0 0 -495px;
+}
+.login-header {
+  margin: 0 auto 80px;
+  text-align: center;
+  width: 100%;
+}
+.login-body {
+  float: right;
+  padding: 35px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 4px solid transparent;
+  border-radius: 20px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#70ffffff,endColorstr=#70ffffff);
+}
+.login-slogan {
+  height: 65px;
+  background: url(https://img.hunet.co.kr/edu/customize/youngin/v2/login/slogan.png)
+    no-repeat center top;
+}
+.login-body .cs {
+  padding-top: 25px;
+  border-top: 1px solid #b8b8b9;
+  text-align: center;
+}
+#login-body .login-form {
+  zoom: 1;
+  width: auto;
+  margin: 0 auto;
+}
+#login-body .login-form:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#login-body .login-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+#login-body .login-img {
+  position: absolute;
+  top: -60px;
+  left: -230px;
+}
+#login-body .hbtns {
+  margin-bottom: 12px;
+  margin-right: 12px;
+  text-align: right;
+}
+div.login-form .btn {
+  float: right;
+  margin-left: 10px;
+  width: 130px;
+  height: 110px;
+  background-color: #242784;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+div.login-form a.btn {
+  float: left;
+  margin-left: 5px;
+}
+#login-body div.login-form ul.input-field {
+  width: auto;
+}
+#login-body div.login-form ul.input-field li {
+  height: 50px;
+  margin-bottom: 10px;
+}
+#login-body div.login-form ul.input-field li.check p {
+  padding: 0 0 15px 0;
+  font-weight: bold;
+  color: #2894cd;
+  font-size: 12px;
+}
+#login-body div.login-form > div {
+  overflow: hidden;
+}
+#login-body div.login-form .check {
+  float: left;
+}
+#login-body div.login-form .help {
+  float: right;
+}
+#login-body div.login-form .help a {
+  color: #484848;
+  font-weight: 600;
+  font-size: 13px;
+}
+#login-body div.login-form .check label {
+  font-weight: 600;
+  color: #484848;
+  font-size: 13px;
+}
+#login-body div.login-form .check input[type="checkbox"] {
+  vertical-align: middle;
+  margin: 1px 0 0 0;
+}
+#login-body div.login-form ul.input-field select {
+  width: 262px;
+  font-size: 15px;
+  color: #dcc0cd;
+  border: 1px solid #ce3574;
+  background: #ce3574;
+}
+#login-body div.login-form ul.input-field .iLabel {
+  font-size: 16px;
+  color: #000;
+  margin: 15px 0 0 15px !important;
+}
+#login-body div.login-form ul.input-field input.iText {
+  width: 260px;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 10px;
+  color: #333;
+  font-size: 16px;
+  border-color: #e6e6e6;
+  background: #e6e6e6;
+}
+#login-body div.login-form ul.input-field input.iText {
+  border-color: #fff;
+  background: #fff;
+}
+#login-body div.login-form ul.help {
+  width: 150px;
+  float: right;
+}
+#login-body div.login-form ul.help li {
+  float: right;
+  text-align: right;
+  padding-right: 0;
+  line-height: 20px;
+}
+#login-body div.login-form ul.help li .ico {
+  margin-right: 5px;
+}
+#login-body div.login-form ul.help li.check {
+  margin-top: 0;
+}
+#login-body div.login-form ul.help li.check input {
+  margin-top: 2px;
+}
+#login-body div.login-form ul.help li.check label {
+  color: #80b0d5;
+  font-size: 11px;
+}
+#login-body .help-text {
+  padding: 0 0 0 170px;
+}
+#login-body .help-text li {
+  margin-bottom: 4px;
+  padding: 0 0 0 7px;
+  color: #212020;
+  background: url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif)
+    no-repeat left center;
+}
+#login-body .login-saying {
+  position: absolute;
+  left: 0;
+  top: 155px;
+}
+.login-footer {
+  text-align: center;
+  font-size: 12px;
+  color: #555;
+}
+.login-footer .cs {
+  margin-bottom: 5px;
+}
+.login-footer .cs strong {
+  color: #3a3a3a;
+}
+.login-footer .cs strong.text-blue {
+  color: #3a3a3a;
+}
+.login-footer .cs .text-primary {
+  font-weight: 600;
+  color: #3a3a3a;
+}
+.login-footer .copyright {
+  display: inline-block;
+  padding: 3px 5px;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.login-footer .copyright a {
+  font-weight: 600;
+  color: inherit;
+}
+
+#nav1 {
+  background: #005699;
+  zoom: 1;
+}
+#nav1:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#nav1 > div > ul {
+  float: left;
+}
+#nav1 > div > ul > li {
+  float: left;
+  font-size: 15px;
+  z-index: 11;
+  position: static;
+}
+#nav1 > div > ul > li > a {
+  display: block;
+  padding: 13px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+#nav1 > div > ul > li > a .caret {
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin: 0 0 0 -6px;
+  width: 0;
+  height: 0;
+  border-top: 0;
+  border-bottom: 6px solid #f5f5f5;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+}
+#nav1 > div > ul > li > a:hover {
+  text-decoration: none;
+}
+
+#nav1 > div > ul > li .depth2 {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #f0efeb;
+  height: 46px;
+}
+
+#nav1 > div > ul > li .depth2 ul {
+  margin: 0 auto;
+  width: 990px;
+  border: 0;
+}
+#nav1 > div > ul > li .depth2 ul li {
+  display: inline-block;
+}
+#nav1 > div > ul > li .depth2 ul li a:before {
+  display: inline-block;
+  vertical-align: middle;
+  content: "";
+  width: 1px;
+  height: 14px;
+  background-color: #d2d2d2;
+  margin: 0 15px 3px 10px;
+}
+#nav1 > div > ul > li .depth2 ul li:first-child a:before {
+  display: none;
+}
+#nav1 > div > ul > li .depth2 ul li a {
+  display: block;
+  height: 46px;
+  line-height: 46px;
+  font-size: 14px;
+  color: #555;
+  letter-spacing: -0.5px;
+}
+#nav1 > div > ul > li .depth2 ul li.current a {
+  font-weight: 600;
+  color: #000;
+}
+#nav1 > div > ul > li.nav-right .depth2 ul {
+  text-align: right;
+}
+
+#nav1 > div > ul > li > ul a {
+  display: block;
+  padding: 5px 10px;
+  font-size: 13px;
+  font-weight: bold;
+}
+#nav1 > div > ul > li > ul > li > a:before {
+  display: inline-block;
+  content: "";
+  vertical-align: middle;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  margin-right: 5px;
+  background-color: #fff;
+}
+#nav1 > div > ul > li > ul a:hover {
+  text-decoration: underline;
+}
+#nav1 > div > ul > li > ul ul li a {
+  padding: 3px 10px 3px 18px;
+  font-size: 12px;
+  font-weight: normal;
+}
+#nav1 > div > ul > li > ul ul li a:before {
+  display: inline-block;
+  vertical-align: top;
+  content: "-";
+  margin-right: 5px;
+}
+#nav1 > div > ul > li.current > a {
+  color: #fff;
+  background: #555555;
+}
+#nav1 > div > ul > li.current > a .caret {
+  display: none;
+}
+.btn-toggle-nav {
+  float: left;
+  width: 33px;
+  height: 33px;
+  margin: 7px 0 0 10px;
+  border: 0;
+  background: #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-toggle-nav span {
+  display: block;
+  height: 2px;
+  margin: 5px 6px 0 6px;
+  background: #005699;
+}
+.btn-toggle-nav span:first-child {
+  margin-top: 0;
+}
+.btn-toggle-nav:hover,
+.btn-toggle-nav.active {
+  background-color: #f0f0f0;
+}
+.btn-toggle-nav:hover span,
+.btn-toggle-nav.active span {
+  background-color: #005699;
+}
+#toggle-nav {
+  display: none;
+  position: absolute;
+  top: 147px;
+  left: 50%;
+  width: 820px;
+  margin-left: -410px;
+  padding: 20px 30px;
+  border: 2px solid #717070;
+  background: #fff;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  z-index: 11;
+}
+#toggle-nav .btn-toggle-nav-hide {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  width: 19px;
+  height: 19px;
+  overflow: hidden;
+  border: 0;
+  background: url(https://img.hunet.co.kr/edu/main/v5/controls.png) no-repeat -120px
+    0;
+  cursor: pointer;
+}
+#toggle-nav > ul > li {
+  float: left;
+  width: 164px;
+  min-height: 100px;
+  padding: 20px 0;
+  font-size: 17px;
+  color: #da2128;
+  font-weight: 600;
+}
+#toggle-nav > ul > li.clear-left {
+  clear: left;
+  *clear: none;
+}
+#toggle-nav > ul > li > a {
+  color: #da2128;
+}
+#toggle-nav > ul > li > ul {
+  padding-top: 12px;
+}
+#toggle-nav > ul > li > ul > li {
+  float: none;
+  font-weight: normal;
+  font-size: 13px;
+  color: #252525;
+}
+#toggle-nav > ul > li > ul > li a {
+  display: block;
+  padding: 4px 0;
+  color: #252525;
+}
+#toggle-nav .extra {
+  width: 328px;
+  height: auto;
+  margin: 0 0 0 -20px;
+  padding: 10px 0 20px 20px;
+  background: #e9e9e9;
+  border-radius: 10px;
+}
+#toggle-nav .extra ul {
+  float: left;
+  width: 164px;
+}
+#toggle-nav > ul > li > a {
+  color: #07a7e3;
+}
+
+#nav1 {
+  background-image: linear-gradient(to right, #242736, #27377d);
+}
+#nav1 > div > ul > li.current > a {
+  color: #fff;
+  background: #ab7c72;
+}
+.btn-toggle-nav {
+  background: transparent;
+}
+.btn-toggle-nav span {
+  background: #fff;
+}
+#nav1 .icon-nav {
+  display: inline-block;
+  vertical-align: middle;
+  width: 36px;
+  height: 35px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#nav1 .icon-nav01 {
+  background-image: url(https://img.hunet.co.kr/edu/customize/nps/v5/sub/nav01.png);
+}
+#nav1 .icon-nav02 {
+  background-image: url(https://img.hunet.co.kr/edu/customize/nps/v5/sub/nav02.png);
+}
+#nav1 .icon-nav03 {
+  background-image: url(https://img.hunet.co.kr/edu/customize/nps/v5/sub/nav03.png);
+}
+#nav1 .icon-nav04 {
+  background-image: url(https://img.hunet.co.kr/edu/customize/nps/v5/sub/nav04.png);
+}
+#nav1 .icon-nav05 {
+  background-image: url(https://img.hunet.co.kr/edu/customize/nps/v5/sub/nav05.png);
+}
+
+#header1 {
+  font-family: "나눔고딕", "nanumgothic", "맑은 고딕", "malgun gothic", "dotum",
+    sans-serif;
+  zoom: 1;
+}
+#header1:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#header1 .container {
+  position: relative;
+  height: 70px;
+}
+#header1 .brand {
+  padding: 25px 0 20px;
+}
+#header1 .brand img {
+  max-height: none;
+}
+#header1 .brand-center {
+  padding-top: 25px;
+  text-align: center;
+}
+/* #header1 .pull-right {margin-top: 15px;} */
+#header1 .btn-setting {
+  position: absolute;
+  right: 214px;
+  top: 50%;
+  margin-top: -16.5px;
+}
+#header1 .search {
+  position: relative;
+  float: left;
+  margin-top: 15px;
+  padding: 0 50px 0 0;
+  width: 220px;
+  height: 36px;
+  border-bottom: 2px solid #333;
+}
+#header1 .search .iLabel {
+  margin: 13px 0 0 0;
+  cursor: text;
+  font-size: 14px;
+}
+#header1 .search input[type="text"] {
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  border: 0;
+  background: transparent;
+  font-size: 14px;
+}
+#header1 .search input[type="image"] {
+  position: absolute;
+  top: 10px;
+  right: -8px;
+}
+#header1 .btn-header1 {
+  float: left;
+  margin-left: 40px;
+}
+#header1 .btn-header1-v2 {
+  float: left;
+  margin-left: 40px;
+  margin-top: -16px;
+}
+#header1 .btn-header1-v2 a {
+  text-decoration: none;
+}
+
+#main #header1 .brand {
+  padding: 70px 0 20px;
+}
+#main #header1 .brand a {
+  color: #000;
+  font-size: 30px;
+  font-weight: 600;
+}
+#main #header1 .pull-right {
+  margin-top: 70px;
+}
+#main #header1 .pull-right .search {
+  margin-top: 0;
+}
+
+.container-border {
+  border-top: 1px solid #ddd;
+  padding: 50px 0;
+}
+.container-curation {
+  background-color: #383f59;
+  background-image: radial-gradient(#404c82, #1d212d);
+}
+
+.main-course {
+  padding: 75px 0;
+}
+.main-course h2 {
+  margin-bottom: 40px;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+}
+.main-course h2:before {
+  display: block;
+  margin: 0 auto 10px;
+  content: "";
+  background: url(https://img.hunet.co.kr/edu/customize/nps/v6/main/bullet-nps.png)
+    center no-repeat;
+  width: 61px;
+  height: 29px;
+}
+.main-course-tab {
+  display: table;
+  width: 100%;
+}
+.main-course-tab li {
+  display: table-cell;
+  width: 10%;
+}
+.main-course-tab li a {
+  display: block;
+  padding: 10px 0;
+  text-align: center;
+  color: #868ca8;
+  font-size: 15px;
+  font-weight: 300;
+  border: 1px solid #868ca8;
+  border-left: 0;
+}
+.main-course-tab li:first-child a {
+  border-left: 1px solid #868ca8;
+}
+.main-course-tab li.active a {
+  background-color: #fff;
+  color: #1e2a5f;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
+}
+.main-course-tab li a:hover {
+  text-decoration: underline;
+}
+.main-course-tab-item {
+  overflow: hidden;
+  margin-left: -24px;
+  display: none;
+  height: 356px;
+}
+.main-course-tab-item li {
+  float: left;
+  width: 229.5px;
+  margin: 25px 0 0 24px;
+}
+.main-course-tab-item li .thumb {
+  display: block;
+  width: 100%;
+  height: 125px;
+  overflow: hidden;
+}
+.main-course-tab-item li .thumb img {
+  width: 100%;
+  height: 100%;
+}
+.main-course-tab-item li .title {
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #fff;
+  text-align: center;
+}
+.main-course-tab-item li a:hover .title {
+  text-decoration: underline;
+}
+
+.main-user {
+  position: relative;
+  float: left;
+  width: 280px;
+  margin-top: 10px;
+}
+.main-user > .inner {
+  padding-left: 20px;
+}
+.main-user .name {
+  margin-bottom: 15px;
+  font-size: 23px;
+  font-weight: 300;
+  color: #000;
+  letter-spacing: -1px;
+}
+.main-user .links {
+  font-size: 13px;
+}
+.main-user .links li {
+  display: inline-block;
+}
+.main-user .links li:before {
+  display: inline-block;
+  vertical-align: middle;
+  content: "";
+  width: 1px;
+  height: 12px;
+  background-color: #333;
+  margin: 0 3px 3px 5px;
+}
+.main-user .links li:first-child:before {
+  display: none;
+}
+.main-user .links li a {
+  color: #000;
+}
+.main-user .point {
+  position: relative;
+  margin-top: 15px;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 7px 20px;
+  letter-spacing: -1px;
+}
+.main-user .point dl dt,
+.main-user .point dl dd {
+  font-size: 20px;
+  color: #000;
+  display: inline-block;
+  font-weight: 600;
+}
+.main-user .point dl dd {
+  color: #1e2a5f;
+  margin-left: 10px;
+  font-size: 23px;
+}
+.main-user .point:before {
+  display: block;
+  content: "";
+  width: 90px;
+  height: 105px;
+  position: absolute;
+  right: -5px;
+  bottom: -5px;
+  background-size: 90px auto !important;
+}
+.main-user .point.l1:before {
+  background: url(https://img.hunet.co.kr/edu/customize/nps/v6/sub/l1.png)
+    center no-repeat;
+}
+.main-user .point.l2:before {
+  background: url(https://img.hunet.co.kr/edu/customize/nps/v6/sub/l2.png)
+    center no-repeat;
+}
+.main-user .point.l3:before {
+  background: url(https://img.hunet.co.kr/edu/customize/nps/v6/sub/l3.png)
+    center no-repeat;
+}
+.main-user .point.l4:before {
+  background: url(https://img.hunet.co.kr/edu/customize/nps/v6/sub/l4.png)
+    center no-repeat;
+}
+.main-user .point.l5:before {
+  background: url(https://img.hunet.co.kr/edu/customize/nps/v6/sub/l5.png)
+    center no-repeat;
+}
+.main-user .point.l6:before {
+  background: url(https://img.hunet.co.kr/edu/customize/nps/v6/sub/l6.png)
+    center no-repeat;
+}
+.main-user .point.l7:before {
+  background: url(https://img.hunet.co.kr/edu/customize/nps/v6/sub/l7.png)
+    center no-repeat;
+}
+.main-user .point img {
+  width: 90px;
+  display: none;
+  position: absolute;
+  right: -5px;
+  bottom: -5px;
+}
+.main-user .point.level1 .imgbox img.level-img1 {
+  display: inline;
+}
+.main-user .point.level2 .imgbox img.level-img2 {
+  display: inline;
+}
+.main-user .point.level3 .imgbox img.level-img3 {
+  display: inline;
+}
+.main-user .point.level4 .imgbox img.level-img4 {
+  display: inline;
+}
+.main-user .point.level5 .imgbox img.level-img5 {
+  display: inline;
+}
+.main-user .point.level6 .imgbox img.level-img6 {
+  display: inline;
+}
+.main-user .point.level7 .imgbox img.level-img7 {
+  display: inline;
+}
+.main-user .status-count {
+  margin-top: 18px;
+  text-align: center;
+  overflow: hidden;
+  margin-left: -6px;
+}
+.main-user .status-count dl {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  float: left;
+  min-width: 78px;
+}
+.main-user .status-count dl:before {
+  display: block;
+  content: "";
+  height: 100%;
+  border-left: 1px solid #ddd;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.main-user .status-count dl:first-child:before {
+  display: none;
+}
+.main-user .status-count dl dt,
+.main-user .status-count dl dd {
+  font-weight: 600;
+  float: left;
+  line-height: 25px;
+}
+.main-user .status-count dl dt {
+  font-size: 13px;
+  color: #333;
+  margin-right: 5px;
+  padding-left: 7px;
+}
+.main-user .status-count dl dd {
+  font-size: 24px;
+  color: #db2229;
+  width: 30px;
+  letter-spacing: -1px;
+  padding-right: 3px;
+}
+.main-user .main-box-status {
+  margin-top: 37px;
+}
+.main-user .main-box-status .box-status h3 {
+  margin-bottom: 10px;
+}
+.main-user .main-box-status .box-status .rate {
+  margin-bottom: 13px;
+}
+
+.btn.goto-page.type-a {
+  color: #333;
+}
+.btn.goto-page.type-a:hover {
+  color: #000000;
+}
+.btn.goto-page.type-a .text {
+  display: inline-block;
+  position: relative;
+  padding: 0 14px 0 0;
+  vertical-align: top;
+  line-height: 1;
+  font-size: 15px;
+  letter-spacing: -0.05em;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/v6/main/arrow-right.png)
+    right center no-repeat;
+}
+.btn.goto-page.type-b {
+  color: #222222;
+}
+.btn.goto-page.type-b .text {
+  display: inline-block;
+  position: relative;
+  padding: 3px 12px 0 0;
+  height: 21px;
+  vertical-align: top;
+  line-height: 1;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+}
+.btn.goto-page.type-b .text:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 7px;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjMjIyMjIyIiBkPSJNNy4zMyAyNGwtMi44My0yLjgyOSA5LjMzOS05LjE3NS05LjMzOS05LjE2NyAyLjgzLTIuODI5IDEyLjE3IDExLjk5NnoiLz48L3N2Zz4=)
+    no-repeat 0 0;
+  background-size: 100% auto;
+  -webkit-background-size: 100% auto;
+}
+.btn.goto-page.type-c {
+  height: 44px;
+  width: 44px;
+  line-height: 44px;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
+  background-color: #db2229;
+  border-radius: 50%;
+  padding: 0;
+  font-weight: 600;
+}
+.btn.goto-page.type-c .text {
+  width: 44px;
+}
+.item-wrap + .item-wrap:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+.item-wrap:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.box-status {
+  position: relative;
+  height: 228px;
+  padding: 20px 0 0 0;
+  zoom: 1;
+}
+.box-status h3 {
+  margin: 0 0 12px 0;
+  padding: 0 12px;
+  font-size: 16px;
+  color: #252525;
+}
+.box-status .body {
+  padding: 0 40px;
+}
+.box-status .tabs-status {
+  position: relative;
+  height: 33px;
+  margin-bottom: 15px;
+  font-size: 13px;
+  border-bottom: 1px solid #ff7500;
+}
+.box-status .tabs-status li {
+  float: left;
+  padding-right: 2px;
+}
+.box-status .tabs-status li a {
+  float: left;
+  width: 132px;
+  height: 32px;
+  line-height: 36px;
+  overflow: hidden;
+  text-align: center;
+  font-weight: 600;
+  color: #666;
+  border: 1px solid #d7d7d7;
+  border-bottom: 0;
+  background: #f9f9f9;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.box-status .tabs-status li.active a {
+  color: #fff;
+  border-color: #ff7500;
+  background: #ff7500;
+}
+.box-status .tabs-status li a:hover {
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+}
+.box-status .course-count {
+  position: absolute;
+  top: 60px;
+  right: 40px;
+  font-size: 12px;
+  color: #313131;
+}
+.box-status .course-count strong {
+  color: #df3f45;
+}
+.box-status .subject {
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  border-bottom: 1px solid #e8e8e8;
+}
+.box-status .subject .prev,
+.box-status .subject .next {
+  position: absolute;
+  top: 3px;
+  width: 13px;
+  height: 18px;
+  overflow: hidden;
+  text-indent: -9999em;
+  background: url(https://img.hunet.co.kr/edu/main/v5/controls.png) no-repeat;
+}
+.box-status .subject .prev {
+  left: 0;
+  background-position: 0 0;
+}
+.box-status .subject .next {
+  right: 0;
+  background-position: -20px 0;
+}
+.box-status .subject a:hover {
+  text-decoration: none;
+}
+.box-status .icon-online {
+  display: inline-block;
+  padding: 2px 5px;
+  color: #fff;
+  font-size: 13px;
+  font-style: normal;
+  background: #8373d2;
+}
+.box-status .icon-offline {
+  display: inline-block;
+  padding: 2px 5px;
+  color: #fff;
+  font-size: 13px;
+  font-style: normal;
+  background: #4abae9;
+}
+.box-status .icon-book {
+  display: inline-block;
+  padding: 2px 5px;
+  color: #fff;
+  font-size: 13px;
+  font-style: normal;
+  background: #e75757;
+}
+.box-status .subject * {
+  vertical-align: middle;
+}
+.box-status .subject strong {
+  display: inline-block;
+  width: 320px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 17px;
+  font-weight: normal;
+  color: #000;
+}
+.box-status .rate {
+  margin-bottom: 15px;
+  font-size: 12px;
+  color: #727272;
+  zoom: 1;
+}
+.box-status .rate:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.box-status .rate em {
+  margin-right: 10px;
+  font-size: 16px;
+  color: #fa4d52;
+  font-style: normal;
+}
+.box-status .rate .tit {
+  color: #313131;
+}
+.box-status .rate .day {
+  color: #0086ac;
+}
+.box-status .rate .pull-right span {
+  margin-left: 10px;
+}
+.box-status .rate i {
+  display: inline-block;
+  width: 14px;
+  height: 10px;
+}
+.box-status .rate .icon-mark1 {
+  background-color: #da2128;
+}
+.box-status .rate .icon-mark2 {
+  background-color: #fdc642;
+}
+.box-status .graph {
+  zoom: 1;
+}
+.box-status .graph:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.box-status .graph .bar {
+  position: relative;
+  float: left;
+  width: 325px;
+  height: 16px;
+  margin-top: 6px;
+  background-color: #e5e5e5;
+}
+.box-status .graph .bar div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+}
+.box-status .graph .bar1 {
+  background-color: #da2128;
+}
+.box-status .graph .bar2 {
+  background-color: #fdb813;
+}
+.box-status .graph .btn-group {
+  float: right;
+}
+
+.box-status .no-data {
+  min-height: 88px;
+  padding-top: 20px;
+  background: url(https://img.hunet.co.kr/edu/main/v5/bg-status-no-data.png)
+    no-repeat right center;
+}
+.box-status .no-data h4 {
+  margin: 0 0 10px 0;
+}
+.box-status .no-data p {
+  margin: 0 0 0 0;
+  font-size: 13px;
+  line-height: 20px;
+}
+.box-status .no-data .btn-group {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.box-status div.rate2 {
+  padding-top: 20px;
+  color: #313131;
+}
+.box-status div.rate2 div.fLeft {
+  padding: 0 0 0 8px;
+  line-height: 14px;
+  background: url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif)
+    no-repeat 0 5px;
+}
+.box-status div.rate2 div.fLeft p {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.box-status div.rate2 div.fLeft p span {
+  color: #727272;
+}
+.box-status div.rate2 div.fLeft em {
+  font-weight: bold;
+  font-size: 16px;
+}
+.box-status div.rate2 div.fRight {
+  padding-top: 6px;
+}
+
+.box-status .process-no ul {
+  float: left;
+  line-height: 24px;
+  font-size: 12px;
+}
+.box-status .process-no ul li {
+  padding-left: 10px;
+  background: url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif)
+    no-repeat 0 9px;
+}
+.box-status .process-no .btn-group {
+  float: right;
+}
+.box-status .process-end {
+}
+
+.box-status .other-class h3 {
+  margin: 0;
+  padding: 0 0 10px 20px;
+  color: #313131;
+  background: url(https://img.hunet.co.kr/edu/common/ico_tit-h2-popup.gif)
+    no-repeat 0 2px;
+}
+.box-status .other-class ul {
+  font-size: 12px;
+  border-top: 1px solid #c7c7c7;
+}
+.box-status .other-class ul li {
+  width: 100%;
+  overflow: hidden;
+  padding: 4px 0 5px 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+.box-status .other-class ul li.last {
+  border: 0;
+}
+.box-status .other-class ul li span.tit {
+  float: left;
+  max-width: 70%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 7px;
+  color: #313131;
+}
+.box-status .other-class ul li div.info {
+  float: right;
+}
+.box-status .other-class ul li div.info * {
+  vertical-align: top;
+}
+.box-status .other-class ul li span.date {
+  float: left;
+  padding: 7px 7px 0 0;
+  font-size: 11px;
+}
+.box-status .state-table {
+  width: 100%;
+}
+.box-status .state-table th {
+  height: 30px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: normal;
+  text-align: center;
+  background: #69696b;
+}
+.box-status .state-table td {
+  padding: 10px 0;
+  text-align: center;
+  background: #edebec
+    url(https://img.hunet.co.kr/edu/customize/kogas/main/state-table-line.gif)
+    repeat-y;
+}
+.box-status .state-table td.first {
+  background-image: none;
+}
+.box-status .state-table td div {
+  height: 36px;
+  line-height: 36px;
+}
+.box-status .state-table td div.l2 {
+  line-height: 16px;
+}
+.box-status .state-table td div img {
+  vertical-align: middle;
+  margin-top: -4px;
+}
+.box-status .edu-list-table {
+  width: 100%;
+}
+.box-status .edu-list-table th,
+.box-status .edu-list-table td {
+  text-align: center;
+  font-size: 12px;
+}
+.box-status .edu-list-table th {
+  padding: 7px 0;
+  background: #fdb813;
+}
+.box-status .edu-list-table td {
+  padding: 7px 0;
+  border-bottom: 1px dashed #ccc;
+  color: #444;
+}
+.box-status .edu-list-table .left {
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.box-status .edu-list-table a {
+  color: #444;
+}
+.box-status .edu-list-table .icon-online {
+  font-size: 11px;
+}
+.box-status .edu-list-table .icon-offline {
+  font-size: 11px;
+}
+.box-status .edu-list-table .icon-book {
+  font-size: 11px;
+}
+
+.box-status .btn-more {
+  right: 20px;
+  bottom: 15px;
+  color: #252525;
+}
+
+.main-box-status {
+  float: left;
+  width: 260px;
+  padding: 0 0 0 20px;
+  margin-top: 10px;
+}
+.box-status {
+  height: auto;
+  padding: 0;
+}
+.box-status h3 {
+  font-size: 23px;
+  padding: 0;
+  margin: 0 0 35px 0;
+  font-weight: 300;
+  letter-spacing: -1px;
+}
+.box-status .aside {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.box-status .body {
+  padding: 0;
+}
+.box-status .tabs-status {
+  border-bottom-color: #242736;
+}
+.box-status .tabs-status ul {
+  display: table;
+  width: 100%;
+}
+.box-status .tabs-status li {
+  float: none;
+  display: table-cell;
+  padding: 0;
+  width: 10%;
+}
+.box-status .tabs-status li a {
+  float: none;
+  width: auto;
+  display: block;
+  background-color: #e5e5e5;
+  border-radius: 0;
+  border-left: 0;
+  border-right-color: #fff;
+  font-size: 14px;
+  line-height: 32px;
+}
+.box-status .tabs-status li.active a {
+  background-color: #242736;
+  border-color: #242736;
+}
+.box-status .subject strong {
+  width: 215px;
+  font-size: 13px;
+}
+.box-status .graph .bar,
+.box-status .graph .bar div {
+  width: 185px;
+  margin-top: 0;
+  height: 27px;
+}
+.box-status .btn-inverse {
+  background-color: #6d6e72;
+  border: 0;
+  border-radius: 0;
+}
+.box-status .rate .icon-mark1,
+.box-status .graph .bar1 {
+  background-color: #242736;
+}
+.box-status .rate .icon-mark2,
+.box-status .graph .bar2 {
+  background-color: #85878e;
+}
+.box-status .day {
+  margin-top: 15px;
+  font-size: 13px;
+}
+.box-status h3 strong,
+.box-status .rate em,
+.box-status .day strong {
+  color: #d9232e;
+  font-weight: 600;
+}
+.box-status .process-no {
+  margin-top: 20px;
+}
+.box-status .process-no ul li {
+  line-height: 2.3;
+  background-position: 0 11px !important;
+}
+.box-status .process-no .btn-group {
+  margin-top: 5px;
+}
+
+.main-banner {
+  margin: 60px 0 25px;
+  overflow: hidden;
+}
+
+.side-banner {
+  float: left;
+  width: 260px;
+  margin-top: 73px;
+}
+
+.side-notice {
+  position: relative;
+  float: left;
+  width: 260px;
+  padding-left: 20px;
+}
+.side-notice h2 {
+  color: #000;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.side-notice .aside {
+  position: absolute;
+  right: 0px;
+  top: 6px;
+}
+.side-notice .notice ul {
+  margin-top: 30px;
+}
+.side-notice .notice ul li {
+  margin-top: 10px;
+}
+.side-notice .notice ul li a {
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  font-weight: 600;
+}
+.side-notice .notice ul li a:hover {
+  text-decoration: underline;
+}
+.side-notice .customer {
+  margin-top: 45px;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/v6/main/bg_customer.png)
+    no-repeat right 30px;
+}
+.side-notice .customer h2 em {
+  color: #db2229;
+}
+.side-notice .customer dl {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 13px;
+  color: #000;
+  font-size: 14px;
+  line-height: 17px;
+}
+.side-notice .customer dl dt,
+.side-notice .customer dl dd {
+  margin-top: 6px;
+}
+.side-notice .customer dl dt {
+  float: left;
+  margin-right: 4px;
+  font-weight: 600;
+}
+.side-notice .customer p {
+  margin-top: 5px;
+  color: #777;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+#main #footer {
+  background-color: #9d9d9d;
+  margin-top: 50px;
+  padding: 25px 0 50px;
+}
+#main #footer .copyright,
+#main #footer .copyright a,
+#main #footer .pull-right {
+  color: #fff;
+  font-size: 13px;
+}
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 100%;
+  font-family: "나눔고딕", "nanumgothic", "맑은 고딕", "malgun gothic", "dotum",
+    sans-serif;
+  background: #784b95;
+  z-index: 12;
+}
+.sidebar-body {
+  height: 100%;
+  overflow: auto;
+}
+#sidebar .header {
+  padding-bottom: 1px;
+}
+#sidebar .home {
+  padding: 49px 0 15px 0;
+  text-align: center;
+  color: #fffefe;
+  font-size: 11px;
+  background: url(https://img.hunet.co.kr/edu/main/v5/icon-sidebar-home.png)
+    no-repeat center 30px;
+}
+#sidebar .user {
+  margin-bottom: 20px;
+}
+#sidebar .thumb {
+  margin-bottom: 5px;
+  text-align: center;
+}
+#sidebar .thumb img {
+  vertical-align: top;
+}
+#sidebar .welcome {
+  margin-bottom: 10px;
+  color: #e4dbea;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 600;
+}
+#sidebar .link {
+  padding: 0 0 0 40px;
+  font-size: 13px;
+}
+#sidebar .link a {
+  display: block;
+  padding: 2px 0 2px 16px;
+  color: #fff;
+  background: url(https://img.hunet.co.kr/edu/main/v5/sidebar.png) no-repeat;
+}
+#sidebar .link .modify {
+  background-position: 0 3px;
+}
+#sidebar .link .logout {
+  background-position: 0 -47px;
+}
+#sidebar .link .admin {
+  background-position: 0 3px;
+}
+#sidebar .nav {
+  margin-bottom: 30px;
+  padding: 0 5px;
+  font-size: 12px;
+}
+#sidebar .nav li {
+  line-height: 1em;
+  border-bottom: 1px solid #66407f;
+}
+#sidebar .nav a {
+  display: block;
+  padding: 14px 0 14px 42px;
+  letter-spacing: -1px;
+  font-weight: 600;
+  color: #fff;
+  background: url(https://img.hunet.co.kr/edu/main/v5/sidebar.png) no-repeat;
+}
+#sidebar .nav-icon-disabled a {
+  padding-right: 14px;
+  padding-left: 14px;
+  text-align: center;
+  background: none;
+}
+#sidebar .nav .course {
+  background-position: 14px -88px;
+}
+#sidebar .nav .sangsang {
+  background-position: 14px -139px;
+}
+#sidebar .nav .state {
+  background-position: 14px -189px;
+}
+#sidebar .nav .search {
+  background-position: 14px -239px;
+}
+#sidebar .nav .faq {
+  background-position: 14px -289px;
+}
+#sidebar .nav .remote {
+  background-position: 14px -337px;
+}
+#sidebar .nav .personal-cs {
+  background-position: 14px -387px;
+}
+#sidebar .nav .guide {
+  background-position: 14px -439px;
+}
+#sidebar .nav .app {
+  background-position: 14px -490px;
+}
+#sidebar .nav .config {
+  background-position: 14px -539px;
+}
+#sidebar .nav .mouse {
+  background-position: 14px -589px;
+}
+#sidebar .nav .note {
+  background-position: 14px -639px;
+}
+#sidebar .nav .board {
+  background-position: 14px -691px;
+}
+#sidebar .nav .movie {
+  background-position: 14px -738px;
+}
+#sidebar .nav .event {
+  background-position: 14px -789px;
+}
+#sidebar .nav .cloud-down {
+  background-position: 11px -839px;
+}
+#sidebar .nav .clip {
+  background-position: 14px -889px;
+}
+
+#sidebar .latest-view-item h5 {
+  margin: 0 0 7px 0;
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+}
+#sidebar .latest-view-item .body {
+  width: 94px;
+  height: 280px;
+  overflow: hidden;
+  margin: 0 auto;
+  zoom: 1;
+}
+#sidebar .latest-view-item ul {
+  zoom: 1;
+}
+#sidebar .latest-view-item li {
+  height: 57px;
+}
+#sidebar .latest-view-item li img {
+  width: 94px;
+  height: 52px;
+  vertical-align: top;
+}
+#sidebar .latest-view-item .bx-pager {
+  margin-top: 3px;
+  text-align: center;
+  font-size: 11px;
+  font-family: "Arial";
+  font-weight: bold;
+  color: #fff;
+}
+#sidebar .latest-view-item .bx-controls-direction {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 11px;
+  color: #fff;
+}
+#sidebar .latest-view-item .bx-controls-direction a {
+  margin: 0 7px;
+  color: #fff;
+}
+#sidebar .ban {
+  margin: 0 auto;
+  width: 137px;
+  height: 91px;
+  overflow: hidden;
+}
+#sidebar .ban img {
+  display: block;
+  width: 100%;
+}
+.btn-sidebar-toggle {
+  position: absolute;
+  top: 50%;
+  left: -29px;
+  width: 29px;
+  height: 40px;
+  margin-top: -20px;
+  overflow: hidden;
+  border: 0;
+  background: #784b95 url(https://img.hunet.co.kr/edu/main/v5/controls.png)
+    no-repeat -100px -50px;
+  cursor: pointer;
+}
+.btn-sidebar-toggle.active {
+  background-position: -130px -50px;
+}
+
+#sidebar {
+  left: 0;
+  width: 120px;
+}
+#sidebar .link {
+  padding-left: 25px;
+}
+#sidebar .nav {
+  padding: 0;
+}
+#sidebar .nav a {
+  background: none;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+#sidebar .latest-view-item .body {
+  width: 84px;
+}
+#sidebar .latest-view-item li img {
+  width: 84px;
+  height: 50px;
+}
+.btn-sidebar-toggle2 {
+  position: absolute;
+  top: 50%;
+  left: auto;
+  right: -29px;
+  width: 29px;
+  height: 40px;
+  margin-top: -20px;
+  overflow: hidden;
+  border: 0;
+  background: #784b95 url(https://img.hunet.co.kr/edu/main/v5/controls.png)
+    no-repeat -130px -50px;
+  cursor: pointer;
+}
+.btn-sidebar-toggle2.active {
+  background-position: -100px -50px;
+}
+#sidebar,
+.btn-sidebar-toggle2 {
+  background-color: #576172;
+}
+#sidebar .header {
+  background-color: #576172;
+  padding-bottom: 1px;
+}
+#sidebar .nav li {
+  border-color: #6b7483;
+}
+#sidebar .home,
+#sidebar .welcome,
+#sidebar .welcome strong,
+#sidebar .link a {
+  color: #fff;
+}
+#sidebar .nav a,
+#sidebar .latest-view-item h5,
+#sidebar .latest-view-item .bx-pager,
+#sidebar .latest-view-item .bx-controls-direction,
+#sidebar .latest-view-item .bx-controls-direction a {
+  color: #fff;
+}
+
+/**
+ * posts-tab
+ */
+.posts-tab {
+  margin-bottom: 15px;
+}
+.posts-tab ul {
+  display: table;
+  width: 100%;
+}
+.posts-tab ul li {
+  display: table-cell;
+  width: 10%;
+}
+.posts-tab ul li a {
+  display: block;
+  padding: 10px 0;
+  border: 1px solid #ddd;
+  border-bottom-color: #373d54;
+  text-align: center;
+  font-size: 15px;
+  border-left: 0;
+  color: #000;
+}
+.posts-tab ul li:first-child a {
+  border-left: 1px solid #ddd;
+}
+.posts-tab ul li.active a {
+  border-color: #373d54;
+  border-left: 1px solid #373d54;
+  border-bottom-color: #fff;
+  color: #1e2a5f;
+  font-weight: 600;
+}
+
+/**
+ * post-display
+ */
+
+/* post-display type-a */
+.posts-display.type-a {
+  margin: 0 0 -15px -20px;
+  padding: 0;
+  list-style: none;
+}
+.posts-display.type-a:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.posts-display.type-a .posts-item {
+  float: left;
+  position: relative;
+  width: 210px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+.posts-display.type-a .posts-item:before {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding-top: 4px;
+  height: 28px;
+  width: 32px;
+  line-height: 1.5;
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -0.025em;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/v6/main/bg-badge.png)
+    no-repeat 0 0;
+}
+.posts-display.type-a .posts-item:first-child:before {
+  content: "01";
+}
+.posts-display.type-a .posts-item:first-child + .posts-item:before {
+  content: "02";
+}
+.posts-display.type-a
+  .posts-item:first-child
+  + .posts-item
+  + .posts-item:before {
+  content: "03";
+}
+.posts-display.type-a
+  .posts-item:first-child
+  + .posts-item
+  + .posts-item
+  + .posts-item:before {
+  content: "04";
+}
+.posts-display.type-a
+  .posts-item:first-child
+  + .posts-item
+  + .posts-item
+  + .posts-item
+  + .posts-item:before {
+  content: "05";
+}
+.posts-display.type-a
+  .posts-item:first-child
+  + .posts-item
+  + .posts-item
+  + .posts-item
+  + .posts-item
+  + .posts-item:before {
+  content: "06";
+}
+.posts-display.type-a .posts-item .posts-face .posts-cover {
+  display: block;
+  position: relative;
+  height: 120px;
+  width: 100%;
+  overflow: hidden;
+}
+.posts-display.type-a .posts-item .posts-face .posts-cover .thumbnail {
+  height: 100%;
+  width: 100%;
+  border: 0 none;
+  vertical-align: top;
+}
+.posts-display.type-a .posts-item .text {
+  display: block;
+  margin-top: 8px;
+  overflow: hidden;
+  height: 38px;
+  line-height: 19px;
+  color: #000000;
+  font-size: 14px;
+  text-decoration: inherit;
+}
+
+.posts-display.type-a .posts-item .posts-main .posts-foot {
+  margin-top: 4px;
+}
+.posts-display.type-a
+  .posts-item
+  .posts-main
+  .posts-foot
+  .posts-data
+  .data-item {
+  display: block;
+  line-height: 19px;
+  font-size: 14px;
+  color: #8d8d8d;
+}
+.posts-display.type-a
+  .posts-item
+  .posts-main
+  .posts-foot
+  .posts-data
+  .data-item
+  .head {
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  line-height: 1px;
+  font-size: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+}
+.posts-display.type-a
+  .posts-item
+  .posts-main
+  .posts-foot
+  .posts-data
+  .data-item
+  .body {
+}
+.posts-display.type-a
+  .posts-item
+  .posts-main
+  .posts-foot
+  .posts-data
+  .data-item.price
+  del {
+  display: inline-block;
+  position: relative;
+  padding: 0 8px 0 4px;
+  text-decoration: none;
+}
+.posts-display.type-a
+  .posts-item
+  .posts-main
+  .posts-foot
+  .posts-data
+  .data-item.price
+  del:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 1px;
+  top: 50%;
+  left: 0;
+  right: 0;
+  background-color: #8d8d8d;
+}
+.posts-display.type-a
+  .posts-item
+  .posts-main
+  .posts-foot
+  .posts-data
+  .data-item.price
+  del:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 1px;
+  height: 1px;
+  background: #8d8d8d;
+  box-shadow: -4px 4px 0 0 #8d8d8d, -3px 3px 0 0 #8d8d8d, -2px 2px 0 0 #8d8d8d,
+    -1px 1px 0 0 #8d8d8d, -1px -1px 0 0 #8d8d8d, -2px -2px 0 0 #8d8d8d,
+    -3px -3px 0 0 #8d8d8d, -4px -4px 0 0 #8d8d8d;
+}
+.posts-display.type-a
+  .posts-item
+  .posts-main
+  .posts-foot
+  .posts-data
+  .data-item.price
+  ins {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.posts-display.type-a .posts-item .posts-main .posts-foot .posts-func {
+  position: absolute;
+  top: calc(100px - 32px);
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-appearance: none;
+}
+.posts-display.type-a .posts-item .posts-main .posts-foot .posts-func .btn {
+  overflow: visible;
+  padding: 8px;
+  border: 0 none transparent;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.posts-display.type-a
+  .posts-item
+  .posts-main
+  .posts-foot
+  .posts-func
+  .btn.active {
+  display: none;
+}
+.posts-display.type-a .posts-item .posts-main .posts-foot .posts-func .btn svg {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+.posts-display.type-a
+  .posts-item
+  .posts-main
+  .posts-foot
+  .posts-func
+  .btn.subscribe
+  svg {
+  fill: #ffffff;
+}
+.posts-display.type-a
+  .posts-item
+  .posts-main
+  .posts-foot
+  .posts-func
+  .btn.unsubscribe
+  svg {
+  fill: #fd3e66;
+}
+.posts-display.type-a .posts-item:hover .posts-main .posts-foot .posts-func {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* post-display type-b */
+.posts-display.type-b {
+  margin: 0;
+  padding: 0 25px;
+  width: 260px;
+  list-style: none;
+}
+.posts-display.type-b:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.posts-display.type-b .posts-item {
+  float: left;
+  margin-bottom: 25px;
+  width: 120px;
+}
+.posts-display.type-b .posts-item .posts-cover {
+  display: block;
+  position: relative;
+  width: 120px;
+  height: 67px;
+}
+.posts-display.type-b .posts-item .posts-cover:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.posts-display.type-b .posts-item .posts-cover img {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+.posts-display.type-b .posts-item:nth-child(even) {
+  margin-left: 20px;
+}
+.posts-display.type-b .posts-item .posts-main .posts-head {
+  margin-top: 8px;
+}
+.posts-display.type-b .posts-item .posts-main .posts-head .posts-name {
+  display: block;
+  overflow: hidden;
+  height: 32px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #000000;
+}
+.posts-display.type-b .posts-item .posts-main .posts-head .posts-name .text {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: inherit;
+}
+
+/* post-display type-c */
+.posts-display.type-c {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.posts-display.type-c .posts-item {
+  position: relative;
+  padding-right: 80px;
+}
+.posts-display.type-c .posts-item + .posts-item {
+  margin-top: 8px;
+}
+.posts-display.type-c .posts-item .posts-head {
+  display: block;
+}
+.posts-display.type-c .posts-item .posts-head .posts-name {
+  display: block;
+  width: 410px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #737373;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.posts-display.type-c .posts-item .posts-head .posts-name:hover {
+  color: #000000;
+}
+.posts-display.type-c .posts-item.icon-new .posts-head:after {
+  content: "N";
+  display: inline-block;
+  *display: inline-block;
+  vertical-align: top;
+  margin-top: 4px;
+  padding: 0px 3.3px;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+  font-size: 11px;
+  color: #fff;
+  background: #ed1c24;
+}
+.posts-display.type-c .posts-item .posts-foot {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.posts-display.type-c .posts-item .posts-foot .foot-item {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 20px;
+  color: #737373;
+}
+
+/**
+ * layout
+ */
+#page {
+  position: relative;
+  overflow: hidden;
+  font-family: "Malgun Gothic", "맑은 고딕", dotum, "돋움", sans-serif;
+  font-weight: 400;
+  background-color: #ffffff;
+}
+.page-head {
+  position: relative;
+  z-index: 10;
+}
+
+/* page-name */
+.page-head .page-name {
+  float: left;
+  margin: 27px 0;
+  width: 288px;
+}
+.page-head .page-name .text {
+  float: left;
+  position: relative;
+  width: 270px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 24px;
+  color: #000000;
+}
+.page-head .page-name .text:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(https://img.hunet.co.kr/hunet/main_v3/layout_header_01.png)
+    no-repeat 0 0;
+}
+
+/**
+ * content-head
+ */
+
+/* main-service */
+.content-head .main-service {
+  position: relative;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 143px;
+}
+.content-head .main-service h2 {
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  line-height: 1px;
+  font-size: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+}
+.content-head .main-service .service-list {
+  position: relative;
+  margin: 0;
+  padding: 25px 0;
+  list-style: none;
+}
+.content-head .main-service .service-list:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 143px;
+  bottom: 0;
+  width: 145px;
+  background-color: #ffffff;
+}
+.content-head .main-service .service-list .service-item.active > a,
+.content-head .main-service .service-list .service-item.current > a {
+  background-color: #ffffff;
+}
+.content-head .main-service .service-list .service-item > a {
+  display: block;
+  position: relative;
+  padding-left: 14px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 16px;
+  color: #333333;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: -0.1em;
+}
+.ie9 .content-head .main-service .service-list .service-item > a {
+  letter-spacing: -0.15em;
+}
+.content-head .main-service .service-list .service-item > ul {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  margin: -54px 0 0 143px;
+  padding: 0;
+  width: 134px;
+  list-style: none;
+}
+.content-head .main-service .service-list .service-item.active > ul,
+.content-head .main-service .service-list .service-item.current > ul {
+  display: block;
+}
+.content-head .main-service .service-list .service-item > ul > li {
+  padding-left: 12px;
+}
+.content-head .main-service .service-list .service-item > ul > li.active > a,
+.content-head .main-service .service-list .service-item > ul > li.current > a {
+  color: #000000;
+  text-decoration: underline;
+}
+.content-head .main-service .service-list .service-item > ul > li > a {
+  line-height: 25px;
+  font-size: 14px;
+  color: #333;
+  letter-spacing: -0.05em;
+  display: block;
+}
+.ie9 .content-head .main-service .service-list .service-item > ul > li > a {
+  letter-spacing: -0.1em;
+}
+.content-head .main-service .service-list .service-item > ul > li.active > a,
+.content-head .main-service .service-list .service-item > ul > li.current > a,
+.content-head .main-service .service-list .service-item > ul > li > a:hover {
+  color: #000000;
+}
+.content-head .main-service .service-list .service-item > ul > li + li {
+  margin-top: 12px;
+}
+.content-head .main-service .service-list .service-item.active > .display-board,
+.content-head
+  .main-service
+  .service-list
+  .service-item.current
+  > .display-board {
+  visibility: visible;
+}
+.content-head .main-service .service-list .service-item-bottom > ul {
+  top: auto;
+  bottom: 19px;
+}
+.content-head .main-service .service-list .service-item-bottom > ul {
+  top: auto;
+  bottom: 19px;
+}
+.content-head .main-service .service-list .service-item-bottom > ul {
+  top: auto;
+  bottom: 19px;
+}
+
+/* display-board */
+.content-head {
+  width: 990px;
+  margin: 0 auto;
+}
+.content-head .display-board {
+  visibility: hidden;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  height: 470px;
+  left: 0;
+  right: 0;
+  -webkit-transition: visibility 0.4s ease, opacity 0.4s ease;
+  -moz-transition: visibility 0.4s ease, opacity 0.4s ease;
+  -ms-transition: visibility 0.4s ease, opacity 0.4s ease;
+  -o-transition: visibility 0.4s ease, opacity 0.4s ease;
+  transition: visibility 0.4s ease, opacity 0.4s ease;
+}
+.content-head .display-board.active {
+  visibility: visible;
+  opacity: 1;
+}
+.content-head .display-board .bx-viewport {
+  position: relative;
+  z-index: 1;
+}
+.content-head .display-board ul {
+  margin: 0 auto;
+  height: 470px;
+  overflow: hidden;
+}
+.content-head .display-board ul li {
+  height: 470px;
+}
+.content-head .display-board ul li a {
+  display: block;
+  margin: 0 auto;
+  height: 470px;
+  width: 990px;
+  padding-left: 60px;
+}
+.content-head .display-board ul li a img {
+  vertical-align: top;
+  height: 100%;
+  width: 100%;
+}
+
+.content-head .display-board .bx-wrapper .bx-controls {
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  right: calc(50% - 640px);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.content-head .display-board .bx-wrapper .bx-controls:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.content-head .display-board .bx-wrapper .bx-controls .bx-controls-direction {
+  float: left;
+  position: relative;
+}
+.content-head .display-board .bx-wrapper .bx-controls .bx-controls-direction a {
+  display: block;
+  float: left;
+  position: relative;
+  padding: 8px;
+}
+.content-head
+  .display-board
+  .bx-wrapper
+  .bx-controls
+  .bx-controls-direction
+  a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 16px;
+  width: 1px;
+  top: calc(50% - 8px);
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.content-head
+  .display-board
+  .bx-wrapper
+  .bx-controls
+  .bx-controls-direction
+  a
+  + a {
+  margin-left: 1px;
+}
+.content-head
+  .display-board
+  .bx-wrapper
+  .bx-controls
+  .bx-controls-direction
+  a
+  svg {
+  display: block;
+  width: 16px;
+  height: 16px;
+  -webkit-transition: fill 0.2s ease;
+  -ms-transition: fill 0.2s ease;
+  transition: fill 0.2s ease;
+}
+.content-head
+  .display-board
+  .bx-wrapper
+  .bx-controls
+  .bx-controls-direction
+  a:hover
+  svg {
+  fill: #ffffff;
+}
+.content-head
+  .display-board
+  .bx-wrapper
+  .bx-controls
+  .bx-controls-direction
+  a.bx-prev {
+}
+.content-head
+  .display-board
+  .bx-wrapper
+  .bx-controls
+  .bx-controls-direction
+  a.bx-next {
+}
+
+.content-head .display-board .bx-wrapper .bx-controls .bx-controls-auto {
+  float: left;
+  position: relative;
+}
+/*.content-head .display-board .bx-wrapper .bx-controls .bx-controls-auto:after									{content: ''; display: block; position: absolute; height: 16px; width: 1px; top: calc(50% - 8px); left: 0; background-color: rgba(0,0,0,0.1);}*/
+.content-head
+  .display-board
+  .bx-wrapper
+  .bx-controls
+  .bx-controls-auto
+  .bx-controls-auto-item {
+  float: left;
+}
+.content-head
+  .display-board
+  .bx-wrapper
+  .bx-controls
+  .bx-controls-auto
+  .bx-controls-auto-item
+  a {
+  display: block;
+  float: left;
+  padding: 8px;
+}
+.content-head
+  .display-board
+  .bx-wrapper
+  .bx-controls
+  .bx-controls-auto
+  .bx-controls-auto-item
+  a.active {
+  display: none;
+}
+.content-head
+  .display-board
+  .bx-wrapper
+  .bx-controls
+  .bx-controls-auto
+  .bx-controls-auto-item
+  a
+  svg {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+.content-head
+  .display-board
+  .bx-wrapper
+  .bx-controls
+  .bx-controls-auto
+  .bx-controls-auto-item
+  a:hover
+  svg {
+  fill: #ffffff;
+}
+
+.content-head .display-board .bx-pager-custom {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  bottom: 43px;
+  margin-left: -640px;
+  padding-left: 288px;
+  width: 992px;
+  text-align: center;
+  vertical-align: top;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+}
+.content-head .display-board .bx-pager-custom .bx-pager-item {
+  display: inline-block;
+  position: relative;
+  width: 13px;
+  height: 13px;
+  overflow: visible;
+}
+.content-head .display-board .bx-pager-custom .bx-pager-item + .bx-pager-item {
+  margin-left: 15px;
+}
+.content-head .display-board .bx-pager-custom .bx-pager-item .bx-pager-link {
+  display: block;
+  width: 13px;
+  height: 13px;
+  font-size: 0;
+  line-height: 0;
+  color: transparent;
+  border-radius: 7px;
+  background-color: #ffffff;
+}
+.content-head .display-board .bx-pager-custom .bx-pager-item .bx-pager-text {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  bottom: 28px;
+  padding: 6px 8px 0 8px;
+  height: 22px;
+  line-height: 1;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 300;
+  letter-spacing: -0.025em;
+  white-space: nowrap;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.55);
+  -webkit-transition: visibility 0.4s ease, opacity 0.4s ease;
+  -moz-transition: visibility 0.4s ease, opacity 0.4s ease;
+  -ms-transition: visibility 0.4s ease, opacity 0.4s ease;
+  -o-transition: visibility 0.4s ease, opacity 0.4s ease;
+  transition: visibility 0.4s ease, opacity 0.4s ease;
+}
+.content-head
+  .display-board
+  .bx-pager-custom
+  .bx-pager-item
+  .bx-pager-text:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -18px;
+  width: 18px;
+  height: 18px;
+  background: url(https://img.hunet.co.kr/hunet/main_v3/bg_displayboard_pager.png)
+    no-repeat 0 100%;
+}
+.content-head
+  .display-board
+  .bx-pager-custom
+  .bx-pager-item
+  .bx-pager-link.active {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.content-head
+  .display-board
+  .bx-pager-custom
+  .bx-pager-item
+  .bx-pager-link.active
+  + .bx-pager-text {
+  visibility: visible;
+  opacity: 1;
+}
+.content-head .display-board .bx-pager-custom .bx-pager-item:only-of-type {
+  display: none;
+}
+.content-head
+  .display-board
+  .bx-pager-custom
+  .bx-pager-item:nth-child(1)
+  .bx-pager-text {
+  right: -11px;
+}
+.content-head
+  .display-board
+  .bx-pager-custom
+  .bx-pager-item:nth-child(1)
+  .bx-pager-text:after {
+  right: 0;
+}
+.content-head
+  .display-board
+  .bx-pager-custom
+  .bx-pager-item:nth-child(2)
+  .bx-pager-text {
+  right: -11px;
+}
+.content-head
+  .display-board
+  .bx-pager-custom
+  .bx-pager-item:nth-child(2)
+  .bx-pager-text:after {
+  right: 0;
+}
+.content-head
+  .display-board
+  .bx-pager-custom
+  .bx-pager-item:nth-child(3)
+  .bx-pager-text {
+  left: -11px;
+}
+.content-head
+  .display-board
+  .bx-pager-custom
+  .bx-pager-item:nth-child(3)
+  .bx-pager-text:after {
+  left: 0;
+  background-position: 0 0;
+}
+
+.content-head .display-board-controls {
+  position: absolute;
+  z-index: 10;
+  top: 20px;
+  right: calc(50% - 640px);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility 0.4s ease, opacity 0.4s ease;
+  -ms-transition: visibility 0.4s ease, opacity 0.4s ease;
+  transition: visibility 0.4s ease, opacity 0.4s ease;
+}
+.content-head .display-board-controls.disabled {
+  visibility: visible;
+  opacity: 1;
+}
+.content-head .display-board-controls:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.content-head .display-board-controls button {
+  display: block;
+  float: left;
+  overflow: visible;
+  margin: 0;
+  padding: 8px;
+  height: 32px;
+  width: 32px;
+  border: 0 none transparent;
+  cursor: pointer;
+  background-color: transparent;
+}
+.content-head .display-board-controls button:hover svg {
+  fill: #ffffff;
+  -webkit-appearance: none;
+  -webkit-transition: fill 0.2s ease;
+  -ms-transition: fill 0.2s ease;
+  transition: fill 0.2s ease;
+}
+.content-head .display-board-controls button.active {
+  display: none;
+}
+.content-head .display-board-controls button svg {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+/**
+ * content-body
+ */
+.content-body .btn.goto-page.type-a {
+  color: #585858;
+}
+.content-body .btn.goto-page.type-a:hover {
+  color: #000000;
+}
+.content-body .btn.goto-page.type-a .text {
+  display: inline-block;
+  position: relative;
+  padding: 3px 14px 0 0;
+  height: 21px;
+  vertical-align: top;
+  line-height: 1;
+  font-size: 16px;
+  letter-spacing: -0.05em;
+}
+.content-body .btn.goto-page.type-a .text:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: calc(50% - 1px);
+  right: 0;
+  width: 2px;
+  height: 1px;
+  background: #da232a;
+  box-shadow: -4px 4px 0 0 #da232a, -3px 3px 0 0 #da232a, -2px 2px 0 0 #da232a,
+    -1px 1px 0 0 #da232a, -1px -1px 0 0 #da232a, -2px -2px 0 0 #da232a,
+    -3px -3px 0 0 #da232a, -4px -4px 0 0 #da232a;
+}
+.content-body .btn.goto-page.type-b {
+  color: #222222;
+}
+.content-body .btn.goto-page.type-b .text {
+  display: inline-block;
+  position: relative;
+  padding: 3px 12px 0 0;
+  height: 21px;
+  vertical-align: top;
+  line-height: 1;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+}
+.content-body .btn.goto-page.type-b .text:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 7px;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjMjIyMjIyIiBkPSJNNy4zMyAyNGwtMi44My0yLjgyOSA5LjMzOS05LjE3NS05LjMzOS05LjE2NyAyLjgzLTIuODI5IDEyLjE3IDExLjk5NnoiLz48L3N2Zz4=)
+    no-repeat 0 0;
+  background-size: 100% auto;
+  -webkit-background-size: 100% auto;
+}
+.content-body .btn.goto-page.type-c {
+  height: 44px;
+  width: 44px;
+  line-height: 44px;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
+  background-color: #db2229;
+  border-radius: 22px;
+}
+.content-body .btn.goto-page.type-c .text {
+  width: 44px;
+}
+.content-body .item-wrap + .item-wrap:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+.content-body .item-wrap:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.main-app {
+  float: left;
+  position: relative;
+  z-index: 2;
+  width: 280px;
+  height: 220px;
+  margin-top: 5px;
+}
+.main-app h2 {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 20px;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 23px;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: -1px;
+}
+.main-app h2 .em {
+  display: inline-block;
+  vertical-align: top;
+  color: #db2229;
+}
+.main-app .posts-display .posts-item .posts-face {
+  position: absolute;
+}
+.main-app .posts-display .posts-item .posts-face .posts-cover {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.main-app .posts-display .posts-item .posts-face .posts-cover img {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  -webkit-transition: -webkit-filter 0.4s ease;
+  transition: filter 0.4s ease;
+}
+.main-app .posts-display .posts-item .posts-main {
+  padding: 46px 20px 0 20px;
+}
+.main-app .posts-display .posts-item .posts-main .posts-head .posts-name {
+  padding-right: 1em;
+  min-height: 48px;
+  line-height: 24px;
+  font-size: 15px;
+  color: #000000;
+  font-weight: 300;
+  letter-spacing: -0.05em;
+}
+.main-app .posts-display .posts-item .posts-main .posts-head .posts-name .text {
+  display: inline-block;
+  vertical-align: top;
+  color: inherit;
+}
+.main-app .posts-display .posts-item .posts-main .posts-head .posts-name2 {
+  display: block;
+  margin-top: 15px;
+  font-size: 14px;
+}
+.main-app .posts-display .posts-item .posts-main .posts-foot {
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+  -webkit-transition: visibility 0.1s ease, opacity 0.1s ease;
+  transition: visibility 0.1s ease, opacity 0.1s ease;
+}
+.main-app
+  .posts-display
+  .posts-item
+  .posts-main
+  .posts-foot
+  .posts-data
+  .data-item {
+  display: block;
+  line-height: 16px;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+}
+.main-app
+  .posts-display
+  .posts-item
+  .posts-main
+  .posts-foot
+  .posts-data
+  .data-item
+  .head {
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  line-height: 1px;
+  font-size: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+}
+.main-app
+  .posts-display
+  .posts-item
+  .posts-main
+  .posts-foot
+  .posts-data
+  .data-item.price
+  del {
+  display: inline-block;
+  position: relative;
+  padding: 0 8px 0 4px;
+  text-decoration: none;
+}
+.main-app
+  .posts-display
+  .posts-item
+  .posts-main
+  .posts-foot
+  .posts-data
+  .data-item.price
+  del:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 1px;
+  top: 50%;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+}
+.main-app
+  .posts-display
+  .posts-item
+  .posts-main
+  .posts-foot
+  .posts-data
+  .data-item.price
+  del:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 1px;
+  height: 1px;
+  background: #ffffff;
+  box-shadow: -4px 4px 0 0 #ffffff, -3px 3px 0 0 #ffffff, -2px 2px 0 0 #ffffff,
+    -1px 1px 0 0 #ffffff, -1px -1px 0 0 #ffffff, -2px -2px 0 0 #ffffff,
+    -3px -3px 0 0 #ffffff, -4px -4px 0 0 #ffffff;
+}
+.main-app
+  .posts-display
+  .posts-item
+  .posts-main
+  .posts-foot
+  .posts-data
+  .data-item.price
+  ins {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.main-app .posts-display .posts-item .posts-main .posts-foot .posts-func {
+  text-align: center;
+}
+.main-app .posts-display .posts-item .posts-main .posts-foot .posts-func .btn {
+  overflow: visible;
+  margin: 0;
+  padding: 0;
+  border: 0 none transparent;
+  cursor: pointer;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+.main-app
+  .posts-display
+  .posts-item
+  .posts-main
+  .posts-foot
+  .posts-func
+  .btn
+  svg {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.main-app
+  .posts-display
+  .posts-item
+  .posts-main
+  .posts-foot
+  .posts-func
+  .btn.subscribe
+  svg {
+  fill: #ffffff;
+}
+.main-app
+  .posts-display
+  .posts-item
+  .posts-main
+  .posts-foot
+  .posts-func
+  .btn.unsubscribe
+  svg {
+  fill: #ef4545;
+}
+.main-app .posts-display .posts-item .posts-main .posts-foot .btn.active {
+  display: none;
+}
+.main-app .posts-display .posts-item .posts-side {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+}
+.main-app .posts-display .posts-item .posts-side2 {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  border: 1px solid #ddd;
+  width: 95px;
+  height: 95px;
+  overflow: hidden;
+}
+.main-app .posts-display .posts-item .posts-side2 img {
+  width: 100%;
+  height: 100%;
+}
+
+/* default */
+.main-app .posts-display .posts-item:not(.no-image) .posts-face {
+  z-index: -1;
+  top: 0;
+  right: 0;
+  height: 344px;
+  width: 288px;
+}
+.main-app .posts-display .posts-item:not(.no-image) .posts-main .posts-foot {
+  top: 106px;
+  right: 20px;
+  padding-top: 38px;
+  width: 128px;
+  height: 90px;
+  border: 24px solid transparent;
+}
+.main-app
+  .posts-display
+  .posts-item:not(.no-image)
+  .posts-main
+  .posts-foot:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  margin: -64px 0 0 -64px;
+  height: 128px;
+  width: 128px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 100%;
+}
+.main-app
+  .posts-display
+  .posts-item:not(.no-image)
+  .posts-main
+  .posts-foot:hover {
+  opacity: 1;
+}
+.main-app
+  .posts-display
+  .posts-item:not(.no-image)
+  .posts-main
+  .posts-foot
+  .posts-data {
+  margin-top: 4px;
+}
+.main-app.active
+  .posts-display
+  .posts-item:not(.no-image)
+  .posts-face
+  .posts-cover
+  img {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  filter: gray;
+}
+
+/* no-image */
+.main-app .posts-display .posts-item.no-image .posts-face {
+  top: 148px;
+  right: 26px;
+  height: 100px;
+  width: 180px;
+}
+.main-app
+  .posts-display
+  .posts-item.no-image
+  .posts-face
+  .posts-cover.video:after {
+  content: "";
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  display: block;
+  height: 22px;
+  width: 22px;
+  background: rgba(0, 0, 0, 0.7)
+    url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNMjEgMTJsLTE4IDEydi0yNHoiLz48L3N2Zz4=)
+    no-repeat 50% 50%;
+  background-size: 8px auto;
+}
+.main-app .posts-display .posts-item.no-image .posts-face .posts-cover:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.main-app .posts-display .posts-item.no-image .posts-main .posts-foot {
+  top: 148px;
+  right: 26px;
+  padding-top: 32px;
+  width: 180px;
+  height: 68px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.main-app .posts-display .posts-item.no-image .posts-main .posts-foot:hover {
+  opacity: 1;
+}
+
+.lecture-on-line {
+  float: right;
+  position: relative;
+  width: 670px;
+}
+.lecture-on-line h2 {
+  margin: 0 0 31px 0;
+  line-height: 1.5;
+  font-size: 28px;
+  color: #000;
+  letter-spacing: -0.05em;
+  text-align: center;
+}
+.lecture-on-line h2 .em {
+  color: #db2229;
+}
+.lecture-on-line h2 .week {
+  line-height: 1.5;
+  font-size: 19px;
+  color: #333333;
+  letter-spacing: -0.05em;
+}
+.lecture-on-line .aside {
+  position: absolute;
+  top: 9px;
+  right: 0;
+}
+.lecture-on-line-curation h2 {
+  margin: 0 75px 45px 0;
+}
+.lecture-on-line-curation .btn.goto-page.type-a .text {
+  font-weight: 600;
+  color: #1e2a5f;
+}
+.lecture-on-line-curation .no-data {
+  text-align: center;
+  margin-top: 50px;
+}
+.lecture-on-line-curation .no-data p {
+  font-size: 15px;
+  margin-bottom: 40px;
+  color: #000;
+}
+.lecture-on-line-curation .no-data button {
+  border: 0;
+  background-color: #333;
+  color: #fff;
+  font-size: 13px;
+  padding: 10px 30px;
+}
+
+/* 공지사항 */
+.notice-latest {
+  float: left;
+  position: relative;
+  width: 490px;
+}
+.notice-latest h2 {
+  margin: 0 0 16px 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: -0.1em;
+}
+.notice-latest h2 .em {
+  display: inline-block;
+  vertical-align: top;
+  color: #db2229;
+}
+.notice-latest .aside {
+  position: absolute;
+  top: 6px;
+  right: -14px;
+}
+.notice-latest .posts-name,
+.notice-latest .foot-item {
+  color: #000 !important;
+}
+
+/* 고객행복 센터 */
+.customer-center {
+  position: relative;
+  float: right;
+  width: 445px;
+}
+.customer-center:before {
+  display: block;
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 106px;
+  height: 102px;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/v6/main/bg-cs.png)
+    center no-repeat;
+}
+.customer-center h2 {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: -0.1em;
+}
+.customer-center h2 a {
+  color: inherit;
+  text-decoration: inherit;
+}
+.customer-center h2 .em {
+  display: inline-block;
+  vertical-align: top;
+  color: #db2229;
+}
+.customer-center p {
+  margin: 0;
+}
+.customer-center p a {
+  line-height: 1.5;
+  font-size: 26px;
+  color: #db2229;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  text-decoration: none;
+}
+.customer-center .btn.goto-page.type-b {
+  margin-top: 32px;
+}
+.customer-center .btn.goto-page.type-b .text {
+  font-weight: 700;
+}
+.customer-center dl {
+  margin-top: 10px;
+}
+.customer-center dl dt,
+.customer-center dl dd {
+  display: inline-block;
+  color: #333;
+  font-size: 13px;
+  line-height: 1.8;
+}
+.customer-center dl dt {
+  font-weight: 600;
+}
+.customer-center dl dt:before {
+  display: inline-block;
+  vertical-align: middle;
+  content: "";
+  width: 2px;
+  height: 2px;
+  background-color: #666;
+  margin: 0 10px 3px 5px;
+}
+.customer-center dl dd span {
+  color: #777;
+}
+
+#aside {
+  float: left;
+  padding-top: 25px;
+}
+#aside .aside-ban {
+  margin-top: 60px;
+}
+#content {
+  float: right;
+  padding-bottom: 0;
+}
+
+/* sub */
+#alert-content div.error-apply {
+  padding: 30px 0 25px 0;
+  line-height: 180%;
+  color: #414141;
+}
+#alert-content div.error-apply .big {
+  margin-bottom: 15px;
+  line-height: 150%;
+  font-size: 18px;
+  letter-spacing: -2px;
+  font-weight: bold;
+  color: #609438;
+}
+
+.tab {
+  position: relative;
+  zoom: 1;
+}
+.tab img {
+  vertical-align: middle;
+}
+.tab-in-right-btn {
+  position: absolute;
+  right: 0;
+  top: 3px;
+}
+
+div.tab2 {
+  background-image: url(https://img.hunet.co.kr/edu/customize/nps/common/bg_tab2.gif);
+}
+div.tab2 ul li.current a {
+  border-color: #36518e;
+}
+div.tab2 li a {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.q-result-text1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: #333;
+}
+.q-result-text2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.answer-content img {
+  vertical-align: middle;
+}
+
+/* 교육과정수강신청 */
+.board-list-comment {
+  width: 100%;
+  margin: 10px 0 0 0;
+  table-layout: fixed;
+}
+.board-list-comment th,
+.board-list-comment td {
+  padding: 8px 5px;
+  line-height: 160%;
+  text-align: center;
+  white-space: wrap;
+  word-wrap: break-all;
+  overflow: hidden;
+}
+.board-list-comment thead th {
+  padding-top: 12px;
+  font-weight: bold;
+  color: #fff;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background: #434343;
+}
+.board-list-comment td {
+  color: #787878;
+  border: 1px solid #e5e5e5;
+  border-top: 0;
+  border-left: 0;
+  background: #fff;
+}
+.board-list-comment td.first {
+  border-left: 1px solid #e5e5e5;
+}
+.board-list-comment td strong {
+  color: #ff5058;
+}
+
+/* 개인정보 */
+div.user-section {
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+}
+div.user-section .user-edu {
+  /* padding:12px 10px;*/
+  line-height: 21px;
+  border-top: 1px solid #d4d5d7;
+  border-bottom: 1px solid #d4d5d7;
+  background: #f6f6f4;
+}
+div.user-section .user-edu h2 {
+  margin-bottom: 15px;
+  padding: 0 0 10px 5px;
+}
+div.user-section .user-edu h4 {
+  padding: 9px 0 3px 17px;
+  font-size: 11px;
+}
+div.user-section .user-edu .user-edu-list {
+  margin: 0 0 5px 0;
+}
+div.user-section .user-edu .user-edu-list li {
+  font-size: 11px;
+}
+div.user-section .user-edu .user-edu-list li span {
+  padding: 0 10px 0 20px;
+}
+div.user-section .user-edu .user-edu-list li strong {
+  color: #ff5058;
+}
+div.user-section .user-edu-comment {
+  padding: 0 0 15px 17px;
+  line-height: 160%;
+}
+div.user-section .user-edu-comment a {
+  font-size: 11px;
+  letter-spacing: -1px;
+}
+div.user-section .user-edu-comment img {
+  vertical-align: middle;
+}
+div.user-section ul.link {
+  height: 15px;
+  padding-top: 10px;
+  border-top: 0;
+}
+div.user-section .header {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 172px;
+}
+div.user-section .point {
+  float: left;
+  margin-top: 45px;
+}
+div.user-section .point p {
+  font-size: 13px;
+  font-weight: 600;
+}
+div.user-section .point span {
+  display: inline-block;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: #f18c19;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  padding: 3px 10px;
+}
+div.user-section .mascot {
+  display: block;
+  float: right;
+}
+div.user-section .login-status {
+  margin-top: 15px;
+  text-align: center;
+}
+div.user-section .welcome {
+  font-size: 13px;
+}
+div.user-section .links {
+  margin-top: 5px;
+  color: #393939;
+}
+div.user-section .links a {
+  position: relative;
+}
+div.user-section .links a:first-child:after {
+  display: inline-block;
+  content: "";
+  vertical-align: middle;
+  width: 1px;
+  height: 10px;
+  background-color: #393939;
+  margin: -2px 5px 0;
+}
+
+/* popup */
+#popup-header h1.small-type {
+  letter-spacing: -2px !important;
+}
+#popup-content div.standard-info {
+  padding: 0 0 10px 10px;
+  line-height: 22px;
+}
+#popup-content ol.standard-info-list {
+  margin-bottom: 20px;
+}
+#popup-content ol.standard-info-list li {
+  position: relative;
+  zoom: 1;
+  padding: 8px 0 0 29px;
+  line-height: 130%;
+  color: #333; /* background:url(https://img.hunet.co.kr/edu/bg/bg_dot-line.gif) repeat-x left bottom;*/
+}
+#popup-content ol.standard-info-list li strong {
+  color: #ff5058;
+}
+#popup-content ol.standard-info-list li span.no {
+  position: absolute;
+  top: 7px;
+  left: 3px;
+}
+#popup-content ol.standard-info-list li .board-list {
+  margin: 10px 0;
+}
+#popup-content ol.standard-info-list li .board-list td {
+  text-align: left;
+  padding-left: 15px;
+}
+#popup-content ol.standard-info-list li strong {
+  color: #ff5058;
+}
+#popup-content ol.standard-info-list li ul.exception {
+  margin: 10px 0;
+}
+#popup-content ol.standard-info-list li ul.exception li {
+  padding: 2px 0 2px 8px;
+  letter-spacing: -1px;
+  line-height: 160%;
+  color: #666;
+  background: url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif)
+    no-repeat 0 8px;
+}
+#popup-content ol.standard-info-list li ul.exception li strong {
+  font-weight: normal;
+}
+
+#popup-content .edu-info-tit {
+  margin: 20px 0 10px 10px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -1px;
+  color: #609438;
+}
+#popup-content .edu-info-info {
+  padding: 0 0 15px 10px;
+  line-height: 22px;
+}
+
+.popup-diagnosis {
+}
+.popup-diagnosis a.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.popup-type718 {
+  width: 718px;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/bg_popup-type718.gif)
+    no-repeat left bottom;
+}
+.popup-type718 div.popup-inner {
+  background: url(https://img.hunet.co.kr/edu/customize/nps/bg_popup-type718-header.gif)
+    no-repeat 0 0;
+}
+.popup-type718 a.close {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+.work-dig-header {
+  padding: 57px 0 14px 60px;
+}
+.work-dig-content {
+  padding: 0 0 60px 0;
+}
+.work-dig-content h2.tit-h2 {
+  margin-bottom: 15px;
+  padding: 0 0 0 23px;
+  line-height: 130%;
+  font-size: 18px;
+  letter-spacing: -1px;
+  color: #000;
+  background: url(https://img.hunet.co.kr/edu/common/ico_tit-h2.gif) no-repeat 0
+    3px;
+  background-position: 0 1px\9;
+  *background-position: 0 2px;
+}
+
+/* 역량진단 창 */
+#diagnosis {
+  background: #f7f3e9;
+}
+#diagnosis-wrap {
+  width: 850px;
+  margin: 0 auto;
+}
+#diagnosis-header {
+  height: 148px;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/bg_diagnosis-header.gif)
+    no-repeat;
+}
+#diagnosis-header h1 {
+  height: 103px;
+  padding: 0 0 0 33px;
+}
+#diagnosis-header h2 {
+  padding: 0 0 0 33px;
+}
+#diagnosis-content {
+  min-height: 450px;
+  padding: 23px 23px;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/bg_diagnosis-content.gif)
+    no-repeat left bottom;
+}
+.diagnosis-content-inner {
+  padding: 0 30px 30px 30px;
+}
+.diagnosis-content-inner ul.bu-sq-list li {
+  background-position: 0 13px;
+}
+.diagnosis-list-header {
+  height: 90px;
+  padding: 20px 0 0 142px;
+  line-height: 200%;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/bg_diagnosis-list-header.gif)
+    no-repeat 0 0;
+}
+.diagnosis-list-header strong {
+  color: #fb7d02;
+}
+.diagnosis-list {
+  width: 100%;
+  border-top: 2px solid #f5c49a;
+}
+.diagnosis-list th,
+.diagnosis-list td {
+  text-align: center;
+}
+.diagnosis-list thead th {
+  padding: 10px 0;
+  font-weight: bold;
+  color: #fff;
+  border-left: 1px solid #fbc495;
+  border-bottom: 2px solid #f5c49a;
+  background: #f89d4e;
+}
+.diagnosis-list thead th.first {
+  border-left: 2px solid #fbc495;
+}
+.diagnosis-list thead th.last {
+  border-right: 2px solid #fbc495;
+}
+.diagnosis-list td {
+  padding: 8px 0;
+  border-bottom: 1px solid #e8e9e4;
+}
+.diagnosis-list .left {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.diagnosis-table {
+  width: 100%;
+  margin-bottom: 15px;
+  border: 2px solid #f5c49a;
+  border-left: 0;
+  border-right: 0;
+}
+.diagnosis-table th,
+.diagnosis-table td {
+  text-align: center;
+}
+.diagnosis-table thead th {
+  padding: 10px 0;
+  font-weight: bold;
+  color: #fff;
+  border-left: 1px solid #fbc495;
+  border-bottom: 2px solid #f5c49a;
+  background: #f89d4e;
+}
+.diagnosis-table thead th.first {
+  border-left: 2px solid #fbc495;
+}
+.diagnosis-table thead th.last {
+  border-right: 2px solid #fbc495;
+}
+.diagnosis-table td {
+  padding: 8px 0;
+  border: 1px solid #e8e9e4;
+}
+.diagnosis-table .left {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.diagnosis-select-form {
+  width: 740px;
+  height: 244px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/bg_diagnosis-select-form.gif)
+    no-repeat;
+}
+.diagnosis-select-form dl {
+  float: left;
+  width: 400px;
+  padding: 40px 0 0 60px;
+  line-height: 160%;
+}
+.diagnosis-select-form dl * {
+  vertical-align: middle;
+}
+.diagnosis-select-form dl dt {
+  padding: 0 0 10px 20px;
+  font-weight: bold;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/bu_diagnosis-select-dt.gif)
+    no-repeat 0 0;
+}
+.diagnosis-select-form dl dd {
+  margin-bottom: 50px;
+}
+.diagnosis-select-form label {
+  margin-right: 15px;
+}
+.diagnosis-select-form .button-big {
+  float: left;
+  margin: 150px 0 0 0;
+}
+
+.diagnosis-tab {
+  height: 31px;
+  margin-bottom: 25px;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/bg_diagnosis-tab.gif)
+    repeat-x 0 0;
+}
+.diagnosis-tab li {
+  display: inline;
+  float: left;
+  margin-right: 2px;
+}
+.diagnosis-tab-hgroup {
+  margin-bottom: 20px;
+  padding: 0 0 0 30px;
+}
+.diagnosis-tab-hgroup p.help strong {
+  color: #fb7d02;
+}
+.tit-diagnosis-h3 {
+  margin-bottom: 15px;
+  padding: 0 0 0 15px;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/bu_ar-right.gif)
+    no-repeat 0 0;
+}
+
+/* 설문조사 */
+.survey-select-form {
+  width: 740px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-top: 10px;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/bg_rdbox-form-header.gif)
+    no-repeat;
+}
+.survey-select-form-content {
+  padding-bottom: 40px;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/bg_rdbox-form.gif)
+    no-repeat left bottom;
+}
+.survey-select-form dl {
+  padding: 30px 0 0 60px;
+  line-height: 160%;
+}
+.survey-select-form dl * {
+  vertical-align: middle;
+}
+.survey-select-form dl dt {
+  padding: 0 0 10px 20px;
+  font-weight: bold;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/bu_diagnosis-select-dt.gif)
+    no-repeat 0 0;
+}
+.survey-select-form dl dd {
+  margin-bottom: 50px;
+}
+.survey-select-form label {
+  margin-right: 15px;
+}
+.survey-select-form .check-3ea {
+  width: 100%;
+  overflow: hidden;
+  letter-spacing: -1px;
+}
+.survey-select-form .check-3ea li {
+  float: left;
+  width: 32.9%;
+  padding: 3px 0;
+}
+.ethics-top {
+  margin-bottom: 30px;
+  padding: 20px 0 30px 0;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+.survey-ethics-result-text {
+  text-align: center;
+  padding: 50px 0;
+}
+.study-after-survey-ethics {
+  padding: 30px 50px 40px 50px;
+}
+
+/* 직무지식진단 */
+.board-list-head-border {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  overflow: hidden;
+  color: #666;
+  border-top: 3px solid #3c5b9f;
+}
+.board-list-head-border * {
+  vertical-align: middle;
+}
+.board-list-head-border strong {
+  color: #f00;
+  font-weight: bold;
+  padding-right: 20px;
+}
+.board-list-head-border select {
+  position: absolute;
+  top: 9px;
+  right: 0;
+}
+
+.board-list td strong.count {
+  color: #f00;
+}
+
+.work-diagnosis-result-header {
+  width: 100%;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  overflow: hidden;
+  color: #666;
+  border-top: 3px solid #3c5b9f;
+}
+.work-diagnosis-result-header h2 {
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: #333;
+  letter-spacing: -2px;
+}
+.work-diagnosis-result-header h2 span {
+  color: #ee3f3c;
+}
+.work-diagnosis-result-header li {
+  line-height: 160%;
+}
+.work-diagnosis-chart {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/bg_work-chart.gif)
+    no-repeat 0 20px;
+}
+.work-diagnosis-chart ul {
+  padding-left: 45px;
+}
+.work-diagnosis-chart li {
+  float: left;
+  width: 25%;
+  *width: 24.9%;
+  text-align: center;
+}
+.work-diagnosis-chart li div.graph {
+  position: relative;
+  width: 42px;
+  height: 180px;
+  margin: 0 auto;
+  margin-bottom: 7px;
+}
+.work-diagnosis-chart li div.graph div {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 42px;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/bg_graph-bar1.gif)
+    repeat-y;
+}
+.work-diagnosis-chart li div.graph div span {
+  position: absolute;
+  left: 0;
+  top: -20px;
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+  color: #ff7200;
+}
+.work-diagnosis-chart li.my div.graph div {
+  background: url(https://img.hunet.co.kr/edu/customize/nps/bg_graph-bar2.gif)
+    repeat-y;
+}
+.work-diagnosis-chart li.my div.graph div span {
+  color: #fa4d52;
+}
+.work-diagnosis-chart li div.xAxis {
+  font-size: 11px;
+}
+
+.work-dig-form-box {
+  margin-bottom: 30px;
+  padding: 40px 0;
+  text-align: center;
+  border: 4px solid #3d5c9f;
+}
+.work-dig-form-box * {
+  vertical-align: middle;
+}
+.work-dig-form-box input.iRadio {
+  margin-left: 10px;
+}
+.work-dig-form-box label {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #333;
+}
+
+.work-dig-question {
+  position: relative;
+  margin-bottom: 15px;
+  border: 4px solid #3d5c9f;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/bg_work-dig-question.gif)
+    repeat-y;
+}
+.work-dig-question div.num {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 80px;
+  margin-top: -14px;
+  font-family: "arial";
+  font-size: 30px;
+  color: #303137;
+  text-align: center;
+  font-weight: bold;
+  line-height: 100%;
+}
+.work-dig-question div.question {
+  padding: 15px 15px 15px 95px;
+  line-height: 160%;
+  color: #303137;
+}
+.work-dig-question-help {
+  margin-bottom: 10px;
+  padding: 0 0 0 10px;
+  color: #3d5c9f;
+}
+.work-dig-question-list {
+  margin-bottom: 20px;
+  padding-left: 10px;
+  line-height: 130%;
+}
+.work-dig-question-list * {
+  vertical-align: middle;
+}
+.work-dig-question-list li {
+  padding: 5px 0;
+  color: #333;
+}
+.work-dig-correct-answer {
+  margin-bottom: 30px;
+  padding: 20px;
+  line-height: 160%;
+  color: #333;
+  background: #f6f6f4;
+}
+.work-dig-correct-answer h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #ee3f3c;
+}
+.work-dig-prev-next-btn {
+  text-align: center;
+}
+.work-dig-prev-next-btn a {
+  margin: 0 15px;
+}
+.work-dig-form-box-end {
+  margin-bottom: 30px;
+  padding: 35px 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #303137;
+  border: 4px solid #3d5c9f;
+  line-height: 30px;
+}
+.work-dig-form-box-end strong {
+  color: #3d5c9f;
+}
+
+.popup-diagnosis-check .cookie_check {
+  height: 22px;
+  padding-top: 15px !important;
+  font-size: 11px;
+}
+.popup-diagnosis-check .cookie_check a.close {
+  bottom: 12px !important;
+}
+
+.about-header-doc-down {
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  text-align: right;
+  border-bottom: 3px solid #3c5b9f;
+}
+.nps-rules-content {
+  /* height:600px; overflow:auto; */
+  line-height: 160%;
+}
+.nps-rules-content h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #434343;
+}
+.nps-rules-content h3 {
+  margin-bottom: 5px;
+  color: #434343;
+}
+.nps-rules-content h3.edit-tit {
+  margin-top: -24px;
+  margin-bottom: 30px;
+} /* 20190403 03_직원교육훈련규칙.html수정중 추가 */
+.nps-rules-content h3.edit-tit2 {
+  margin-top: -4px;
+  margin-bottom: 30px;
+} /* 20190403 03_직원교육훈련규칙.html수정중 추가 */
+.nps-rules-content h4 {
+  margin-bottom: 5px;
+  color: #434343;
+}
+.nps-rules-content h5 {
+  margin-bottom: 5px;
+  color: #434343;
+}
+.nps-rules-content .paragraph {
+  margin-bottom: 30px;
+}
+.nps-rules-content ol {
+  list-style: decimal;
+  margin-left: 30px;
+}
+.nps-rules-content ol ol {
+  list-style: none;
+  margin: 0;
+}
+.nps-rules-content ul {
+  margin-left: 18px;
+}
+.nps-rules-content ul ul {
+  list-style: none;
+  margin: 0;
+}
+
+#content h3.tit-h3 {
+  background-image: url(https://img.hunet.co.kr/edu/customize/nps/ico_tit-h3.gif);
+}
+.nps-basic-color-box {
+  padding: 20px;
+  background: #f2f7fd;
+}
+
+.kn-qna-search {
+  margin-bottom: 40px;
+  padding: 20px 20px 15px 20px;
+  border-top: 3px solid #3c5b9f;
+  border-bottom: 1px solid #e5e5e5;
+  background: #f2f7fd;
+}
+.kn-qna-search h2 {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 16px;
+}
+.kn-qna-search h2 span {
+  color: #727272;
+  font-size: 11px;
+  font-weight: normal;
+}
+.kn-qna-search div.field {
+  width: 100%;
+  overflow: hidden;
+}
+.kn-qna-search div.text {
+  float: left;
+}
+.kn-qna-search div.text p {
+  padding: 5px 3px 0 0;
+  font-size: 11px;
+  text-align: right;
+  color: #333;
+}
+.kn-qna-search div.text p strong {
+  color: #ff5058;
+}
+.kn-qna-search label.iLabel {
+  margin: 10px 0 0 10px;
+  color: #b8b8b8;
+}
+.kn-qna-search textarea {
+  display: block;
+  width: 545px;
+  height: 47px;
+}
+.kn-qna-search input.btn {
+  float: right;
+  margin-top: -1px;
+}
+
+.kn-qna-list {
+  margin-bottom: 20px;
+}
+.kn-qna-list * {
+  vertical-align: middle;
+}
+.kn-qna-list li {
+  line-height: 200%;
+  border-bottom: 1px solid #e5e5e5;
+  zoom: 1;
+}
+.kn-qna-list li.q {
+  padding: 20px 20px 15px 60px;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/ico_q.gif) no-repeat
+    18px 20px;
+}
+.kn-qna-list li.a {
+  padding: 0 20px 0 60px;
+  background: #f6f6f6 url(https://img.hunet.co.kr/edu/customize/nps/ico_a.gif)
+    no-repeat 18px 20px;
+}
+.kn-qna-list li span.date {
+  margin-left: 10px;
+  font-size: 11px;
+  color: #0391b1;
+}
+.kn-qna-list li span.btn-sm {
+  display: inline-block;
+  width: 140px;
+  margin-top: -6px;
+  *padding-bottom: 2px;
+}
+.kn-qna-list div.reply-write {
+  width: 100%;
+  overflow: hidden;
+  padding: 15px 0 0 0;
+}
+.kn-qna-list div.text {
+  float: left;
+}
+.kn-qna-list div.text p {
+  padding: 5px 3px 0 0;
+  font-size: 11px;
+  text-align: right;
+  color: #333;
+}
+.kn-qna-list div.text p strong {
+  color: #ff5058;
+}
+.kn-qna-list label.iLabel {
+  margin: 10px 0 0 10px;
+  color: #b8b8b8;
+}
+.kn-qna-list textarea {
+  display: block;
+  width: 515px;
+  height: 46px;
+}
+.kn-qna-list input.btn {
+  float: right;
+}
+.kn-qna-list div.answer-article {
+  padding: 20px 0;
+  border-bottom: 1px dashed #dbdbdb;
+}
+.kn-qna-list div.answer-article.last {
+  border: 0;
+}
+.kn-qna-list div.answer-article.choiced {
+  border: 0;
+}
+.kn-qna-list div.other-list {
+  margin-bottom: 25px;
+  padding: 0 20px;
+  border: 2px solid #dcdcdc;
+  background: #fff;
+}
+
+.nps-my-study-note-top {
+  height: 406px;
+  margin-bottom: 50px;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/img_my-study-note-top.gif)
+    no-repeat;
+}
+.nps-my-study-note-top p {
+  padding-top: 316px;
+  text-align: center;
+}
+
+.nps-pop-note-reg-header {
+  border-bottom: 0 !important;
+}
+.nps-pop-note-reg-header h1 {
+  color: #362b74;
+}
+.nps-pop-note-reg-header a.button-medium {
+  position: absolute;
+  top: 33px;
+  right: 30px;
+}
+.nps-pop-note-reg-content {
+  padding-top: 0 !important;
+}
+.nps-pop-note-reg-content label.iLabel {
+  margin: 7px 0 0 7px;
+}
+.nps-pop-note-reg-content table.board-write {
+  border-color: #3c5b9f !important;
+}
+
+.nps-pop-note-reg-content .board-write th {
+  padding: 10px 10px;
+  text-align: center;
+  background: #f6f6f5;
+}
+.nps-pop-note-reg-content .board-write td {
+  padding: 5px 10px;
+  text-align: center;
+}
+.nps-pop-note-reg-content .board-write td.count {
+  font-weight: bold;
+  color: #f00;
+}
+
+.nps-pop-note-reg-content p.nps-pop-info {
+  padding: 10px;
+  font-size: 11px;
+  letter-spacing: -1px;
+}
+
+body#note_body {
+  padding: 17px 0;
+  color: #505050;
+  background: #627dbc
+    url(https://img.hunet.co.kr/ecls/SangsnagVer3/note/bg_body.gif) center top;
+}
+body#note_body a {
+  color: #505050;
+}
+
+#note_wrap {
+  width: 742px;
+  height: 470px;
+  margin: 0 auto;
+  padding: 23px 21px 24px 18px;
+  overflow: hidden;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/bg_note.png);
+}
+* html #note_wrap {
+  background: url(https://img.hunet.co.kr/edu/customize/nps/bg_note.gif);
+}
+
+/* 상상마루 탈락리스트 명시 */
+.sangsang_endlist_txt {
+  font-size: 11px;
+  letter-spacing: -1px;
+  line-height: 18px;
+  color: #c9c9c9;
+}
+
+#note_lnb {
+  position: relative;
+  float: left;
+  width: 170px;
+  padding-top: 89px;
+}
+#note_lnb h1 {
+  position: absolute;
+  top: -1000px;
+}
+#note_lnb .left_menu {
+  position: relative;
+  height: 207px;
+  padding: 0 0 0 13px;
+  overflow: auto;
+}
+#note_lnb .left_menu .left_title {
+  position: relative;
+  height: 21px;
+  padding: 0 4px 0 18px;
+  overflow: hidden;
+  background: url(https://img.hunet.co.kr/ecls/SangsnagVer3/note/bg_left.gif)
+    no-repeat 0 3px;
+}
+#note_lnb .left_menu .left_title strong {
+  float: left;
+  padding: 4px 0 0;
+}
+#note_lnb .left_menu .left_title img {
+  float: right;
+}
+#note_lnb .left_menu ul {
+  display: inline-block;
+  margin: -12px 0 10px 6px;
+  border-left: 1px solid #e5e5e5;
+}
+#note_lnb .left_menu li {
+  position: relative;
+  z-index: 3;
+  margin-left: -1px;
+  margin-top: 12px;
+  margin-bottom: -12px;
+  padding: 5px 0 5px 12px;
+  background: url(https://img.hunet.co.kr/ecls/SangsnagVer3/note/bg_left.gif)
+    no-repeat -176px -7px;
+}
+*:first-child + html #note_lnb .left_menu li {
+  background-position: -176px -9px;
+}
+#note_lnb .btn_note_write {
+  display: block;
+  position: absolute;
+  top: 323px;
+  left: 42px;
+  width: 70px;
+  height: 70px;
+  text-indent: -1000px;
+  overflow: hidden;
+}
+#note_lnb .btn_note_guide {
+  display: none;
+  position: absolute;
+  top: 340px;
+  left: 90px;
+  width: 70px;
+  height: 70px;
+  text-indent: -1000px;
+  overflow: hidden;
+}
+
+#note_content {
+  position: relative;
+  float: right;
+  width: 547px;
+  height: 470px;
+  overflow: auto;
+}
+#content_wrap {
+  width: 490px;
+  padding: 5px 0 0 20px;
+}
+
+.content_title {
+  position: relative;
+  height: 58px;
+  margin-left: -20px;
+  padding-left: 20px;
+  background: url(https://img.hunet.co.kr/ecls/SangsnagVer3/note/bg_title.gif)
+    no-repeat 0 0;
+}
+.content_title strong {
+  display: block;
+  height: 34px;
+  padding: 23px 0 0 65px;
+  color: #00182f;
+  font-size: 20px;
+  font-family: "Batang";
+  line-height: 20px;
+  letter-spacing: -1px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.content_title strong span {
+  color: #06c;
+}
+.content_title a {
+  display: inline-block;
+  position: absolute;
+  right: 5px;
+  top: 33px;
+  padding: 3px 0 1px 19px;
+  font-size: 11px;
+  letter-spacing: -1px;
+  text-decoration: none;
+  background: url(https://img.hunet.co.kr/ecls/SangsnagVer3/common/icon_home.gif)
+    no-repeat 0 0;
+}
+
+.page_navi {
+  height: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #fff;
+}
+.page_navi .buttons {
+  text-align: right;
+}
+
+#note_wrap ul.navigation {
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  margin-bottom: -3px;
+}
+#note_wrap ul.navigation li {
+  float: left;
+  height: 16px;
+  margin-right: 4px;
+  padding: 5px 0 0 9px;
+  font-size: 11px;
+  background: url(https://img.hunet.co.kr/ecls/SangsnagVer3/common/sl_arr.gif)
+    no-repeat 0 8px;
+}
+#note_wrap ul.navigation li a {
+  color: #505050;
+}
+#note_wrap ul.navigation li span {
+  color: #8da6e5;
+}
+#note_wrap ul.navigation li.home {
+  margin-right: 6px;
+  padding: 5px 0 0 25px;
+  background: url(https://img.hunet.co.kr/ecls/SangsnagVer3/common/home_icon_2.gif)
+    no-repeat 0 2px;
+}
+
+.list_all {
+  padding-top: 6px;
+  background: url(https://img.hunet.co.kr/ecls/SangsnagVer3/note/bg_board.gif)
+    no-repeat 0 0;
+}
+.list_all ul {
+  margin-bottom: 10px;
+}
+.list_all li {
+  position: relative;
+  padding: 16px 75px 18px 12px;
+  border-bottom: 1px solid #d9d9d9;
+}
+* html .list_all li {
+  display: inline-block;
+}
+.list_all li .subject {
+  color: #424141;
+  font-size: 14px;
+  font-weight: bold;
+}
+.list_all li p {
+  padding: 10px 0 0 2px;
+  color: #5571b6;
+  font-size: 11px;
+}
+.list_all li .btn {
+  position: absolute;
+  left: 421px;
+  top: 13px;
+}
+
+.list_view .view_head {
+  position: relative;
+  margin-bottom: 15px;
+  padding: 22px 80px 18px 13px;
+  border-bottom: 1px solid #93acec;
+  background: #fff
+    url(https://img.hunet.co.kr/ecls/SangsnagVer3/note/bg_board.gif) no-repeat 0
+    0;
+}
+.list_view .view_head .subject {
+  color: #424141;
+  font-size: 14px;
+  font-weight: bold;
+}
+.list_view .view_head p {
+  padding: 10px 0 0 1px;
+  color: #5571b6;
+  font-size: 11px;
+}
+.list_view .view_head .btn {
+  position: absolute;
+  right: 9px;
+  top: 19px;
+}
+
+.list_view .save_option {
+  position: relative;
+  margin-bottom: 15px;
+  padding: 14px 0 9px;
+  border-bottom: 1px solid #93acec;
+  background: #fff
+    url(https://img.hunet.co.kr/ecls/SangsnagVer3/note/bg_board.gif) no-repeat 0
+    0;
+}
+.list_view .save_option span {
+  display: inline-block;
+  width: 58px;
+  padding-left: 15px;
+  color: #424141;
+  font-weight: bold;
+}
+.list_view .save_option div {
+  margin-bottom: 7px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.list_view .save_option .input_txt {
+  width: 226px;
+  height: 15px;
+  padding: 3px 0 0 3px;
+  border: 1px solid #b9bcba;
+  vertical-align: middle;
+}
+.list_view .save_option img {
+  vertical-align: middle;
+}
+.list_view .save_option select {
+  width: 170px;
+  vertical-align: middle;
+}
+
+.list_view .memo_title {
+  height: 22px;
+  padding-left: 15px;
+  border-bottom: 1px solid #d9d9d9;
+  overflow: hidden;
+}
+.list_view .memo_title img {
+  float: left;
+}
+.list_view .memo_title span {
+  display: inline-block;
+  margin: -2px 0 0 5px;
+}
+* html .list_view .memo_title span {
+  margin-top: -5px;
+}
+*:first-child + html .list_view .memo_title span {
+  margin-top: -4px;
+}
+.list_view .memo_title span input {
+  vertical-align: middle;
+  margin: 0 0 3px;
+}
+
+.list_view .memo_list {
+  padding-bottom: 3px;
+}
+.list_view .memo_list li {
+  position: relative;
+  width: 441px;
+  min-height: 44px;
+  padding: 11px 16px 11px 16px;
+  overflow: hidden;
+  border-bottom: 1px dashed #d1d1d1;
+}
+*html .list_view .my_memo li {
+  display: inline-block;
+}
+.list_view .memo_list li .input_ch {
+  position: absolute;
+  left: 12px;
+  top: 11px;
+}
+.list_view .memo_list li p {
+  padding: 0 0 7px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.list_view .memo_list li p.movie_thumb {
+  padding: 10px 0 20px 0;
+  text-align: center;
+}
+.list_view .memo_list li p.movie_thumb img {
+  border: 5px solid #000;
+}
+.list_view .memo_list li em {
+  float: left;
+  padding-top: 1px;
+  color: #a4a5a5;
+}
+.list_view .memo_list li .buttons {
+  float: right;
+}
+
+.list_view .alert {
+  margin-left: 3px;
+  padding-left: 17px;
+  color: #a3a3a4;
+  background: url(https://img.hunet.co.kr/ecls/SangsnagVer3/common/icon_moniter.gif)
+    no-repeat 0 0;
+}
+
+.list_view .function {
+  position: relative;
+  height: 20px;
+  padding-top: 9px;
+  border-top: 1px solid #777776;
+  text-align: center;
+  overflow: hidden;
+}
+.list_view .function .btn_left {
+  position: absolute;
+  left: 0;
+  top: 9px;
+}
+.list_view .function .btn_right {
+  position: absolute;
+  right: 0;
+  top: 9px;
+}
+
+.list_view .memo_write {
+  padding: 10px 15px 6px;
+  text-align: right;
+}
+.list_view .memo_write textarea {
+  width: 447px;
+  height: 71px;
+  margin-bottom: 8px;
+  padding: 9px 0 0 11px;
+  border: 1px solid #c7c7c7;
+  line-height: 120%;
+}
+.list_view .memo_write span {
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.layer_search_class {
+  display: none;
+  position: absolute;
+  top: 114px;
+  right: 37px;
+  width: 490px;
+  height: 336px;
+  background: url(https://img.hunet.co.kr/ecls/SangsnagVer3/note/bg_searchbox.gif)
+    no-repeat;
+}
+.layer_search_class .layer_head {
+  position: relative;
+  height: 24px;
+  padding: 10px 0 0 39px;
+}
+.layer_search_class .layer_head strong {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: -1px;
+}
+.layer_search_class .layer_head a {
+  display: block;
+  position: absolute;
+  right: 8px;
+  top: 10px;
+  width: 16px;
+  height: 16px;
+  font-size: 1px;
+  text-indent: -1000px;
+  overflow: hidden;
+}
+.layer_search_class .layer_body {
+  width: 482px;
+  height: 298px;
+  overflow: auto;
+}
+.layer_search_class .layer_body ul {
+  width: 444px;
+  margin: 0 auto 12px;
+  padding: 3px 0 5px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.layer_search_class .layer_body li {
+  height: 20px;
+  padding: 5px 0 0 3px;
+  overflow: hidden;
+  color: #8a8b8c;
+  line-height: 140%;
+}
+* html .layer_search_class .layer_body li {
+  margin-bottom: -2px;
+}
+*:first-child + html .layer_search_class .layer_body li {
+  margin-bottom: -2px;
+}
+.layer_search_class .layer_body li img {
+  float: left;
+}
+.layer_search_class .layer_body li em {
+  float: left;
+  width: 242px;
+  margin-top: -1px;
+  padding-left: 5px;
+}
+.layer_search_class .layer_body li span {
+  display: block;
+  float: left;
+  font-size: 11px;
+}
+.layer_search_class .layer_body li .time {
+  width: 40px;
+}
+.layer_search_class .layer_body li .point {
+  width: 39px;
+}
+.layer_search_class .layer_body li .price {
+  width: 46px;
+  padding-left: 38px;
+  background: url(https://img.hunet.co.kr/ecls/SangsnagVer3/common/p_icon.gif)
+    no-repeat 0 2px;
+}
+
+.menu_management {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  padding: 20px 0;
+}
+.menu_management .select_menu {
+  float: left;
+  width: 165px;
+  margin-right: 29px;
+}
+.menu_management .select_menu .buttons {
+  height: 25px;
+  text-align: right;
+}
+.menu_management .select_menu .buttons .btn_left {
+  float: left;
+}
+.menu_management .select_menu .buttons img {
+  cursor: pointer;
+}
+.menu_management .select_menu .menu_selecting {
+  width: 152px;
+  height: 165px;
+  padding: 8px 0 0 11px;
+  border: 1px solid #c7c7c7;
+  background: #fff;
+  overflow-y: scroll;
+  overflow: -moz-scrollbars-vertical;
+}
+.menu_management .select_menu .menu_selecting ul {
+  padding-bottom: 2px;
+}
+.menu_management .select_menu .menu_selecting li {
+  padding: 5px 0;
+}
+.menu_management .select_menu .menu_selecting input {
+  width: 119px;
+  height: 13px;
+  padding: 2px 0 0 2px;
+  border: 1px solid #b9bcba;
+}
+.menu_management .select_menu .menu_input {
+  position: relative;
+}
+.menu_management .inputs {
+  float: left;
+  width: 281px;
+  padding-top: 31px;
+}
+.menu_management .inputs span {
+  display: inline-block;
+  width: 58px;
+  color: #424141;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+.menu_management .inputs input {
+  width: 121px;
+  height: 15px;
+  padding: 3px 0 0 3px;
+  border: 1px solid #b9bcba;
+}
+.menu_management .inputs div {
+  padding: 11px 0 0;
+}
+.menu_management .inputs div a {
+  display: inline-block;
+  width: 41px;
+  height: 14px;
+  padding-top: 4px;
+  margin-bottom: 4px;
+  color: #858585;
+  font-size: 11px;
+  letter-spacing: -1px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  overflow: hidden;
+  background: url(https://img.hunet.co.kr/ecls/SangsnagVer3/button/bg_button_1.gif)
+    no-repeat;
+}
+
+.menu_edit {
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  padding: 8px 0 15px;
+}
+.menu_edit .select_menu {
+  float: left;
+  width: 219px;
+}
+.menu_edit .select_menu .menu_selecting {
+  width: 202px;
+  height: 160px;
+  margin-bottom: 13px;
+  padding: 13px 0 0 14px;
+  border: 1px solid #c7c7c7;
+  background: #fff;
+  overflow-y: scroll;
+  overflow: -moz-scrollbars-vertical;
+}
+.menu_edit .select_menu .menu_selecting li {
+  margin: 0 0 10px;
+}
+.menu_edit .select_menu .buttons {
+  height: 20px;
+  overflow: hidden;
+}
+.menu_edit .select_menu .buttons img {
+  float: right;
+  margin-left: 3px;
+}
+.menu_edit .select_menu .buttons .btn_left {
+  float: left;
+  margin: 0;
+}
+.menu_edit .inputs {
+  float: left;
+  padding: 70px 0 0 28px;
+}
+.menu_edit .inputs span {
+  display: inline-block;
+  width: 60px;
+  color: #424141;
+  font-weight: bold;
+}
+.menu_edit .inputs input {
+  width: 174px;
+  height: 15px;
+  padding: 3px 0 0 3px;
+  border: 1px solid #b9bcba;
+}
+.menu_edit .inputs div {
+  padding: 9px 0 0 64px;
+}
+
+.new_folder {
+  padding: 14px 0 0;
+  border-top: 1px solid #787878;
+}
+.new_folder strong {
+  padding-right: 7px;
+  color: #464646;
+}
+.new_folder input {
+  width: 354px;
+  height: 15px;
+  margin-right: 2px;
+  padding: 3px 0 0 3px;
+  border: 1px solid #b9bcba;
+  vertical-align: middle;
+}
+.new_folder img {
+  vertical-align: middle;
+}
+
+.layer_alert {
+  display: none;
+  position: absolute;
+  border: 2px solid #778cab;
+  font-size: 11px;
+  letter-spacing: -1px;
+  line-height: 16px;
+  background: #fff;
+}
+* html .layer_alert {
+  margin-top: 6px;
+}
+.layer_alert strong {
+  color: #ff0303;
+  font-weight: bold;
+}
+.layer_alert .mark {
+  position: absolute;
+  vertical-align: top;
+}
+.layer_alert .buttons {
+  width: 184px;
+  height: 25px;
+  padding: 7px 10px 0 0;
+  border-top: 1px solid #d9d9d9;
+  text-align: right;
+  background: #f4f4f4;
+}
+.layer_alert .buttons a {
+  display: inline-block;
+  width: 41px;
+  height: 14px;
+  margin-left: 25px;
+  padding-top: 4px;
+  color: #858585;
+  font-size: 11px;
+  line-height: 100%;
+  letter-spacing: -1px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  overflow: hidden;
+  background: url(https://img.hunet.co.kr/ecls/SangsnagVer3/button/bg_button_1.gif)
+    no-repeat;
+}
+.layer_alert.alert1 {
+  width: 194px;
+  height: 86px;
+}
+.layer_alert.alert1 .mark {
+  margin: -6px 0 0 9px;
+}
+.layer_alert.alert1 p {
+  padding: 13px 0 8px 11px;
+}
+.layer_alert.alert2 .mark {
+  margin: -6px 0 0 9px;
+}
+.layer_alert.alert2 strong {
+  display: inline-block;
+  padding: 8px 15px;
+}
+
+.note_guide p {
+  padding: 18px 0 0 15px;
+}
+.note_guide p img {
+  margin-bottom: 30px;
+}
+
+table.paging {
+  margin: auto;
+}
+table.paging .prev img {
+  margin: 1px 5px 0 0;
+}
+table.paging .next img {
+  margin: 1px 0 0 5px;
+}
+table.paging .num {
+  padding: 0 7px 0 7px;
+  background: url(https://img.hunet.co.kr/ecls/SangsnagVer3/common/page_bar.gif)
+    no-repeat right 1px;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: "verdana";
+}
+table.paging .num_last {
+  padding: 0 7px 0 7px;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: "verdana";
+}
+table.paging a {
+  color: #424141;
+}
+table.paging a:hover,
+table.paging a.on {
+  color: #5b6ade;
+}
+
+ul.before-study-caution {
+  margin-bottom: 30px;
+  padding: 0 10px 20px 10px;
+  line-height: 180%;
+  border-bottom: 1px solid #c8cdd2;
+}
+ul.before-study-caution li {
+  padding: 3px 0 3px 8px;
+  color: #666;
+  background: url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif)
+    no-repeat 0 11px;
+}
+.before-study-caution-check {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.before-study-caution-check input.iRadio {
+  margin-left: 10px;
+}
+
+.pop-notice-data-down {
+  margin-bottom: 15px;
+  padding: 20px;
+  border: 1px solid #d8dee3;
+  border-left: 0;
+  border-right: 0;
+  background: #f1f7fd;
+}
+.pop-notice-data-down ul {
+  line-height: 180%;
+}
+.pop-notice-data-down ul li {
+  padding: 3px 0 3px 8px;
+  color: #666;
+  background: url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif)
+    no-repeat 0 11px;
+}
+.pop-notice-data-down .loc {
+  text-decoration: underline;
+  color: #245aba;
+}
+.pop-notice-data-down .link {
+  margin-left: 65px;
+  padding-right: 10px;
+  text-decoration: underline;
+  color: #245aba !important;
+  font-weight: bold;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/common/ico_ar-right-blue.gif)
+    no-repeat right 3px;
+}
+.pop-notice-data-down-help {
+  font-size: 11px;
+  color: #fa4a2d;
+}
+
+.mileage-year-select {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.mileage-year-select * {
+  vertical-align: middle;
+  line-height: 100%;
+}
+.mileage-year-select strong {
+  padding: 0 20px;
+  font-size: 30px;
+  font-family: "arial";
+  color: #303137;
+}
+
+.d-day-box {
+  height: 180px;
+  margin-bottom: 30px;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/text/bg_d-day-box.gif)
+    no-repeat;
+}
+.d-day-box .d-day {
+  float: left;
+  width: 175px;
+  padding: 70px 0 0 0;
+  text-align: center;
+}
+.d-day-box .d-day * {
+  vertical-align: middle;
+}
+.d-day-box .d-day .day {
+  margin-bottom: 10px;
+}
+.d-day-box .d-day .date {
+  margin-bottom: 2px;
+  font-weight: bold;
+  color: #333;
+}
+.d-day-box .con {
+  float: right;
+  width: 500px;
+  padding: 35px 0 0 0;
+}
+.d-day-box .con h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #000;
+}
+.d-day-box .con dl {
+  width: 100%;
+  overflow: hidden;
+}
+.d-day-box .con dt,
+.d-day-box .con dd {
+  padding: 0 0 10px 0;
+}
+.d-day-box .con dt {
+  float: left;
+  width: 80px;
+  margin-right: -87px;
+  padding-left: 7px;
+  background: url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif)
+    no-repeat 0 7px;
+}
+.d-day-box .con dd {
+  margin-left: 87px;
+  font-weight: bold;
+  color: #f47920;
+}
+
+.nps-d-lecture-info {
+  width: 100%;
+  overflow: hidden;
+  padding: 0 0 30px 0;
+}
+.nps-d-lecture-info div.thumb {
+  float: left;
+  width: 178px;
+  margin-right: -178px;
+}
+.nps-d-lecture-info div.thumb img {
+  width: 141px;
+  height: 102px;
+  padding: 5px;
+  border: 1px solid #eaeaea;
+}
+.nps-d-lecture-info .con {
+  margin-left: 178px;
+}
+.nps-d-lecture-info .con h3 {
+  font-size: 14px;
+  color: #333;
+}
+.nps-d-lecture-info .con dl {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.nps-d-lecture-info .con dt,
+.nps-d-lecture-info .con dd {
+  padding: 10px 0 0 0;
+}
+.nps-d-lecture-info .con dt {
+  float: left;
+  width: 80px;
+  margin-right: -87px;
+  padding-left: 7px;
+  background: url(https://img.hunet.co.kr/edu/common/ico_sq-2px-gray.gif)
+    no-repeat 0 17px;
+}
+.nps-d-lecture-info .con dd {
+  margin-left: 87px;
+  font-weight: bold;
+}
+
+.yd-sc-list-table {
+  width: 100%;
+  margin-bottom: 7px;
+}
+.yd-sc-list-table th,
+.yd-sc-list-table td {
+  height: 35px;
+  border: 1px solid #e5e5e5;
+}
+.yd-sc-list-table thead th {
+  text-align: center;
+  border-top-color: #919191;
+  border-bottom-color: #ccc;
+  background: #f6f6f5;
+}
+.yd-sc-list-table tbody th {
+  text-align: center;
+  font-weight: bold;
+}
+.yd-sc-list-table td {
+  text-align: left;
+  vertical-align: top;
+}
+.yd-sc-list-table td.date {
+  text-align: center;
+  vertical-align: middle;
+}
+.yd-sc-list-table td {
+}
+.yd-sc-list-table td .bar {
+  position: absolute;
+  width: 63px;
+  height: 15px;
+  margin-top: 10px;
+  overflow: hidden;
+  background: #bcc7de;
+}
+.yd-sc-list-table td .cell2 {
+  width: 124px;
+}
+.yd-sc-list-table td .cell3 {
+  width: 187px;
+}
+.yd-sc-list-table td .cell4 {
+  width: 250px;
+}
+.yd-sc-list-table td .cell5 {
+  width: 313px;
+}
+.yd-sc-list-table td .cell6 {
+  width: 376px;
+}
+.yd-sc-list-table td .cell7 {
+  width: 439px;
+}
+
+.yd-sc-list-table-h {
+  width: 100%;
+  overflow: hidden;
+}
+.yd-sc-list-table-h .fLeft {
+  font-size: 11px;
+}
+.yd-sc-list-table-h .fLeft * {
+  vertical-align: middle;
+}
+
+.nps-test-result-img {
+  display: inline;
+  vertical-align: bottom;
+}
+.nps-test-result-img img {
+  border: 1px solid #cdcdcd;
+}
+
+.nps-test-no-data {
+  padding: 50px 0 !important;
+  text-align: center !important;
+}
+
+.nps-test-notice-box {
+  height: 110px;
+  margin-bottom: 40px;
+  padding: 40px 0 0 40px;
+  line-height: 23px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  color: #f57920;
+  font-size: 14px;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/common/nps-test-notice-box.gif)
+    no-repeat;
+}
+
+.line-height20 {
+  line-height: 20px;
+}
+.line-height22 {
+  line-height: 22px;
+}
+.indent20 {
+  padding-left: 20px;
+}
+.nps-test-dl {
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+.nps-test-dl dt {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #434343;
+}
+.nps-test-dl dd {
+  padding: 0 0 15px 20px;
+}
+.nps-test-dl-ganada {
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+.nps-test-dl-ganada dt {
+  float: left;
+  width: 20px;
+  margin-right: -20px;
+}
+.nps-test-dl-ganada dd {
+  margin-left: 20px;
+}
+.nps-test-box {
+  padding: 15px 30px;
+  line-height: 22px;
+  background: #f7f7f7;
+}
+.nps-test-box-highlight {
+  padding: 15px 30px;
+  line-height: 22px;
+  background: #f2f7fd;
+}
+
+.board-list th,
+.board-list td {
+  border-color: #ddd !important;
+}
+
+/* 통합검색 */
+.header-search-form {
+  position: absolute;
+  top: -60px;
+  right: 0;
+  width: 122px;
+}
+.header-search-form * {
+  vertical-align: middle;
+}
+.header-search-form .form {
+  float: left;
+  width: 122px;
+}
+.header-search-form .form .iLabel {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  font-size: 11px;
+  color: #fff;
+  cursor: text;
+}
+.header-search-form .form .iText {
+  float: left;
+  width: 89px;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 5px;
+  font-size: 11px;
+  color: #fff;
+  border: none;
+  background: url(https://img.hunet.co.kr/edu/customize/samsunglife/common/bg_header-search-text.gif)
+    no-repeat;
+}
+.header-search-form .form .btn {
+  float: left;
+}
+
+.search-header {
+  margin-bottom: 25px;
+  padding: 25px 0 25px 0;
+  border-bottom: 1px solid #b8c5c8;
+  background: #fff;
+}
+.search-header * {
+  vertical-align: middle;
+}
+.search-header label {
+  margin-right: 10px;
+}
+.search-header .iText {
+  width: 400px;
+  height: 27px;
+  line-height: 27px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  border: 5px solid #1767ac;
+}
+
+.search-content {
+  float: left;
+  width: 728px;
+}
+
+.search-content-header {
+  margin-bottom: 30px;
+}
+.search-content-header .header {
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #63696d;
+  font-size: 14px;
+}
+.search-content-header .header .word {
+  color: #1428a0;
+}
+.search-content-header .header .count {
+  color: #ff5a01;
+}
+.related-word dt {
+  float: left;
+  width: 80px;
+  margin-right: -80px;
+  margin-top: 4px;
+}
+.related-word dd {
+  margin-left: 80px;
+  line-height: 22px;
+}
+.related-word dd a {
+  margin-right: 10px;
+  color: #319ec7;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.search-content-tab {
+  margin-bottom: 30px;
+  height: 43px;
+}
+.search-content-tab li {
+  position: relative;
+  float: left;
+}
+.search-content-tab li a {
+  float: left;
+  width: 144px;
+  height: 37px;
+  line-height: 40px;
+  color: #8a9396;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #dbe2e3;
+  border-left: 0;
+}
+.search-content-tab li.first a {
+  width: 145px;
+  border-left: 1px solid #dbe2e3;
+}
+.search-content-tab li span {
+  display: none;
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  width: 7px;
+  height: 5px;
+  overflow: hidden;
+  background: url(https://img.hunet.co.kr/edu/customize/samsunglife/common/bg_tab-current-ar-down.gif)
+    no-repeat;
+}
+.search-content-tab li.current a {
+  color: #fff;
+  background: #74a4cd;
+}
+.search-content-tab li.current span {
+  display: block;
+}
+
+.search-detail-form {
+  margin-bottom: 30px;
+  padding: 15px 20px;
+  border: 1px solid #deebef;
+  background: #eaf5f9;
+}
+.search-detail-form * {
+  vertical-align: middle;
+}
+.search-detail-form dl {
+  width: 100%;
+  overflow: hidden;
+  padding: 5px 0;
+}
+.search-detail-form dt {
+  float: left;
+  width: 90px;
+  margin: 4px -90px 0 0;
+  color: #1767ac;
+}
+.search-detail-form dd {
+  margin-left: 90px;
+}
+.search-detail-form .iText {
+  color: #1767ac;
+  border: 1px solid #1767ac;
+}
+.search-detail-form table {
+  width: 100%;
+}
+.search-detail-form th,
+.search-detail-form td {
+  padding: 5px 0;
+  text-align: left;
+}
+.search-detail-form th {
+  color: #1767ac;
+}
+
+.search-result-list {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #dbe2e3;
+}
+.search-result-list.last {
+  border-bottom: 0;
+}
+.search-result-list .header {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+.search-result-list .header h2 {
+  float: left;
+}
+.search-result-list .header .count {
+  float: left;
+  margin: 3px 0 0 10px;
+  color: #63696d;
+}
+.search-result-list .header .sort {
+  float: right;
+}
+.search-result-list .header .sort a {
+  float: left;
+  width: 56px;
+  height: 23px;
+  line-height: 25px;
+  color: #63696d;
+  text-align: center;
+  font-size: 11px;
+  border: 1px solid #dbe2e3;
+  border-left: 0;
+  background: #f1f3f4;
+}
+.search-result-list .header .sort a.first {
+  border: 1px solid #dbe2e3;
+}
+.search-result-list .header .sort a.current {
+  color: #192128;
+  background: #fff;
+}
+.search-result-list li {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.search-result-list li a:hover {
+  text-decoration: underline;
+}
+.search-result-list .thumb {
+  float: left;
+  width: 110px;
+  margin-right: -110px;
+}
+.search-result-list .thumb img {
+  width: 88px;
+  height: 74px;
+  border: 1px solid #8e8e8e;
+}
+.search-result-list .con {
+  margin-left: 110px;
+}
+.search-result-list .subject {
+  margin-bottom: 5px;
+  line-height: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #192128;
+}
+.search-result-list .subject a {
+  color: #192128;
+}
+.search-result-list .subject img {
+  margin-top: 1px;
+  *margin-top: -1px;
+}
+.search-result-list .subject .date {
+  font-weight: normal;
+  font-size: 12px;
+  color: #919699;
+}
+.search-result-list .info {
+  margin-bottom: 5px;
+  color: #919699;
+}
+.search-result-list .info .line {
+  color: #e0e1e2;
+}
+.search-result-list .info .user-id {
+  color: #192128;
+}
+.search-result-list .text {
+  line-height: 20px;
+  color: #63696d;
+}
+.search-result-list .text a {
+  color: #63696d;
+}
+.search-result-list .btn {
+  margin-top: 10px;
+}
+.search-result-list .footer {
+  padding: 0 0 20px 0;
+  text-align: right;
+}
+.search-result-list .more {
+  padding-right: 13px;
+  color: #2d88e4;
+  font-size: 14px;
+  text-decoration: underline;
+  background: url("https://img.hunet.co.kr/hunet/search/ico_ar-right-black.gif")
+    no-repeat right 3px;
+}
+
+.search-result-nodata {
+  margin-bottom: 100px;
+  padding: 50px 0 0 80px;
+}
+.search-result-nodata div.header {
+  margin-bottom: 30px;
+  line-height: 36px;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  color: #4c4c4c;
+}
+.search-result-nodata div.header strong {
+  color: #1428a0;
+}
+.search-result-nodata ul {
+  margin-bottom: 25px;
+  line-height: 180%;
+  color: #4c4c4c;
+}
+
+.search-result-opinion {
+  border: 13px solid #eaedee;
+}
+.search-result-opinion h2 {
+  padding: 20px 0 20px 25px;
+  background: #eaedee;
+}
+.search-result-opinion .con {
+  padding: 20px 30px 20px 30px;
+}
+.search-result-opinion table {
+  width: 100%;
+}
+.search-result-opinion th {
+  width: 60px;
+  padding-top: 5px;
+  vertical-align: top;
+}
+.search-result-opinion td {
+  padding: 0 0 20px 0;
+}
+.search-result-opinion td .help {
+  margin-top: 10px;
+}
+.search-result-opinion td .iText {
+  width: 98%;
+  border: 1px solid #dbe2e3;
+}
+.search-result-opinion td .iTextarea {
+  width: 98%;
+  border: 1px solid #dbe2e3;
+}
+
+.search-aside {
+  float: right;
+  width: 202px;
+}
+.aside-ranking-list {
+  margin-bottom: 10px;
+  border: 1px solid #e3e8e9;
+  border-top: 3px solid #b9d1e6;
+}
+.aside-ranking-list .header {
+  padding: 15px 0 15px 20px;
+  border-bottom: 1px solid #e3e8e9;
+}
+.aside-ranking-list .header h2 {
+  margin-bottom: 5px;
+}
+.aside-ranking-list .header p {
+  color: #319ec7;
+}
+.aside-ranking-list ol {
+  padding: 15px 10px 15px 15px;
+}
+.aside-ranking-list li {
+  padding: 6px 0 6px 20px;
+  line-height: 100%;
+  background: url(https://img.hunet.co.kr/edu/customize/samsunglife/common/icon_num.gif)
+    no-repeat;
+  zoom: 1;
+}
+.aside-ranking-list li a {
+  display: block;
+  width: 100%;
+  padding-top: 2px;
+  margin-top: -1px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  zoom: 1;
+}
+.aside-ranking-list li a:hover {
+  text-decoration: underline;
+}
+.aside-ranking-list li.n1 {
+  background-position: 0 6px;
+}
+.aside-ranking-list li.n2 {
+  background-position: 0 -18px;
+}
+.aside-ranking-list li.n3 {
+  background-position: 0 -43px;
+}
+.aside-ranking-list li.n4 {
+  background-position: 0 -68px;
+}
+.aside-ranking-list li.n5 {
+  background-position: 0 -93px;
+}
+.aside-ranking-list li.n6 {
+  background-position: 0 -118px;
+}
+.aside-ranking-list li.n7 {
+  background-position: 0 -143px;
+}
+.aside-ranking-list li.n8 {
+  background-position: 0 -168px;
+}
+.aside-ranking-list li.n9 {
+  background-position: 0 -193px;
+}
+.aside-ranking-list li.n10 {
+  background-position: 0 -218px;
+}
+
+.lt-inmun-best {
+  margin-bottom: 40px;
+  zoom: 1;
+}
+.lt-inmun-best:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.lt-inmun-best li {
+  float: left;
+  width: 153px;
+  margin: 0 10px;
+}
+.lt-inmun-best li a {
+  cursor: pointer;
+}
+.lt-inmun-best .thumb {
+  position: relative;
+  display: block;
+  width: 141px;
+  height: 102px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid #eaeaea;
+}
+.lt-inmun-best .thumb img {
+  width: 141px;
+  height: 102px;
+}
+.lt-inmun-best .subject {
+  display: block;
+  line-height: 18px;
+  color: #727272;
+}
+.lt-inmun-best .icon-play {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/common/icon_play.png)
+    no-repeat;
+}
+
+.nps-inmun-list {
+  margin-bottom: 20px;
+}
+.nps-inmun-list li {
+  padding: 20px 0;
+  border-bottom: 1px solid #e5e5e5;
+  zoom: 1;
+}
+.nps-inmun-list li:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.nps-inmun-list li a {
+  cursor: pointer;
+}
+.nps-inmun-list .thumb {
+  position: relative;
+  float: left;
+  width: 141px;
+  height: 102px;
+  margin-right: -173px;
+  padding: 5px;
+  border: 1px solid #eaeaea;
+}
+.nps-inmun-list .thumb img {
+  width: 141px;
+  height: 102px;
+}
+.nps-inmun-list .icon-play {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/common/icon_play.png)
+    no-repeat;
+}
+.nps-inmun-list .body {
+  display: block;
+  margin-left: 173px;
+}
+.nps-inmun-list .subject {
+  display: block;
+  margin-bottom: 7px;
+  line-height: 22px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+.nps-inmun-list .text {
+  display: block;
+  margin-bottom: 10px;
+  line-height: 21px;
+  color: #4e4e4e;
+}
+.nps-inmun-list .info {
+  display: block;
+  font-size: 11px;
+}
+.nps-inmun-list .info span {
+  margin-right: 20px;
+  color: #727272;
+}
+.nps-inmun-list .info strong {
+  color: #36518e;
+}
+
+.ted-tab-content {
+  display: none;
+}
+
+.nps-month-select {
+  padding: 15px 0 30px 0;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  border-top: 3px solid #36518e;
+}
+.nps-month-select .prev,
+.nps-month-select .next {
+  position: relative;
+  display: inline-block;
+  color: #d9d9d9;
+}
+.nps-month-select .prev {
+  padding-right: 20px;
+  background: url(https://img.hunet.co.kr/edu/common/btn_calendar-prev.gif)
+    no-repeat right center;
+}
+.nps-month-select .next {
+  padding-left: 20px;
+  background: url(https://img.hunet.co.kr/edu/common/btn_calendar-next.gif)
+    no-repeat left center;
+}
+.nps-month-select .prev span,
+.nps-month-select .next span {
+  position: absolute;
+  bottom: -10px;
+  width: 100%;
+  text-align: center;
+  font-size: 11px;
+}
+.nps-month-select .prev span {
+  left: -10px;
+}
+.nps-month-select .next span {
+  right: -10px;
+}
+.nps-month-select strong {
+  margin: 0 15px;
+  color: #000;
+}
+.nps-month-select .button-medium {
+  position: absolute;
+  margin: 5px 0 0 10px;
+}
+.nps-month-select-help {
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  background: #f6f6f4;
+}
+.nps-month-select-help strong {
+  color: #1f1f1f;
+}
+.nps-month-select-help ul {
+  padding: 5px 0 0 17px;
+  color: #727272;
+}
+
+.nps-month-rec-list .subject img {
+  vertical-align: middle;
+}
+.nps-month-rec-list .text {
+  position: relative;
+  padding-right: 100px;
+}
+.nps-month-rec-list .btn-rec {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  width: 85px;
+  height: 33px;
+  padding-top: 45px;
+  text-align: center;
+  color: #fff;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/common/btn-rec.png)
+    no-repeat;
+}
+
+.systemmap-text {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.rec-header-box {
+  margin-bottom: 40px;
+  padding: 30px;
+  border: 1px solid #e5e5e5;
+}
+
+.lt-inmun-rec-list {
+  zoom: 1;
+}
+.lt-inmun-rec-list:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.lt-inmun-rec-list li {
+  float: left;
+  width: 153px;
+  height: 180px;
+  margin: 0 11px;
+}
+.lt-inmun-rec-list .thumb {
+  position: relative;
+  display: block;
+  width: 141px;
+  height: 102px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+.lt-inmun-rec-list .thumb img {
+  width: 141px;
+  height: 102px;
+}
+.lt-inmun-rec-list .icon-play {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/content/icon-play.png)
+    no-repeat;
+}
+.lt-inmun-rec-list .subject {
+}
+
+.edu-class-recommend div.comment {
+  padding: 20px !important;
+}
+
+.tit-h4 {
+  margin-bottom: 10px;
+  color: #1f1f1f;
+  font-size: 18px;
+}
+.tit-h4 .link {
+  margin-left: 10px;
+  font-size: 12px;
+  color: #f07c00 !important;
+}
+
+.my-point-level-box {
+  position: relative;
+  margin-bottom: 30px;
+  border: 1px solid #e5e5e5;
+  padding: 40px 50px;
+  color: #333;
+}
+.my-point-level-box h4 {
+  font-size: 18px;
+  font-weight: normal;
+}
+.my-point-level-box h4:after {
+  display: block;
+  content: "";
+  width: 50px;
+  height: 1px;
+  background-color: #333;
+  margin: 10px 0 20px;
+}
+.my-point-level-box .body {
+  font-size: 20px;
+}
+.my-point-level-box span {
+  display: block;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.my-point-level-box .level {
+  display: block;
+  content: "";
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+.my-level-guide-box {
+  margin-bottom: 30px;
+  padding: 20px 10px;
+  border: 1px solid #ddd;
+}
+.my-level-guide-box h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #1f1f1f;
+}
+.my-level-guide-box p {
+  font-size: 13px;
+  color: #727272;
+}
+
+.bu-sq-list2 {
+  line-height: 20px;
+  font-size: 13px;
+  color: #727272;
+}
+.bu-sq-list2 li {
+  margin-top: 5px;
+  padding-left: 8px;
+  background: url(https://img.hunet.co.kr/edu/customize/nps/v3/content/icon-bu-dot.png)
+    no-repeat 0 9px;
+}
+.bu-sq-list2 li:first-child {
+  margin-top: 0;
+}
+
+.board-list-primary {
+  border-top: 0;
+}
+.board-list-primary thead th {
+  color: #fff;
+  border-bottom: 0;
+  border-color: #838381 !important;
+  background: #999996;
+}
+.board-list-primary td {
+  color: #3b3b3b;
+  border-color: #dbdbdb !important;
+  background: #f6f5ef;
+}
