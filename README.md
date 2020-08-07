@@ -1,7 +1,6 @@
 # 실무 프로젝트
 
-#### 종근당 MCM 사이트 구축 (2020. 04 ~ 2020. 05)
-<https://eommji.github.io/company/1/index.html> 
+#### 종근당 MCM 사이트 구축 (2020. 04 ~ 2020. 05)  <https://eommji.github.io/company/1/index.html> 
 
 #### 휴넷 내부 영업관리 앱 구축 (2019. 02 ~ 2019. 03)
 고객사 등록, 검색, 목록 및 일정 관리 기능이 있는 내부 영업관리 앱 구축.
