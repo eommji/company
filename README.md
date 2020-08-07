@@ -2,7 +2,7 @@
 
 ### 종근당 MCM 사이트 구축
 
-2020. 04 ~ 2020. 05
+ 2020. 04 ~ 2020. 05
 
 <https://eommji.github.io/company/1/index.html>
 
