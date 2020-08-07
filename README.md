@@ -1,4 +1,4 @@
-# Hunet
+# company
 
 ## Link
 <https://eommji.github.io/company/main>  
