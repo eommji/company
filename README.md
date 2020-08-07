@@ -1,6 +1,6 @@
 # 실무 프로젝트
 
-[종근당 MCM 사이트 구축]
+* [종근당 MCM 사이트 구축]
 - 2020. 04 ~ 2020. 05
 <https://eommji.github.io/company/1/index.html>
 
