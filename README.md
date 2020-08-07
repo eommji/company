@@ -10,15 +10,15 @@
 더욱 직관적이고 편리한 사용자 경험을 위한 UX & UI 개선 프로젝트.
 <br/><br/>
 ### 행복한 경영 홈페이지 구축 (2018. 01 ~ 2018. 02)
-중소, 중견기업을 위한 비영리법인 행복한 경영 홈페이지 구축.
+중소, 중견기업을 위한 비영리법인 행복한 경영 홈페이지 구축.  
 <https://www.happyceo.or.kr>
 <br/><br/>
 ### 사이버연수원 구축 (2017. 10 ~ 2019. 04)
-다수 기업의 PC, Mobile 사이버연수원 구축
-<https://eommji.github.io/company/2/main.html>
-<https://eommji.github.io/company/2/sub.html>
+다수 기업의 PC, Mobile 사이버연수원 구축  
+<https://eommji.github.io/company/2/main.html>  
+<https://eommji.github.io/company/2/sub.html>  
 <https://play.google.com/store/apps/details?id=kr.co.hunet.MobileLearningCenterForNewjk>
 <br/><br/>
 ### 기업교육 플랫폼 앱 SAM 구축 (2017. 07~ 2017. 08)
-기업교육 마이크로러닝 플랫폼 앱 구축.
+기업교육 마이크로러닝 플랫폼 앱 구축.  
 <https://play.google.com/store/apps/details?id=kr.co.hunet.MobileLearningCenterForSamPro&hl=ko>
